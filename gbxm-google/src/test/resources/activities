@@ -1,0 +1,202 @@
+{
+  "kind": "plus#activity",
+  "etag": etag,
+  "title": string,
+  "published": datetime,
+  "updated": datetime,
+  "id": string,
+  "url": string,
+  "actor": {
+    "id": string,
+    "displayName": string,
+    "name": {
+      "familyName": string,
+      "givenName": string
+    },
+    "url": string,
+    "image": {
+      "url": string
+    }
+  },
+  "verb": string,
+  "object": {
+    "objectType": string,
+    "id": string,
+    "actor": {
+      "id": string,
+      "displayName": string,
+      "url": string,
+      "image": {
+        "url": string
+      }
+    },
+    "content": string,
+    "originalContent": string,
+    "url": string,
+    "replies": {
+      "totalItems": unsigned integer,
+      "selfLink": string
+    },
+    "plusoners": {
+      "totalItems": unsigned integer,
+      "selfLink": string
+    },
+    "resharers": {
+      "totalItems": unsigned integer,
+      "selfLink": string
+    },
+    "attachments": [
+      {
+        "objectType": string,
+        "displayName": string,
+        "id": string,
+        "content": string,
+        "url": string,
+        "image": {
+          "url": string,
+          "type": string,
+          "height": unsigned integer,
+          "width": unsigned integer
+        },
+        "fullImage": {
+          "url": string,
+          "type": string,
+          "height": unsigned integer,
+          "width": unsigned integer
+        },
+        "embed": {
+          "url": string,
+          "type": string
+        },
+        "thumbnails": [
+          {
+            "url": string,
+            "description": string,
+            "image": {
+              "url": string,
+              "type": string,
+              "height": unsigned integer,
+              "width": unsigned integer
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "annotation": string,
+  "crosspostSource": string,
+  "provider": {
+    "title": string
+  },
+  "access": {
+    "kind": "plus#acl",
+    "description": string,
+    "items": [
+      {
+        "type": string,
+        "id": string,
+        "displayName": string
+      }
+    ]
+  },
+  "geocode": string,
+  "address": string,
+  "radius": string,
+  "placeId": string,
+  "placeName": string
+}
+
+kind	string	确定此资源是动态。值：“plus#activity”。	
+title	string	此动态的标题。	
+published	datetime	此动态最初发布的时间。格式采用 RFC 3339 时间戳。	
+updated	datetime	此动态最后一次更新的时间，格式采用 RFC 3339 时间戳。	
+id	string	此动态的 ID。	
+url	string	指向此动态的链接。	
+actor	object	执行此动态的人。	
+actor.id	string	执行人的个人资源 ID。	
+actor.displayName	string	执行人姓名（适合用于显示）。	
+actor.name	object	姓名各组成部分的对象表现形式。	
+actor.name.familyName	string	执行人的姓氏。	
+actor.name.givenName	string	执行人的名字。	
+actor.url	string	指向执行人的 Google 个人资料的链接。	
+actor.image	object	执行人的图片表现形式。	
+actor.image.url	string	执行人的个人资料照片网址。要想重新调整图片的尺寸、将其剪裁为方形，请附加查询字符串 ?sz=x，其中 x 表示每侧的尺寸（以像素为单位）。	
+verb	string	动词，指示动态中执行的动作。可能的值有：
+“post”- 向信息流发布内容。
+“share”- 转发动态。
+object	object	此动态的对象。	
+object.objectType	string	对象的类型。可能的值有：
+“note”- 文本内容。
+“activity”- Google+ 动态。
+object.id	string	对象的 ID。转发动态时，它就是转发的动态的 ID。	
+object.actor	object	如果此动态的对象本身是另一个动态（例如，当某人转发动态时），此属性可以指定原始动态的执行人。	
+object.actor.id	string	原始执行人的 ID。	
+object.actor.displayName	string	原始执行人姓名（适合用于显示）。	
+object.actor.url	string	指向原始执行人的 Google 个人资料的链接。	
+object.actor.image	object	原始执行人的图片表现形式。	
+object.actor.image.url	string	指向原始执行人缩略图的网址。	
+object.content	string	HTML 格式内容（适合用于显示）。	
+object.originalContent	string	作者提供的内容（文字），此储存内容不带任何 HTML 格式。创建或更新动态时，必须在请求中以纯文本的形式提供此值。	
+object.url	string	指向链接资源的网址。	
+object.replies	object	作为此动态回复的评论。	
+object.replies.totalItems	unsigned integer	此动态的评论总数。	
+object.plusoners	object	对此动态执行 +1 操作的人员。	
+object.plusoners.totalItems	unsigned integer	对此动态执行 +1 操作的人员总数。	
+object.resharers	object	转发此动态的人员。	
+object.resharers.totalItems	unsigned integer	转发此动态的人员总数。	
+object.attachments[]	list	此动态附加的媒体对象。	
+object.attachments[].objectType	string	媒体对象的类型。可能的值有：
+“photo”- 照片。
+“album”- 相册。
+“video”- 视频。
+“article”- 文章（通过链接指定）。
+object.attachments[].displayName	string	附件的标题（例如照片说明或文章标题）。	
+object.attachments[].id	string	附件的 ID。	
+object.attachments[].content	string	如果附件是一篇文章，则此属性包含文章中的文字内容片段。它还可以包含其他类型的描述。	
+object.attachments[].url	string	指向附件的链接，应为文本/html 类型。	
+object.attachments[].image	object	照片或视频的预览图片。	
+object.attachments[].image.url	string	图片网址。	
+object.attachments[].image.type	string	链接的媒体类型。	
+object.attachments[].image.height	unsigned integer	链接资源的高度（以像素为单位）。	
+object.attachments[].image.width	unsigned integer	链接资源的宽度（以像素为单位）。	
+object.attachments[].fullImage	object	照片附件的完整图片网址。	
+object.attachments[].fullImage.url	string	图片的网址。	
+object.attachments[].fullImage.type	string	链接的媒体类型。	
+object.attachments[].fullImage.height	unsigned integer	链接资源的高度（以像素为单位）。	
+object.attachments[].fullImage.width	unsigned integer	链接资源的宽度（以像素为单位）。	
+object.attachments[].embed	object	当附件是视频时，使用此属性指定可嵌入链接。	
+object.attachments[].embed.url	string	链接的网址。	
+object.attachments[].embed.type	string	链接的媒体类型。	
+annotation	string	动态分享者额外添加的内容（仅在转发动态时可用）。	
+crosspostSource	string	如果此动态来自其他系统交叉发送的信息，则可以通过此属性指定原始动态的 ID。	
+provider	object	最初发布此动态的服务提供商。	
+provider.title	string	服务提供商的名称。	
+access	nested object	确定哪些人有权查看此动态。	
+access.kind	string	将此资源确定为访问控制的集合。值：“plus#acl”。	
+access.description	string	授权访问说明（适合用于显示）。	
+access.items[]	list	具有访问权限的条目的列表。	
+access.items[].type	string	条目类型，用于描述向哪些人授予访问权限。可能的值有：
+“person”- 向个人授予访问权限。
+“circle”- 向圈子成员授予访问权限。
+“myCircles”- 向所有人员的圈子中的成员授予访问权限。
+“extendedCircles”- 向某人圈子中所有人，以及这些人圈子中的所有成员授予访问权限。
+“public”- 向网络上的所有人授予访问权限。
+access.items[].id	string	条目的 ID。对于“person”或“circle”类型的条目，此属性是指资源的 ID。对于其他类型，未设置此属性。	
+geocode	string	此动态发生的纬度和经度。其格式是先纬度后经度，以空格分隔。	
+address	string	此动态发生的街道地址。	
+radius	string	此动态发生区域的半径（以米为单位），其中心是 geocode 中指定的纬度和经度。	
+placeId	string	此动态发生地点的 ID。	
+placeName	string	此动态发生地点的名称。	
+object.replies.selfLink	string	此动态回复中评论集合的网址。	
+object.plusoners.selfLink	string	对此动态执行 +1 操作的人员集合的网址。	
+object.resharers.selfLink	string	转发集合的网址。	
+etag	etag	此响应的 ETag（用于缓存目的）。	
+object.attachments[].thumbnails[]	list	当附件是相册时，可能在此属性中包含相册的其他缩略图。	
+object.attachments[].thumbnails[].url	string	包含图片的网页的网址。	
+object.attachments[].thumbnails[].description	string	缩略图可能使用的名称。	
+object.attachments[].thumbnails[].image	object	图片资源。	
+object.attachments[].thumbnails[].image.url	string	图片网址。	
+object.attachments[].thumbnails[].image.type	string	链接的媒体类型。	
+object.attachments[].thumbnails[].image.height	unsigned integer	链接资源的高度（以像素为单位）。	
+object.attachments[].thumbnails[].image.width	unsigned integer	链接资源的宽度（以像素为单位）。	
+access.items[].displayName	string	此条目的描述性名称。适合用于显示。

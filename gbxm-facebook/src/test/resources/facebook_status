@@ -1,0 +1,576 @@
+{
+    "extraData": {
+        "postType": "link",
+        "status_type": "shared_story",
+        "privacy": {
+            "value": "",
+            "description": "",
+            "friends": "",
+            "allow": "",
+            "deny": ""
+        },
+        "actions": [
+            {
+                "name": "Comment",
+                "link": "https://www.facebook.com/420361564693683/posts/880803111982857"
+            },
+            {
+                "name": "Like",
+                "link": "https://www.facebook.com/420361564693683/posts/880803111982857"
+            }
+        ]
+    },
+    "id": "420361564693683_880803111982857",
+    "from": {
+        "extraData": {},
+        "id": "420361564693683",
+        "name": "PassionTimes 熱血時報"
+    },
+    "createdTime": "Fri Mar 27 15:51:08 CST 2015",
+    "updatedTime": "Mon Mar 30 04:16:30 CST 2015",
+    "to": null,
+    "message": "【Terry Ngan：中文科，粉碎「大學夢」】\n\n一年一度的新高中文憑試即將開始。自新高中課程推行以來，一直為人詬病。對於課程目的為讓學生對於各科目的知識有進一步的深入了解，抑或以考試規則來分高下、定生死，甚至是自由選擇選修科課程，令「不文、不理、不商」的學生增加，社會對於新高中課程，一直以負面批評的輿論為主。 \n\n坦白說，作為第二屆新高中課程的「白老鼠」，筆者對於整個新高中課程不太反感。唯獨對於四科必修科之一的中文，則有強烈的不滿。如果要以一句說話來形容中文科，我會說︰「中文科不是考中文。」或者「中文科考的是運氣。」 \n\n課程的設計，在於加強學生對於該學科的認識，抑或要在公開試上熟習考試的規則，再去定高下、爭入大學，一直都受到不少人討論，而我個人認為以前者或後者為目標，問題亦不大。但中文科的問題，就是在於課程設計及考試制度，根本無助學生提升其中文科水平，而中文的讀、寫、聽、說能力比較好的學生，亦未能在文憑試中展現他所長。而最重要的，是很多一向成績不俗、特別是所謂名校出身的學生，都因為中文科的成績未能達到入大學的最低門檻（四個必修科︰中文、英文、數學、通識，分別要取得 3、3、2、2 級），而無緣實現大學夢。\n\n全文︰http://www.passiontimes.hk/article/03-27-2015/22010\n\n請支持熱血文青課金計劃：http://www.passiontimes.hk/?view=raise2\n\n請支持熱血主持育成計劃：http://www.passiontimes.hk/?view=raise\n\n《熱血時報》 iOS，Android 同步抗共，歡迎下載：\n\niPhone\nhttp://goo.gl/bpNcBn\n\nAndroid\nhttp://goo.gl/IY4fHi\n--------------------\n打倒共產黨！",
+    "picture": "https://fbexternal-a.akamaihd.net/safe_image.php?d=AQB7nhZ363-3bsF-&w=130&h=130&url=http%3A%2F%2Fwww.passiontimes.hk%2Fuploads%2Fimages%2F201503%2F6d9a3859351cbf0a00d4f98cf081de41-3.png&cfs=1",
+    "link": "http://www.passiontimes.hk/article/03-27-2015/22010",
+    "name": "中文科，粉碎「大學夢」 | Terry Ngan | 專欄部落 | 熱血時報",
+    "caption": "passiontimes.hk",
+    "description": "一年一度的新高中文憑試即將開始。自新高中課程推行以來，一直為人詬病。對於課程目的為讓學生對於各科目的知識有進一步的深入了解，抑或以考試規則來分高下、定生死，甚至是自由選擇選修科課程，令「不文、不理、不商」的學生增加，社會對於新高中課程，一直以負面批評的輿論為主。",
+    "icon": "https://www.facebook.com/images/icons/post.gif",
+    "application": null,
+    "type": "LINK",
+    "likes": [
+        {
+            "extraData": {},
+            "id": "344282222434820",
+            "name": "Felicia Lau"
+        },
+        {
+            "extraData": {},
+            "id": "1036858243008756",
+            "name": "Tang Zhuo Ying"
+        },
+        {
+            "extraData": {},
+            "id": "974026162628459",
+            "name": "Chui Wai Lam"
+        },
+        {
+            "extraData": {},
+            "id": "361748344014234",
+            "name": "張情貴"
+        },
+        {
+            "extraData": {},
+            "id": "10200459334801460",
+            "name": "Mark Tang"
+        },
+        {
+            "extraData": {},
+            "id": "1386484021674469",
+            "name": "Tennis Aaron"
+        },
+        {
+            "extraData": {},
+            "id": "902114786516506",
+            "name": "此時此刻"
+        },
+        {
+            "extraData": {},
+            "id": "1059379864078946",
+            "name": "Vincent Lau"
+        },
+        {
+            "extraData": {},
+            "id": "962713867080113",
+            "name": "Fran Luk"
+        },
+        {
+            "extraData": {},
+            "id": "952525168091444",
+            "name": "Lam Tommy"
+        },
+        {
+            "extraData": {},
+            "id": "1525978011001651",
+            "name": "Killua Huang"
+        },
+        {
+            "extraData": {},
+            "id": "10206595188829450",
+            "name": "Kisha Law"
+        },
+        {
+            "extraData": {},
+            "id": "10206543978307028",
+            "name": "Mimi Chan"
+        },
+        {
+            "extraData": {},
+            "id": "872688216101623",
+            "name": "Chung Wa Yeung"
+        },
+        {
+            "extraData": {},
+            "id": "10203965053118917",
+            "name": "PuiMan Tin"
+        },
+        {
+            "extraData": {},
+            "id": "1566792863591347",
+            "name": "Man Wah Yuen"
+        },
+        {
+            "extraData": {},
+            "id": "469100749903854",
+            "name": "Estelle Lam"
+        },
+        {
+            "extraData": {},
+            "id": "880896511949599",
+            "name": "Tina Cheung"
+        },
+        {
+            "extraData": {},
+            "id": "938859512815438",
+            "name": "Mike Ryuta"
+        },
+        {
+            "extraData": {},
+            "id": "10205396645548508",
+            "name": "Hei Lo"
+        },
+        {
+            "extraData": {},
+            "id": "825034860901335",
+            "name": "Karman Chan"
+        },
+        {
+            "extraData": {},
+            "id": "1549655555312734",
+            "name": "Brian Cheung"
+        },
+        {
+            "extraData": {},
+            "id": "698455050263050",
+            "name": "Agnes Woo"
+        },
+        {
+            "extraData": {},
+            "id": "796677173720218",
+            "name": "William Louis"
+        },
+        {
+            "extraData": {},
+            "id": "10155127986290696",
+            "name": "Estella Tong"
+        }
+    ],
+    "comments": [
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880808651982303",
+            "message": "因為大學唔冼用中文而廢除中文科,令人貽笑大方.",
+            "createdTime": "Fri Mar 27 16:13:52 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10153242986907803",
+                "name": "Anthony Law"
+            },
+            "likes": null,
+            "likesCount": 147
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880810115315490",
+            "message": "即係咁,如果你假設所有人都係升讀大學為目的,所以不用中文.此乃謬誤,中文作為溝通說話交際的橋樑,這些訓練對於日後學習工作其實益處甚大,學習不會只透過英語而已.\n其次,簡單將中文作基本閱讀及書寫之用,更是荒謬,中文不只是識字,更有文化傳承教化之作用,只視為工具之用,實為可笑,令人費解.\n最可悲,將學習視作工具目的之用途,只為了升大學,正正是香港教育之痛,\n儘管中文科考試及整個學習歷程存在很多問題,但必然不是將其剔除.",
+            "createdTime": "Fri Mar 27 16:20:20 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10153242986907803",
+                "name": "Anthony Law"
+            },
+            "likes": null,
+            "likesCount": 112
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880804458649389",
+            "message": "不要怪中文科，要怪就怪現今的中文教育與評核制度。（始終中文科自身沒有做錯）",
+            "createdTime": "Fri Mar 27 15:57:52 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "951055088261471",
+                "name": "Cellur Chan"
+            },
+            "likes": null,
+            "likesCount": 224
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880825531980615",
+            "message": "如果用名校入唔到u就話以家中文科廢既，\n有冇諗過禁多年黎弱勢學校學生都因為英文科入唔u而嘈？\n無病呻吟，冇野搵野講！",
+            "createdTime": "Fri Mar 27 17:20:14 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "1076700499011497",
+                "name": "Centermetre Ip"
+            },
+            "likes": null,
+            "likesCount": 51
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880814408648394",
+            "message": "依家學生中文水平低係事實，唔好再講咩平時用中文冇理由連3都冇。廣東話流利唔等於中文好，見過好多「懷才不遇」既人呻自己中文冇3入唔到大學，但係一睇佢篇作文真係唔掂，一半口語一半書面語，咁都話自己中文冇問題？",
+            "createdTime": "Fri Mar 27 16:36:23 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "426654390841951",
+                "name": "Marco Choi"
+            },
+            "likes": null,
+            "likesCount": 52
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880807071982461",
+            "message": "寫個到都唔算係考運氣,閱讀卷先係考運氣\nd六分題係常人都答唔到,有年好似有新聞報導問個個作者好似都答唔到",
+            "createdTime": "Fri Mar 27 16:08:52 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10206160029980650",
+                "name": "Ng Ho Yin"
+            },
+            "likes": null,
+            "likesCount": 44
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880809508648884",
+            "message": "英文科，粉碎大學夢",
+            "createdTime": "Fri Mar 27 16:17:13 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10205090343312968",
+                "name": "Jimmy Tang"
+            },
+            "likes": null,
+            "likesCount": 38
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880839028645932",
+            "message": "見解好荒謬 中文科的確有運氣成份 但主要都係靠實力 (遇上休學年果類另計)英文無問修辭手法只不過係因為外語黎 加入英國文學既成份跟本無人答到 再講 全世界大學都用英文啦 咁係咪唔洗再學母語？名校生注重英文而忽略左中文 導致唔合格並非考評局既錯 所有考生都考同一份卷嫁啦\n而且每年中英文卷唔合格人數都相約 我睇唔出要取消中文既必要",
+            "createdTime": "Fri Mar 27 18:11:13 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "959477850743522",
+                "name": "Ho Kong Wong"
+            },
+            "likes": null,
+            "likesCount": 30
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880812591981909",
+            "message": "廢就廢啦 賴",
+            "createdTime": "Fri Mar 27 16:29:19 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10152905131660914",
+                "name": "Jackin Chang"
+            },
+            "likes": null,
+            "likesCount": 29
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880841828645652",
+            "message": "我見到既只係作者玩唔贏遊戲，就輸打贏要地發脾氣，與其話中文靠運氣，不如諗下點解人地可以高分，但自己唔可以？如果個個靠運氣，咁邊有穩五星星可言？",
+            "createdTime": "Fri Mar 27 18:22:33 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "973221576062111",
+                "name": "Kwling Kwong"
+            },
+            "likes": null,
+            "likesCount": 16
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880806925315809",
+            "message": "無粉碎嘅，就算衰極，過咗21歲，進修時考好個高級文憑，一樣可以入大學。人生唔只係得果廿年，仲有好多路可以走。",
+            "createdTime": "Fri Mar 27 16:08:07 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10205225510671148",
+                "name": "LadyFish XD"
+            },
+            "likes": null,
+            "likesCount": 11
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880828101980358",
+            "message": "根據作者的邏輯，如果大學不需要用就不學，那麼作者大概整個中學階段都只需要學一門學科就可以了。",
+            "createdTime": "Fri Mar 27 17:28:31 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "1426888367606162",
+                "name": "Autumn Lau"
+            },
+            "likes": null,
+            "likesCount": 11
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880820681981100",
+            "message": "我第一年白老鼠，中文拎一，而家讀緊top up degree 點睇",
+            "createdTime": "Fri Mar 27 17:01:21 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "945140388838518",
+                "name": "Lokming Yau"
+            },
+            "likes": null,
+            "likesCount": 10
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880823605314141",
+            "message": "你覺得考DSE真係一個考驗個人智性能力？其實只不過係考你能唔能夠跟佢定落嚟既規則而已。",
+            "createdTime": "Fri Mar 27 17:12:14 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "929678920385327",
+                "name": "Wombat Tang"
+            },
+            "likes": null,
+            "likesCount": 8
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880901428639692",
+            "message": "中文科本身不存在問題，係份卷不合理",
+            "createdTime": "Fri Mar 27 21:29:11 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "1554373581489602",
+                "name": "Kwan Ngok Chan"
+            },
+            "likes": null,
+            "likesCount": 7
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880815191981649",
+            "message": "所謂名校生\n即是對考試制度百般熟悉的人們\n老實說中文卷的題目是很有問題，不過絕大多數題目其實始於只是按套路出招，這理應是名校生最擅長的方向才對\n在這裡失手，不如說他們自己投放於中文科的努力差太遠\n閱讀卷白話文每年都有被評為亂來的部份，卻沒多少人會將目光放在始終只是停留在問「這個字怎解」、「那個字怎解」的文言文。拿掉這三十數分，白話文任他十幾分飄泊無定又如何？\n\n當時不是說現在的中文科題目就出得有多合理，\n不過又話說作者本人卻未必是作品解讀的全部。我們常常借古諷今，如果說「作者本人」就是唯一解讀完整的答案的話那還諷什麼今？我們身邊的世界在改變，文字的力量也隨之而改變。作者的答案，只是文章擴散的影響中的其中一面而已。\n\n另外要提到的是\n今日中文科的3比起以前的入學標準還是不太靠得住。事實上這個最低要求的背後可能已經連帶將以上的不穩定考慮進去了",
+            "createdTime": "Fri Mar 27 16:39:26 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10200462278795158",
+                "name": "Ryan Tse"
+            },
+            "likes": null,
+            "likesCount": 16
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880841941978974",
+            "message": "筆者既言論實在過於偏激，雖然現時中文既考試制度的確係好有問題，但至於廢除中文科作為必修科嗎？大學唔需要用中文讀絕對唔可以成為一個合理既理由。我地學習中文唔通就只係為左應付學業上既需要？我諗更多既應該係文化既傳承，同埋對自己國家文字應有既了解吧。回歸原點，教育，並不是為了考試。",
+            "createdTime": "Fri Mar 27 18:22:46 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10153226538419310",
+                "name": "林倩"
+            },
+            "likes": null,
+            "likesCount": 6
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880834661979702",
+            "message": "中文科唔廢得 講真\n正確做法係撥亂反正 重新設計1個真正match到學生應有程度既中文科課程。\n同埋marking scheme個到唔可以有太高規範性 除非回復舊制會考既讀本卷",
+            "createdTime": "Fri Mar 27 17:53:18 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10153271526218783",
+                "name": "Samson Au"
+            },
+            "likes": null,
+            "likesCount": 5
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880819291981239",
+            "message": "其實考評局搵D唔識中文嘅人出中文卷同改中文卷，真正識中文嘅朋友又點會考得好？",
+            "createdTime": "Fri Mar 27 16:57:22 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10153118474015041",
+                "name": "Shuk Hing Chu"
+            },
+            "likes": null,
+            "likesCount": 5
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880835868646248",
+            "message": "以前話背唔好就廢背書, 而家考番背書題又話唔好, 要開放式問題, 等學生自由答, 結果又話冇標準答案而冇得溫, 又恢復番背書題, 咁賴法不如唔好考",
+            "createdTime": "Fri Mar 27 17:57:32 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10152305369667824",
+                "name": "Chan Tsz Kin"
+            },
+            "likes": null,
+            "likesCount": 4
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880813351981833",
+            "message": "等你地用多d時間係中文,英文水平自然會下降至與強國水平差不多",
+            "createdTime": "Fri Mar 27 16:32:22 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "10152845102677897",
+                "name": "Anthony Tsang"
+            },
+            "likes": null,
+            "likesCount": 4
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_881247701938398",
+            "message": "英文科 粉碎我大學夢，對住中中學生來講，甘又fair?",
+            "createdTime": "Sat Mar 28 14:16:52 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "448341265320529",
+                "name": "Zinnia Leung"
+            },
+            "likes": null,
+            "likesCount": 4
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880835361979632",
+            "message": "多英文科目就廢中文科......那是不是讀中文中史的就可以不考英文=.=",
+            "createdTime": "Fri Mar 27 17:55:33 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "739435452839022",
+                "name": "TszHang Mok"
+            },
+            "likes": null,
+            "likesCount": 4
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880844748645360",
+            "message": "文言文先攞命 都唔知學黎做乜， 死左先會用到",
+            "createdTime": "Fri Mar 27 18:30:40 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "1588847898054860",
+                "name": "Wong Tommy"
+            },
+            "likes": null,
+            "likesCount": 3
+        },
+        {
+            "extraData": {
+                "can_remove": false,
+                "user_likes": false
+            },
+            "id": "880803111982857_880806388649196",
+            "message": "閱、聽、綜合都可以練,特別是綜合可以抱佛腳咁練,說、寫就真是買六合彩",
+            "createdTime": "Fri Mar 27 16:05:05 CST 2015",
+            "from": {
+                "extraData": {},
+                "id": "764631093626922",
+                "name": "Pak Sam Chim"
+            },
+            "likes": null,
+            "likesCount": 8
+        }
+    ],
+    "sharesCount": 146,
+    "story": null,
+    "storyTags": null,
+    "objectId": null,
+    "likeCount": 0,
+    "commentCount": 25
+}
