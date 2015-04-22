@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 import zx.soft.gbxm.google.domain.GooglePlusStatus;
 import zx.soft.gbxm.google.domain.GoogleToken;
 import zx.soft.gbxm.google.utils.MybatisConfig;
+import zx.soft.model.user.CurrentUserInfo;
 import zx.soft.utils.log.LogbackUtil;
 
 public class GoogleDaoImpl {
@@ -35,6 +36,27 @@ public class GoogleDaoImpl {
 			result = googleDao.getGoogleTokens();
 		}
 		return result;
+	}
+	/**
+	 * 获取新增用户信息列表
+	 */
+	public List<CurrentUserInfo> getGpCurrentUser(){
+		List<CurrentUserInfo> result;
+		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
+			GoogleDao googleDao = sqlSession.getMapper(GoogleDao.class);
+			result = googleDao.getGpCurrentUser();
+		}
+		return result;
+	}
+	/**
+	 * 根据用户id删除新增列表中的用户信息
+	 */
+	public void delGpCurrentUserById(String userId){
+		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
+			GoogleDao googleDao = sqlSession.getMapper(GoogleDao.class);
+			googleDao.delGpCurrentUserById(userId);
+		}
+
 	}
 
 	//获得表长度

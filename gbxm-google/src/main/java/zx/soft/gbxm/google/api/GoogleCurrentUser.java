@@ -11,8 +11,6 @@ import com.google.api.services.plus.Plus;
 import com.google.api.services.plus.PlusScopes;
 import com.google.api.services.plus.model.Activity;
 import com.google.api.services.plus.model.ActivityFeed;
-import com.google.api.services.plus.model.PeopleFeed;
-import com.google.api.services.plus.model.Person;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import zx.soft.gbxm.google.common.Convert;
@@ -22,6 +20,7 @@ import zx.soft.gbxm.google.domain.GooglePlusStatus;
 import zx.soft.gbxm.google.domain.GoogleToken;
 import zx.soft.gbxm.google.domain.PostData;
 import zx.soft.gbxm.google.domain.RecordInfo;
+import zx.soft.model.user.CurrentUserInfo;
 import zx.soft.utils.json.JsonUtils;
 import zx.soft.utils.log.LogbackUtil;
 
@@ -35,14 +34,13 @@ import java.util.List;
 /**
  * Created by jimbo on 4/22/15.
  */
-public class GoogleSpiderCurrentUser {
-    private static Logger logger = LoggerFactory.getLogger(GoogleSpiderCurrentUser.class);
+public class GoogleCurrentUser {
+    private static Logger logger = LoggerFactory.getLogger(GoogleCurrentUser.class);
 
     private static FileDataStoreFactory dataStoreFactory;
     private static HttpTransport httpTransport;
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
     protected GoogleAuthorizationCodeFlow flow;
-//    private static Plus plus;
 
     GoogleDaoImpl daoImpl = new GoogleDaoImpl();
 
@@ -146,7 +144,7 @@ public class GoogleSpiderCurrentUser {
     /**
      * 根据用户userId 获取用户历史推文信息，并将其post 到指定的接口
      */
-    public void getGoogleActivitiesAndPost(String userId){
+    private void getGoogleActivitiesAndPost(String userId){
         List<GooglePlusStatus> statuses = getGoogleActivities(userId);
         long currentTime = System.currentTimeMillis();
         if(statuses.size() > 0){
@@ -164,10 +162,38 @@ public class GoogleSpiderCurrentUser {
 
     }
 
+    /**
+     * 获取新增Google用户信息列表
+     */
+    public List<CurrentUserInfo> getCurrentUser(){
+        List<CurrentUserInfo> result;
+        result = daoImpl.getGpCurrentUser();
+        return result;
+    }
+
+    /**
+     * 查找新增用户并获取其历史推文信息post到指定接口
+     */
+    public void postUserTweet(){
+        List<CurrentUserInfo> users = getCurrentUser();
+        logger.info("本次查找到新增用户数量为 ：" + users.size());
+        if(users.size() != 0){
+            for(CurrentUserInfo user : users){
+                String userId = user.getUserId();
+                String userName = user.getUserName();
+                getGoogleActivitiesAndPost(userId);
+            }
+        }
+    }
+
+
+
 
     public static void main(String[] args) {
-        GoogleSpiderCurrentUser spider = new GoogleSpiderCurrentUser();
+        GoogleCurrentUser spider = new GoogleCurrentUser();
 //        System.out.println(JsonUtils.toJson(spider.getGoogleActivities("101899272850827388898")));
-        spider.getGoogleActivitiesAndPost("101899272850827388898");
+//        spider.getGoogleActivitiesAndPost("101899272850827388898");
+        spider.getCurrentUser();
     }
+
 }

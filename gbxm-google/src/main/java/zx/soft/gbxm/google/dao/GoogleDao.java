@@ -10,6 +10,7 @@ import org.apache.ibatis.annotations.Update;
 
 import zx.soft.gbxm.google.domain.GooglePlusStatus;
 import zx.soft.gbxm.google.domain.GoogleToken;
+import zx.soft.model.user.CurrentUserInfo;
 
 public interface GoogleDao {
 
@@ -36,6 +37,18 @@ public interface GoogleDao {
 	 */
 	@Select("SELECT `app_name`,`client_id`,`client_secret` FROM `gplusApps`")
 	public List<GoogleToken> getGoogleTokens();
+
+	/**
+	 * 获取新增用户信息列表
+	 */
+	@Select("SELECT `user_id` AS userId,`user_name` AS userName,`sns` FROM `current_user_info` WHERE `sns` = \"gp\"")
+	public List<CurrentUserInfo> getGpCurrentUser();
+
+	/**
+	 * 根据用户id删除新增列表中的用户信息
+	 */
+	@Select("DELETE FROM DELETE FROM `current_user_info` WHERE `user_id` = #{0}")
+	public void delGpCurrentUserById(String userId);
 
 	//插入google+状态信息到数据库
 	@Insert("INSERT `status_info_googleplus`(`id`,`title`,`published`,`updated`,`url`,"
