@@ -54,7 +54,7 @@ public class GoogleSpider {
 			List<String> userIdList = googleDaoImpl.getUserIdList(ConstUtils.USER_INFO_GOOGLE_PLUS_TABLE);
 			onceCircleTime = System.currentTimeMillis();
 			for (String userId : userIdList) {
-				ArrayList<GooglePlusStatus> googlePlusStatuses = new ArrayList<>();
+				ArrayList<GooglePlusStatus> googlePlusStatuses;
 				lastUpdateTme = googleDaoImpl.getLastUpdateTimeByUserId(ConstUtils.USER_INFO_GOOGLE_PLUS_TABLE, userId)
 						.getTime();
 				currentTime = System.currentTimeMillis();
@@ -85,61 +85,65 @@ public class GoogleSpider {
 		}
 	}
 
-	public static void main(String[] args) throws InterruptedException {
-
-		GoogleSpider googleSpider = new GoogleSpider();
-		CredentialFile credentialFile = new CredentialFile();
-		Credential credential = null;
-		int j = 0;
-		GoogleToken googleToken = Refresh.getNextGoogleToken();
+	public static void main(String[] args) {
 		try {
-			credential = credentialFile.loadCredential(googleToken.getClient_id(), googleToken.getClient_secret(),
-					googleToken.getApp_name());
-		} catch (IOException e) {
-			logger.error("Exception:{}", LogbackUtil.expection2Str(e));
-		} catch (GeneralSecurityException e) {
-			logger.error("Exception:{}", LogbackUtil.expection2Str(e));
-		}
-		while (true) {
+			GoogleSpider googleSpider = new GoogleSpider();
+			CredentialFile credentialFile = new CredentialFile();
+			Credential credential = null;
+			int j = 0;
+			GoogleToken googleToken = Refresh.getNextGoogleToken();
 			try {
-				googleSpider.run(credential);
-				j = 0;
+				credential = credentialFile.loadCredential(googleToken.getClient_id(), googleToken.getClient_secret(),
+						googleToken.getApp_name());
 			} catch (IOException e) {
-				//如果是内部服务器错误，重新获取一次
-				if (e.getMessage().contains("500")) {
-					logger.info("500 Internal Server Error.");
-					try {
-						googleSpider.run(credential);
-					} catch (IOException e1) {
-						logger.error("again 500 Internal Server Error.");
-						logger.error("Exception:{}", LogbackUtil.expection2Str(e1));
+				logger.error("Exception:{}", LogbackUtil.expection2Str(e));
+			} catch (GeneralSecurityException e) {
+				logger.error("Exception:{}", LogbackUtil.expection2Str(e));
+			}
+			while (true) {
+				try {
+					googleSpider.run(credential);
+					j = 0;
+				} catch (IOException e) {
+					//如果是内部服务器错误，重新获取一次
+					if (e.getMessage().contains("500")) {
+						logger.info("500 Internal Server Error.");
+						try {
+							googleSpider.run(credential);
+						} catch (IOException e1) {
+							logger.error("again 500 Internal Server Error.");
+							logger.error("Exception:{}", LogbackUtil.expection2Str(e1));
+						}
 					}
-				}
-				//连接超时
-				if (e.getMessage().contains("connect timed out")) {
-					logger.error("connect timed out");
-					logger.error("Exception:{}", LogbackUtil.expection2Str(e));
-				}
-				//应用的请求次数限制导致错误，更换应用
-				if (e.getMessage().contains("Daily Limit Exceeded")) {
-					++j;
-					logger.info("current exceeded token  number= " + j);
-					if (j == Refresh.getGoogleAppCount()) {
-						logger.info("所有app均受到请求次数限制（10000/天），请添加token");
-						Thread.sleep(24 * 3600_000L);
+					//连接超时
+					if (e.getMessage().contains("connect timed out")) {
+						logger.error("connect timed out");
+						logger.error("Exception:{}", LogbackUtil.expection2Str(e));
 					}
-					logger.info("Daily Limit Exceeded,now change app");
-					googleToken = Refresh.getNextGoogleToken();
-					try {
-						credential = credentialFile.loadCredential(googleToken.getClient_id(),
-								googleToken.getClient_secret(), googleToken.getApp_name());
-					} catch (IOException e1) {
-						logger.error("Exception:{}", LogbackUtil.expection2Str(e));
-					} catch (GeneralSecurityException e1) {
-						logger.error("Exception:{}", LogbackUtil.expection2Str(e));
+					//应用的请求次数限制导致错误，更换应用
+					if (e.getMessage().contains("Daily Limit Exceeded")) {
+						++j;
+						logger.info("current exceeded token  number= " + j);
+						if (j == Refresh.getGoogleAppCount()) {
+							logger.info("所有app均受到请求次数限制（10000/天），请添加token");
+							Thread.sleep(24 * 3600_000L);
+						}
+						logger.info("Daily Limit Exceeded,now change app");
+						googleToken = Refresh.getNextGoogleToken();
+						try {
+							credential = credentialFile.loadCredential(googleToken.getClient_id(),
+									googleToken.getClient_secret(), googleToken.getApp_name());
+						} catch (IOException e1) {
+							logger.error("Exception:{}", LogbackUtil.expection2Str(e));
+						} catch (GeneralSecurityException e1) {
+							logger.error("Exception:{}", LogbackUtil.expection2Str(e));
+						}
 					}
 				}
 			}
+		}catch (Exception e){
+			logger.error("Exception : {}",LogbackUtil.expection2Str(e));
 		}
 	}
+
 }

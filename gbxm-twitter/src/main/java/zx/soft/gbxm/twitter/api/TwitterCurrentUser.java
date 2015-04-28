@@ -1,6 +1,5 @@
 package zx.soft.gbxm.twitter.api;
 
-import org.omg.CORBA.Current;
 import org.restlet.Response;
 import org.restlet.data.MediaType;
 import org.restlet.representation.Representation;
@@ -15,6 +14,7 @@ import zx.soft.gbxm.twitter.dao.TwitterDaoImpl;
 import zx.soft.gbxm.twitter.domain.PostData;
 import zx.soft.gbxm.twitter.domain.RecordInfo;
 import zx.soft.gbxm.twitter.domain.Token;
+import zx.soft.gbxm.twitter.utils.PostUrlConfig;
 import zx.soft.model.user.CurrentUserInfo;
 import zx.soft.utils.checksum.CheckSumUtils;
 import zx.soft.utils.config.ConfigUtil;
@@ -30,8 +30,15 @@ import java.util.*;
 public class TwitterCurrentUser {
     private static Logger logger = LoggerFactory.getLogger(TwitterCurrentUser.class);
     private static TwitterDaoImpl twitterDaoImpl = new TwitterDaoImpl();
-    private static final String URL = "http://36.7.150.150:18900/persist";
     private final ClientResource clientResource = new ClientResource(URL);
+    private static final String URL = getPostUrl();
+
+    /**
+     * 获取post接口url
+     */
+    private static String getPostUrl(){
+        return PostUrlConfig.getProp("posturl.properties").getProperty("post.url");
+    }
 
     /**
      * 获取数据库中所有的twitter token
@@ -45,8 +52,9 @@ public class TwitterCurrentUser {
      */
     private Twitter setTwitter(int i) throws InterruptedException {
         List<Token> tokens = getTokens();
-        if (tokens.size() <= i) {
+        if (i >= tokens.size()) {
             Thread.sleep(1000 * 60 * 30L);
+            i = 0;
         }
         Token token = tokens.get(i);
         Properties properties = ConfigUtil.getProps("oauthconsumer.properties");
@@ -57,12 +65,13 @@ public class TwitterCurrentUser {
     }
 
     /**
-     * 获取用户历史推文信息
+     * 获取用户推文信息
      */
     private List<Status> getUserTimeLineIn(Twitter twitter, String screenName) throws TwitterException {
-        List<Status> result = new ArrayList<>();
+        List<Status> result;
         Follows follows = new Follows(twitter);
         result = follows.getUserTimeLine(screenName);
+        logger.info("the size of get Tweet is {}",result.size());
         return result;
     }
 
@@ -70,7 +79,7 @@ public class TwitterCurrentUser {
      * 设置twitter并获取用户推文信息
      */
     private List<Status> setTwitterUserTimeLine(int index, String screenName) throws TwitterException, InterruptedException {
-        List<Status> result = new ArrayList<>();
+        List<Status> result;
         Twitter twitter = setTwitter(index);
         result = getUserTimeLineIn(twitter, screenName);
         return result;
@@ -80,7 +89,7 @@ public class TwitterCurrentUser {
      * 获取新增用户的历史推文信息
      */
     private List<Status> getUserTimeLine(int index ,String screenName) {
-        List<Status> result = new ArrayList<>();
+        List<Status> result;
         try {
             result = setTwitterUserTimeLine(index, screenName);
         } catch (TwitterException e) {
@@ -164,12 +173,12 @@ public class TwitterCurrentUser {
      */
     private void currentUserStatusPost(List<RecordInfo> recordInfos){
         PostData postData = new PostData();
-
         postData.setNum(recordInfos.size());
         logger.info("post record number is : " + recordInfos.size());
         postData.setRecords(recordInfos);
         Representation entity = new StringRepresentation(JsonUtils.toJson(postData));
         entity.setMediaType(MediaType.APPLICATION_JSON);
+
         try {
             Representation representation = clientResource.post(entity);
             logger.info("post return " + representation.toString());
@@ -190,19 +199,17 @@ public class TwitterCurrentUser {
     /**
      * 获取用户历史信息，并将去Post到指定的接口
      */
-    private void getUserTweetAndPostbyUser(String screenName){
-
-        List<RecordInfo> recordInfos = new ArrayList<>();
+    public void getUserTweetAndPostbyUser(String screenName){
+        List<RecordInfo> recordInfos;
         recordInfos = exchageTweet(getUserTimeLine(screenName));
         currentUserStatusPost(recordInfos);
-
     }
 
     /**
      * 获取新增Twitter用户列表
      */
     private List<CurrentUserInfo> getCurrentUser(){
-        List<CurrentUserInfo> result = new ArrayList<>();
+        List<CurrentUserInfo> result;
         result = twitterDaoImpl.selectTwCurrentUser();
         return result;
     }
@@ -210,9 +217,9 @@ public class TwitterCurrentUser {
     /**
      * 查找新增用户并获取其历史推文信息post到指定接口
      */
-    public void postUserTweet(){
+    public void postUserTweet() throws InterruptedException {
         List<CurrentUserInfo> users = getCurrentUser();
-        logger.info("本次查找到的Twitter新增用户的数量为： " + users.size());
+        logger.info("Current user for TwitterUser 's size is ： " + users.size());
         if(users.size() != 0){
             for(CurrentUserInfo user : users){
                 String userId = user.getUserId();
@@ -221,14 +228,13 @@ public class TwitterCurrentUser {
                 twitterDaoImpl.deleteTwCurrentUser(userId);
             }
         }
-
+        Thread.sleep(30*60*1000L);
+        postUserTweet();
     }
 
     public static void main(String[] args) throws InterruptedException, IOException {
         TwitterCurrentUser spiderCurrentUser = new TwitterCurrentUser();
         spiderCurrentUser.postUserTweet();
-//        spiderCurrentUser.getUserTweetAndPostbyUser("BillGates");
-
     }
 
 }

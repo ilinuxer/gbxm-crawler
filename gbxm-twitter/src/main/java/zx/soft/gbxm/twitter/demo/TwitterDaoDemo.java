@@ -12,5 +12,7 @@ public class TwitterDaoDemo {
         TwitterDaoImpl dao = new TwitterDaoImpl();
         System.out.println(JsonUtils.toJson(dao.selectTwCurrentUser()));
 //        System.out.println(JsonUtils.toJson(dao.getTwitterTokens()));
+//        dao.updateTwMonitor("181066114",77733);
+        System.out.println(dao.getMonitorUserCount());
     }
 }

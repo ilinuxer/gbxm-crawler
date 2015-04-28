@@ -10,8 +10,10 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import zx.soft.gbxm.google.api.Google;
 import zx.soft.gbxm.google.domain.GooglePlusStatus;
 import zx.soft.gbxm.google.domain.GoogleToken;
+import zx.soft.gbxm.google.domain.UserInfo;
 import zx.soft.gbxm.google.utils.MybatisConfig;
 import zx.soft.model.user.CurrentUserInfo;
 import zx.soft.utils.log.LogbackUtil;
@@ -29,7 +31,7 @@ public class GoogleDaoImpl {
 	 * 获取所有google＋应用信息
 	 */
 	public List<GoogleToken> getGoogleTokens(){
-		List<GoogleToken> result = new ArrayList<>();
+		List<GoogleToken> result;
 
 		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
 			GoogleDao googleDao = sqlSession.getMapper(GoogleDao.class);
@@ -37,6 +39,32 @@ public class GoogleDaoImpl {
 		}
 		return result;
 	}
+
+	/**
+	 * 获取总的监控用户数量
+	 */
+	public int getUserCount(){
+		int result;
+		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
+			GoogleDao googleDao = sqlSession.getMapper(GoogleDao.class);
+			result = googleDao.getUserCount();
+		}
+		return result;
+	}
+
+	/**
+	 * 获取分页内的监控用户信息
+	 */
+	public List<UserInfo> getUsers(int index,int size){
+		List<UserInfo> result;
+		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
+			GoogleDao googleDao = sqlSession.getMapper(GoogleDao.class);
+			result = googleDao.getUsers(index * 100, size);
+		}
+		return result;
+
+	}
+
 	/**
 	 * 获取新增用户信息列表
 	 */

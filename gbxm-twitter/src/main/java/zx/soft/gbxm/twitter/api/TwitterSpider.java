@@ -24,6 +24,7 @@ import zx.soft.gbxm.twitter.dao.TwitterDaoImpl;
 import zx.soft.gbxm.twitter.domain.PostData;
 import zx.soft.gbxm.twitter.domain.RecordInfo;
 import zx.soft.gbxm.twitter.domain.Token;
+import zx.soft.gbxm.twitter.utils.PostUrlConfig;
 import zx.soft.model.user.TwitterUser;
 import zx.soft.utils.checksum.CheckSumUtils;
 import zx.soft.utils.config.ConfigUtil;
@@ -31,11 +32,16 @@ import zx.soft.utils.json.JsonUtils;
 
 public class TwitterSpider {
 
+	private static final String URL = getPostUrl();
 	private static Logger logger = LoggerFactory.getLogger(TwitterSpider.class);
 	private static TwitterDaoImpl twitterDaoImpl = new TwitterDaoImpl();
-	private static final String URL = "http://36.7.150.150:18900/persist";
 	private final ClientResource clientResource = new ClientResource(URL);
 	static int i = 0;
+
+	private static String getPostUrl(){
+		return PostUrlConfig.getProp("posturl.properties").getProperty("post.url");
+	}
+
 
 	public int run(Follows follows) throws InterruptedException, TwitterException {
 
@@ -175,7 +181,7 @@ public class TwitterSpider {
 		Follows follows = new Follows(twitter);
 		Token instance = getTokenAndSinceId();
 		follows.setAccessToken(new AccessToken(instance.getTokenkey(), instance.getTokensecret()));
-		follows.setSinceId(instance.getSinceId());
+//		follows.setSinceId(instance.getSinceId());
 		TwitterSpider twitterSpider = new TwitterSpider();
 		int[] diffLength = { 0, 0 };
 		long sleepTime = 0L;
@@ -191,7 +197,7 @@ public class TwitterSpider {
 					instance = getTokenAndSinceId();
 					AccessToken changeToken = new AccessToken(instance.getTokenkey(), instance.getTokensecret());
 					follows.setAccessToken(changeToken);
-					follows.setSinceId(instance.getSinceId());
+//					follows.setSinceId(instance.getSinceId());
 					diffLength[0] = 0;
 					diffLength[1] = 0;
 				} else {
@@ -213,7 +219,7 @@ public class TwitterSpider {
 				instance = getTokenAndSinceId();
 				AccessToken changeToken = new AccessToken(instance.getTokenkey(), instance.getTokensecret());
 				follows.setAccessToken(changeToken);
-				follows.setSinceId(instance.getSinceId());
+//				follows.setSinceId(instance.getSinceId());
 				diffLength[0] = 0;
 				diffLength[1] = 0;
 			}

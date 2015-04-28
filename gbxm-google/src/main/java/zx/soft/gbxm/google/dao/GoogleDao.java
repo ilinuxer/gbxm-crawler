@@ -10,6 +10,7 @@ import org.apache.ibatis.annotations.Update;
 
 import zx.soft.gbxm.google.domain.GooglePlusStatus;
 import zx.soft.gbxm.google.domain.GoogleToken;
+import zx.soft.gbxm.google.domain.UserInfo;
 import zx.soft.model.user.CurrentUserInfo;
 
 public interface GoogleDao {
@@ -37,6 +38,19 @@ public interface GoogleDao {
 	 */
 	@Select("SELECT `app_name`,`client_id`,`client_secret` FROM `gplusApps`")
 	public List<GoogleToken> getGoogleTokens();
+
+	/**
+	 * 获取分页内的监控用户信息
+	 */
+	@Select("SELECT `userId`,`userName`,`lastUpdateTime` FROM `googleUserInfos` LIMIT #{0},#{1}")
+	public List<UserInfo> getUsers(int start,int size);
+
+	/**
+	 * 获取总的监控用户数量
+	 */
+	@Select("SELECT COUNT(1) FROM `googleUserInfos`")
+	public int getUserCount();
+
 
 	/**
 	 * 获取新增用户信息列表

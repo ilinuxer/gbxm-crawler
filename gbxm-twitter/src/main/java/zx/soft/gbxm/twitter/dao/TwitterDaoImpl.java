@@ -1,12 +1,11 @@
 package zx.soft.gbxm.twitter.dao;
 
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import zx.soft.gbxm.twitter.domain.MonitorUser;
 import zx.soft.gbxm.twitter.domain.Token;
 import zx.soft.gbxm.twitter.utils.MybatisConfig;
 import zx.soft.model.user.CurrentUserInfo;
@@ -26,7 +25,7 @@ public class TwitterDaoImpl {
 
 	//从数据库表中获取指定id的Token;
 	public Token getToken(String tableName, long id) {
-		Token token = null;
+		Token token;
 		try (SqlSession session = sqlSessionFactory.openSession()) {
 			TwitterDao dao = session.getMapper(TwitterDao.class);
 			token = dao.getToken(tableName, id);
@@ -39,7 +38,7 @@ public class TwitterDaoImpl {
 	 * 获取Twitter Token列表
 	 */
 	public List<Token> getTwitterTokens(){
-		List<Token> result = new LinkedList<>();
+		List<Token> result;
 		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
 			TwitterDao dao = sqlSession.getMapper(TwitterDao.class);
 			result = dao.getTwitterTokens();
@@ -73,7 +72,6 @@ public class TwitterDaoImpl {
 
 	/**
 	 * 插入用户信息到数据库user_info_twitter
-	 * @param name
 	 */
 	public void insertTwitterUser(TwitterUser twitterUser) {
 		try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
@@ -84,7 +82,6 @@ public class TwitterDaoImpl {
 
 	/**
 	 * 更新用户信息到数据库user_info_twitter
-	 * @param userInfoes
 	 */
 	public void updateTwitterUser(TwitterUser twitterUser) {
 		try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
@@ -95,7 +92,6 @@ public class TwitterDaoImpl {
 
 	/**
 	 * 更新Token sinceId到数据库twitterTokens
-	 * @param userInfoes
 	 */
 	public void updateSinceId(long sinceId, int id) {
 		try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
@@ -128,4 +124,44 @@ public class TwitterDaoImpl {
 		}
 	}
 
+	/**
+	 * 针对每个被监控用户更新since_id
+	 */
+	public void updateTwMonitor(String screenName,long sinceId){
+		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
+			TwitterDao twitterDao = sqlSession.getMapper(TwitterDao.class);
+			twitterDao.updateTwMonitor(screenName, sinceId);
+		}
+	}
+	/**
+	 * 针对每个用户获取上次since_id
+	 */
+	public long getLastSinceId(String screenName){
+		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
+			TwitterDao twitterDao = sqlSession.getMapper(TwitterDao.class);
+			return twitterDao.getLastSinceId(screenName);
+		}
+	}
+
+	/**
+	 * 获取监控用户的重数量
+	 */
+	public int getMonitorUserCount(){
+		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
+			TwitterDao twitterDao = sqlSession.getMapper(TwitterDao.class);
+			return twitterDao.getMonitorUserCount();
+		}
+	}
+
+	/**
+	 * 获取指定区间内监控用户
+	 */
+	public List<MonitorUser> getMoitorUsers(){
+		List<MonitorUser> result;
+		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
+			TwitterDao twitterDao = sqlSession.getMapper(TwitterDao.class);
+			result = twitterDao.getMoitorUsers();
+		}
+		return result;
+	}
 }

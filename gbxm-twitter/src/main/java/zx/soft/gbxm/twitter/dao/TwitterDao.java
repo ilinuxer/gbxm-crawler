@@ -2,6 +2,7 @@ package zx.soft.gbxm.twitter.dao;
 
 import org.apache.ibatis.annotations.*;
 
+import zx.soft.gbxm.twitter.domain.MonitorUser;
 import zx.soft.gbxm.twitter.domain.Token;
 import zx.soft.model.user.CurrentUserInfo;
 import zx.soft.model.user.TwitterUser;
@@ -56,6 +57,31 @@ public interface TwitterDao {
 	 */
 	@Delete("DELETE FROM `current_user_info` WHERE `user_id` = #{0}")
 	public void deleteTwCurrentUser(String userId);
+
+	/**
+	 * 针对每个被监控用户更新since_id
+	 */
+	@Update("UPDATE `user_monitor_twitter` SET `since_id` = #{1} WHERE `screen_name`= #{0}")
+	public void updateTwMonitor(String screenName,long sinceId);
+
+	/**
+	 * 针对每个用户获取上次since_id
+	 */
+	@Select("SELECT `since_id` FROM `user_monitor_twitter` WHERE `screen_name` = #{0}")
+	public long getLastSinceId(String screenName);
+
+	/**
+	 * 获取监控用户的重数量
+	 */
+	@Select("SELECT COUNT(1) FROM `user_monitor_twitter`")
+	public int getMonitorUserCount();
+
+
+	/**
+	 * 获取指定区域内的监控用户信息
+	 */
+	@Select("SELECT `user_id` AS userId ,`screen_name` AS screenName ,`since_id` AS sinceId FROM `user_monitor_twitter`")
+	public List<MonitorUser> getMoitorUsers();
 
 
 }

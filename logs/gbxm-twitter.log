@@ -1,0 +1,411 @@
+2015-04-27 15:10:35,486 [main] INFO  z.s.g.t.api.TwitterCurrentUserSpider [Line:15 ] - get current user's history Tweet
+2015-04-27 15:10:36,099 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 1
+2015-04-27 15:10:36,103 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 15:10:37,681 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:75 ] - the size of get Tweet is 200
+2015-04-27 15:10:37,699 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:179] - post record number is : 200
+2015-04-27 15:10:39,788 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:185] - post return [application/json,UTF-8]
+2015-04-27 15:10:39,789 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:188] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 15:59:02,780 [main] INFO  z.s.g.t.api.TwitterCurrentUserSpider [Line:15 ] - get current user's history Tweet
+2015-04-27 15:59:03,349 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 2
+2015-04-27 15:59:03,353 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 15:59:05,012 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:75 ] - the size of get Tweet is 200
+2015-04-27 15:59:05,034 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:179] - post record number is : 200
+2015-04-27 15:59:06,303 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:185] - post return [application/json,UTF-8]
+2015-04-27 15:59:06,304 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:188] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 15:59:06,312 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 15:59:07,321 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:75 ] - the size of get Tweet is 199
+2015-04-27 15:59:07,334 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:179] - post record number is : 199
+2015-04-27 15:59:10,195 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:185] - post return [application/json,UTF-8]
+2015-04-27 15:59:10,195 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:188] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 16:27:40,530 [main] INFO  z.s.g.t.api.TwitterCurrentUserSpider [Line:15 ] - get current user's history Tweet
+2015-04-27 16:27:41,043 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:226] - Current user for Twitter 's size is ： 1
+2015-04-27 16:27:41,048 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 16:27:42,955 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:75 ] - the size of get Tweet is 191
+2015-04-27 16:27:42,971 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:179] - post record number is : 191
+2015-04-27 16:27:45,670 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:185] - post return [application/json,UTF-8]
+2015-04-27 16:27:45,670 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:188] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 16:29:10,202 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 0
+2015-04-27 16:31:33,513 [main] INFO  z.s.g.t.api.TwitterCurrentUserSpider [Line:15 ] - get current user's history Tweet
+2015-04-27 16:31:34,072 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:226] - Current user for Twitter 's size is ： 1
+2015-04-27 16:31:34,075 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 16:31:35,607 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:75 ] - the size of get Tweet is 144
+2015-04-27 16:31:35,619 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:207] - last id ： EEE3B86C557B3B003A517558E9EA0FED
+2015-04-27 16:31:35,619 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:179] - post record number is : 144
+2015-04-27 16:31:37,937 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:185] - post return [application/json,UTF-8]
+2015-04-27 16:31:37,937 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:188] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 16:35:23,078 [main] INFO  z.s.g.t.api.TwitterCurrentUserSpider [Line:15 ] - get current user's history Tweet
+2015-04-27 16:35:23,624 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:226] - Current user for Twitter 's size is ： 1
+2015-04-27 16:35:23,628 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 16:35:24,995 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:64 ] - last sinceId is : 592599315282989056
+2015-04-27 16:35:25,171 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:75 ] - the size of get Tweet is 200
+2015-04-27 16:35:25,188 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:207] - last id ： F1F929AE8F459CAFE9B1E314B8557FA9
+2015-04-27 16:35:25,189 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:179] - post record number is : 200
+2015-04-27 16:35:27,725 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:185] - post return [application/json,UTF-8]
+2015-04-27 16:35:27,726 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:188] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 16:59:10,209 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 0
+2015-04-27 17:05:27,740 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:226] - Current user for Twitter 's size is ： 0
+2015-04-27 17:07:50,395 [main] INFO  z.s.g.t.api.TwitterCurrentUserSpider [Line:15 ] - get current user's history Tweet
+2015-04-27 17:07:50,901 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:226] - Current user for Twitter 's size is ： 1
+2015-04-27 17:07:50,905 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 17:07:52,785 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:78 ] - page=1,size=198
+2015-04-27 17:07:53,998 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:78 ] - page=2,size=195
+2015-04-27 17:07:54,303 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 17:07:54,811 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:78 ] - page=1,size=1
+2015-04-27 17:07:55,109 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:78 ] - page=2,size=0
+2015-04-27 17:07:55,109 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:75 ] - the size of get Tweet is 1
+2015-04-27 17:07:55,116 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:207] - last id ： 147EA0D492588F029BEA0CEE198C2C6C
+2015-04-27 17:07:55,116 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:179] - post record number is : 1
+2015-04-27 17:07:55,532 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:185] - post return [application/json,UTF-8]
+2015-04-27 17:07:55,532 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:188] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 17:29:10,215 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 0
+2015-04-27 18:52:35,420 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 0
+2015-04-27 19:22:35,427 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 0
+2015-04-27 19:52:35,432 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 0
+2015-04-27 20:22:35,441 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 0
+2015-04-27 20:23:40,269 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:24:00,247 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:24:01,581 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 16
+2015-04-27 20:24:01,586 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 16
+2015-04-27 20:24:02,205 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:24:02,206 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:24:02,210 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:24:02,690 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 16
+2015-04-27 20:24:02,692 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 16
+2015-04-27 20:24:03,010 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:24:03,011 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:24:03,015 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:24:03,438 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 16
+2015-04-27 20:24:03,440 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 16
+2015-04-27 20:24:03,750 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:24:03,751 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:24:03,755 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:24:04,215 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 16
+2015-04-27 20:24:04,216 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 16
+2015-04-27 20:24:04,517 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:24:04,517 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:24:04,521 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:24:05,030 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 16
+2015-04-27 20:24:05,032 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 16
+2015-04-27 20:24:05,351 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:24:05,351 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:24:05,355 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:43:20,796 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:43:21,833 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:43:21,835 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:43:22,211 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:43:22,212 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:43:22,215 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:43:22,791 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:43:22,791 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:43:22,884 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:43:22,884 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:43:22,888 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:43:23,251 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:43:23,252 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:43:23,341 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:43:23,342 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:43:23,347 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:43:23,703 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:43:23,703 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:43:23,792 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:43:23,793 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:43:23,796 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:43:24,150 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:43:24,150 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:43:24,240 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:43:24,240 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:43:24,244 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:43:24,601 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:43:24,602 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:43:24,692 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:43:24,692 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:44:18,289 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:44:19,375 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:44:19,377 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:44:19,773 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:44:19,774 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:44:19,777 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:44:20,166 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:44:20,166 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:44:20,259 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:44:20,260 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:44:20,264 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:44:20,700 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:44:20,701 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:44:20,794 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:44:20,794 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:44:20,800 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:44:21,160 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:44:21,160 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:44:21,250 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:44:21,250 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:44:21,254 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:44:21,688 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:44:21,688 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:44:21,777 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:44:21,778 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:44:21,781 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:44:22,154 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:44:22,155 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:44:22,251 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:44:22,252 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:45:15,767 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get redplimes 's tweet 
+2015-04-27 20:45:15,777 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:45:17,915 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:45:17,915 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:45:18,296 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:45:18,297 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:45:18,297 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get hashimotokumi 's tweet 
+2015-04-27 20:45:18,301 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:45:18,662 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:45:18,662 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:45:18,752 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:45:18,752 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:45:18,752 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get selfcontrolman 's tweet 
+2015-04-27 20:45:18,756 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:45:19,114 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:45:19,114 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:45:19,205 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:45:19,206 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:45:19,206 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get 830Tstmc0 's tweet 
+2015-04-27 20:45:19,212 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:45:19,697 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:45:19,698 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:45:19,790 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:45:19,790 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:45:19,790 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get suvxn 's tweet 
+2015-04-27 20:45:19,794 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:45:20,168 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:45:20,168 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:45:20,265 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:45:20,266 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:45:20,266 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get csxza 's tweet 
+2015-04-27 20:45:20,269 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:45:20,692 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:45:20,693 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:45:20,783 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:45:20,784 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:48:42,078 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get redplimes 's tweet 
+2015-04-27 20:48:42,086 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:48:43,259 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:48:43,260 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:48:43,673 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:48:43,673 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:48:43,673 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get hashimotokumi 's tweet 
+2015-04-27 20:48:43,677 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:48:44,022 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:48:44,023 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:48:44,115 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:48:44,115 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:48:44,116 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get selfcontrolman 's tweet 
+2015-04-27 20:48:44,120 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:48:44,474 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:48:44,475 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:48:44,567 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:48:44,567 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:48:44,568 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get 830Tstmc0 's tweet 
+2015-04-27 20:48:44,574 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:48:45,089 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:48:45,089 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:48:45,180 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:48:45,180 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:48:45,181 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get suvxn 's tweet 
+2015-04-27 20:48:45,184 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:48:45,629 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:48:45,629 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:48:45,720 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:48:45,721 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:48:45,721 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get csxza 's tweet 
+2015-04-27 20:48:45,725 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:48:46,082 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:48:46,083 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:48:46,174 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:48:46,175 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:52:35,449 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 0
+2015-04-27 20:58:46,184 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get redplimes 's tweet 
+2015-04-27 20:58:46,188 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:58:46,908 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:58:46,909 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:58:47,691 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:58:47,692 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:58:47,692 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get hashimotokumi 's tweet 
+2015-04-27 20:58:47,695 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:58:48,578 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:58:48,579 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:58:48,671 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:58:48,672 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:58:48,672 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get selfcontrolman 's tweet 
+2015-04-27 20:58:48,675 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:58:49,064 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:58:49,065 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:58:49,153 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:58:49,154 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:58:49,154 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get 830Tstmc0 's tweet 
+2015-04-27 20:58:49,160 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:58:49,538 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:58:49,538 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:58:49,628 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:58:49,628 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:58:49,628 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get suvxn 's tweet 
+2015-04-27 20:58:49,632 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:58:50,001 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:58:50,001 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:58:50,091 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:58:50,092 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 20:58:50,092 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get csxza 's tweet 
+2015-04-27 20:58:50,096 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 20:58:50,467 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 20:58:50,467 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 20:58:50,557 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 20:58:50,557 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:08:50,567 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get redplimes 's tweet 
+2015-04-27 21:08:50,570 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:08:51,288 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:08:51,289 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:08:52,052 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:08:52,053 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:08:52,053 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get hashimotokumi 's tweet 
+2015-04-27 21:08:52,057 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:08:52,492 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:08:52,492 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:08:52,583 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:08:52,584 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:08:52,584 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get selfcontrolman 's tweet 
+2015-04-27 21:08:52,588 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:08:52,941 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:08:52,941 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:08:53,045 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:08:53,046 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:08:53,046 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get 830Tstmc0 's tweet 
+2015-04-27 21:08:53,050 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:08:53,419 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:08:53,420 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:08:53,513 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:08:53,513 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:08:53,514 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get suvxn 's tweet 
+2015-04-27 21:08:53,517 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:08:53,870 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:08:53,871 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:08:53,977 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:08:53,977 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:08:53,977 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get csxza 's tweet 
+2015-04-27 21:08:53,981 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:08:54,347 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:08:54,347 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:08:54,442 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:08:54,443 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:18:54,450 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get redplimes 's tweet 
+2015-04-27 21:18:54,452 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:18:55,198 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:18:55,199 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:18:55,978 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:18:55,979 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:18:55,979 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get hashimotokumi 's tweet 
+2015-04-27 21:18:55,983 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:18:56,358 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:18:56,358 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:18:56,450 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:18:56,451 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:18:56,451 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get selfcontrolman 's tweet 
+2015-04-27 21:18:56,455 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:18:56,877 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:18:56,877 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:18:56,964 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:18:56,965 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:18:56,965 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get 830Tstmc0 's tweet 
+2015-04-27 21:18:56,969 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:18:57,307 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:18:57,308 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:18:57,397 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:18:57,398 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:18:57,398 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get suvxn 's tweet 
+2015-04-27 21:18:57,402 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:18:57,770 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:18:57,770 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:18:57,865 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:18:57,865 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:18:57,866 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get csxza 's tweet 
+2015-04-27 21:18:57,869 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:18:58,249 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:18:58,249 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:18:58,343 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:18:58,357 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:22:35,456 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 0
+2015-04-27 21:28:58,363 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get redplimes 's tweet 
+2015-04-27 21:28:58,365 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:28:59,124 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:28:59,125 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:28:59,885 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:28:59,885 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:28:59,886 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get hashimotokumi 's tweet 
+2015-04-27 21:28:59,889 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:29:00,248 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:29:00,248 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:29:00,341 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:29:00,342 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:29:00,342 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get selfcontrolman 's tweet 
+2015-04-27 21:29:00,345 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:29:00,722 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:29:00,722 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:29:00,811 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:29:00,811 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:29:00,811 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get 830Tstmc0 's tweet 
+2015-04-27 21:29:00,815 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:29:01,185 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:29:01,186 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:29:01,275 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:29:01,276 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:29:01,276 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get suvxn 's tweet 
+2015-04-27 21:29:01,280 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:29:01,644 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:29:01,644 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:29:01,732 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:29:01,733 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:29:01,733 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get csxza 's tweet 
+2015-04-27 21:29:01,736 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:29:02,070 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 21:29:02,071 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 21:29:02,160 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 21:29:02,161 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 21:39:02,168 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get redplimes 's tweet 
+2015-04-27 21:39:02,171 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:39:10,230 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:39:12,273 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:39:17,707 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 21:52:35,461 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:225] - Current user for Twitter 's size is ： 0
+2015-04-27 22:03:07,846 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get redplimes 's tweet 
+2015-04-27 22:03:07,855 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 22:03:08,950 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 22:03:08,952 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 22:03:09,342 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 22:03:09,342 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 22:03:09,343 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get hashimotokumi 's tweet 
+2015-04-27 22:03:09,346 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 22:03:09,789 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 22:03:09,790 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 22:03:09,898 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 22:03:09,899 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 22:03:09,899 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get selfcontrolman 's tweet 
+2015-04-27 22:03:09,903 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 22:03:10,280 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 22:03:10,281 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 22:03:10,373 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 22:03:10,373 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 22:03:10,374 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get 830Tstmc0 's tweet 
+2015-04-27 22:03:10,380 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 22:03:10,785 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 22:03:10,786 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 22:03:10,895 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 22:03:10,896 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 22:03:10,896 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get suvxn 's tweet 
+2015-04-27 22:03:10,900 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 22:03:11,285 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 22:03:11,286 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 22:03:11,379 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 22:03:11,380 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-27 22:03:11,380 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:25 ] - get csxza 's tweet 
+2015-04-27 22:03:11,384 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-04-27 22:03:11,784 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:74 ] - the size of get Tweet is 0
+2015-04-27 22:03:11,785 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:177] - post record number is : 0
+2015-04-27 22:03:11,884 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:183] - post return [application/json,UTF-8]
+2015-04-27 22:03:11,884 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:186] - {"errorCode":0,"errorMessage":"ok"}

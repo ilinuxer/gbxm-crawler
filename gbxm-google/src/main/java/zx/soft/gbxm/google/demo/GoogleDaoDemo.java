@@ -10,6 +10,8 @@ public class GoogleDaoDemo {
 
     public static void main(String[] args) {
         GoogleDaoImpl dao = new GoogleDaoImpl();
-        System.out.println(JsonUtils.toJson(dao.getGoogleTokens()));
+//        System.out.println(JsonUtils.toJson(dao.getGoogleTokens()));
+//        System.out.println(dao.getUsers(12,100).size());
+        System.out.println(dao.getUserCount());
     }
 }
