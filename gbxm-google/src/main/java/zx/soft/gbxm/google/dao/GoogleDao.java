@@ -61,7 +61,7 @@ public interface GoogleDao {
 	/**
 	 * 根据用户id删除新增列表中的用户信息
 	 */
-	@Select("DELETE FROM DELETE FROM `current_user_info` WHERE `user_id` = #{0}")
+	@Select("DELETE FROM `current_user_info` WHERE `user_id` = #{0} AND `sns` = \"gp\"")
 	public void delGpCurrentUserById(String userId);
 
 	//插入google+状态信息到数据库

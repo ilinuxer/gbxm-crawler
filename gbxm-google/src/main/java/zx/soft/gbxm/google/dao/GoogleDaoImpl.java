@@ -83,6 +83,7 @@ public class GoogleDaoImpl {
 		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
 			GoogleDao googleDao = sqlSession.getMapper(GoogleDao.class);
 			googleDao.delGpCurrentUserById(userId);
+			logger.info("deleted from current user {}" ,userId);
 		}
 
 	}

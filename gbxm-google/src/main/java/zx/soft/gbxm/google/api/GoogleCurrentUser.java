@@ -183,8 +183,7 @@ public class GoogleCurrentUser {
                 daoImpl.delGpCurrentUserById(userId);
             }
         }
-
-        Thread.sleep(30*60*1000L);
+        Thread.sleep(10*60*1000L);
         postUserTweet();
     }
 
@@ -193,8 +192,6 @@ public class GoogleCurrentUser {
 
     public static void main(String[] args) {
         GoogleCurrentUser spider = new GoogleCurrentUser();
-//        System.out.println(JsonUtils.toJson(spider.getGoogleActivities("101899272850827388898")));
-//        spider.getGoogleActivitiesAndPost("101899272850827388898");
         try {
             spider.postUserTweet();
         } catch (InterruptedException e) {

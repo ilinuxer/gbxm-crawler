@@ -1,13 +1,19 @@
-2015-04-24 09:27:03,160 [main] INFO  z.s.g.g.api.GoogleCurrentUserSpider [Line:14 ] - 获取Gplus新增用户历史推文信息
-2015-04-24 09:27:06,978 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：0
-2015-04-24 09:32:00,875 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: client_secrets.properties
-2015-04-24 09:32:04,746 [main] INFO  z.s.gbxm.google.api.CredentialFile [Line:49 ] - credentialFile path=/home/ec2-user/.gplus/credentials_demo002
-2015-04-24 09:32:04,921 [main] ERROR zx.soft.gbxm.google.api.GoogleSpider [Line:99 ] - Exception:unable to create directory: /home/ec2-user/.gplus/credentials_demo002;com.google.api.client.util.store.FileDataStoreFactory.<init>(FileDataStoreFactory.java:61);zx.soft.gbxm.google.api.CredentialFile.loadCredential(CredentialFile.java:50);zx.soft.gbxm.google.api.GoogleSpider.main(GoogleSpider.java:96);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:606);com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
-2015-04-24 09:32:04,924 [main] ERROR zx.soft.gbxm.google.api.GoogleSpider [Line:145] - Exception : null;zx.soft.gbxm.google.api.GoogleSpider.run(GoogleSpider.java:44);zx.soft.gbxm.google.api.GoogleSpider.main(GoogleSpider.java:105);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:606);com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
-2015-04-24 09:36:19,572 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: client_secrets.properties
-2015-04-24 09:36:21,915 [main] INFO  z.s.gbxm.google.api.CredentialFile [Line:49 ] - credentialFile path=/home/ec2-user/.gplus/credentials_demo002
-2015-04-24 09:36:22,087 [main] ERROR zx.soft.gbxm.google.api.GoogleSpider [Line:99 ] - Exception:unable to create directory: /home/ec2-user/.gplus/credentials_demo002;com.google.api.client.util.store.FileDataStoreFactory.<init>(FileDataStoreFactory.java:61);zx.soft.gbxm.google.api.CredentialFile.loadCredential(CredentialFile.java:50);zx.soft.gbxm.google.api.GoogleSpider.main(GoogleSpider.java:96);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:606);com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
-2015-04-24 09:36:22,088 [main] ERROR zx.soft.gbxm.google.api.GoogleSpider [Line:145] - Exception : null;zx.soft.gbxm.google.api.GoogleSpider.run(GoogleSpider.java:44);zx.soft.gbxm.google.api.GoogleSpider.main(GoogleSpider.java:105);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:606);com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
-2015-04-24 13:34:48,253 [main] INFO  z.s.g.g.api.GoogleCurrentUserSpider [Line:14 ] - 获取Gplus新增用户历史推文信息
-2015-04-24 13:34:52,171 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：0
-2015-04-24 16:24:45,560 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：0
+2015-04-28 16:06:17,805 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：2
+2015-04-28 16:06:23,272 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 100
+2015-04-28 16:06:24,978 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-28 16:08:34,114 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：2
+2015-04-28 16:08:37,685 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 100
+2015-04-28 16:08:38,754 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-28 16:10:01,229 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：2
+2015-04-28 16:10:04,522 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 100
+2015-04-28 16:10:05,660 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-28 16:10:08,678 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 100
+2015-04-28 16:10:09,391 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-28 16:27:55,051 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：0
+2015-04-28 16:34:36,240 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：2
+2015-04-28 16:34:39,609 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 61
+2015-04-28 16:34:40,534 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-28 16:34:40,540 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:86 ] - deleted from current user 107104888235128311144
+2015-04-28 16:34:43,492 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 100
+2015-04-28 16:34:44,187 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-04-28 16:34:44,190 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:86 ] - deleted from current user 104888438811403077762
