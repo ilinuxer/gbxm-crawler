@@ -16,6 +16,8 @@
 				<include>logback.xml</include>
 				<include>Mapper.xml</include>
 				<include>client_secrets.properties</include>
+				<include>db.properties</include>
+				<include>posturl.properties</include>
 			</includes>
 			<outputDirectory>/conf</outputDirectory>
 			<filtered>true</filtered>

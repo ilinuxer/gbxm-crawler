@@ -1,5 +1,7 @@
 package zx.soft.gbxm.google.common;
 
+import zx.soft.gbxm.google.utils.PostUrlConfig;
+
 public class ConstUtils {
 
 	public static final String GOOGLE_PLUS_APPS_TABLE = "gplusApps";
@@ -8,5 +10,6 @@ public class ConstUtils {
 
 	public static final int PAGE_COUNT = 5;
 
-	public static final String URL = "http://36.7.150.150:18900/persist";
+	public static final String URL = PostUrlConfig.getProp("posturl.properties").getProperty("post.url");
+
 }
