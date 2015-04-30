@@ -36,7 +36,7 @@ public class TwitterCurrentUser {
     /**
      * 获取post接口url
      */
-    private static String getPostUrl(){
+    protected static String getPostUrl(){
         return PostUrlConfig.getProp("posturl.properties").getProperty("post.url");
     }
 
@@ -65,56 +65,49 @@ public class TwitterCurrentUser {
     }
 
     /**
-     * 获取用户推文信息
+     * 获取用户推文信息并POST
      */
-    private List<Status> getUserTimeLineIn(Twitter twitter, String screenName) throws TwitterException {
-        List<Status> result;
+    protected void getUserTimeLineIn(Twitter twitter, String screenName) throws TwitterException {
         Follows follows = new Follows(twitter);
-        result = follows.getUserTimeLine(screenName);
-        logger.info("the size of get Tweet is {}",result.size());
-        return result;
+        follows.getUserTimeLine(screenName);
     }
 
     /**
-     * 设置twitter并获取用户推文信息
+     * 设置twitter并获取用户推文信息post
      */
-    private List<Status> setTwitterUserTimeLine(int index, String screenName) throws TwitterException, InterruptedException {
-        List<Status> result;
+    protected void setTwitterUserTimeLine(int index, String screenName) throws TwitterException, InterruptedException {
         Twitter twitter = setTwitter(index);
-        result = getUserTimeLineIn(twitter, screenName);
-        return result;
+        getUserTimeLineIn(twitter, screenName);
     }
 
     /**
      * 获取新增用户的历史推文信息
      */
-    private List<Status> getUserTimeLine(int index ,String screenName) {
-        List<Status> result;
+    protected void getUserTimeLine(int index ,String screenName) {
         try {
-            result = setTwitterUserTimeLine(index, screenName);
+            setTwitterUserTimeLine(index, screenName);
         } catch (TwitterException e) {
+            logger.info("token's limit is used !! change token");
             index ++;
-            result = getUserTimeLine(index,screenName);
+            getUserTimeLine(index, screenName);
         } catch (InterruptedException e) {
             logger.error("Exception : {}" , LogbackUtil.expection2Str(e));
             throw new RuntimeException(e);
         }
-        return result;
     }
 
     /**
      * 给定指定用户，获取该用户的历史推文信息
      */
-    private List<Status> getUserTimeLine(String screenName){
+    protected void getUserTimeLine(String screenName){
         int index = 0;
-        List<Status> result = getUserTimeLine(index, screenName);
-        return result;
+        getUserTimeLine(index, screenName);
     }
 
     /**
      * 转化获取用户的推文信息，并将其转换做接口需求的格式
      */
-    private List<RecordInfo> exchageTweet(List<Status> statuses){
+    protected List<RecordInfo> exchageTweet(List<Status> statuses){
         List<RecordInfo> result = new ArrayList<>();
         List<TwitterStatus> twitterStatuses = new ArrayList<>();
         Iterator<Status> iterator = statuses.iterator();
@@ -171,7 +164,7 @@ public class TwitterCurrentUser {
     /**
      * 将用户推文信息post到指定接口
      */
-    private void currentUserStatusPost(List<RecordInfo> recordInfos){
+    protected void currentUserStatusPost(List<RecordInfo> recordInfos){
         PostData postData = new PostData();
         postData.setNum(recordInfos.size());
         logger.info("post record number is : " + recordInfos.size());
@@ -199,11 +192,11 @@ public class TwitterCurrentUser {
     /**
      * 获取用户历史信息，并将去Post到指定的接口
      */
-    public void getUserTweetAndPostbyUser(String screenName){
-        List<RecordInfo> recordInfos;
-        recordInfos = exchageTweet(getUserTimeLine(screenName));
-        currentUserStatusPost(recordInfos);
-    }
+//    public void getUserTweetAndPostbyUser(String screenName){
+//        List<RecordInfo> recordInfos;
+//        recordInfos = exchageTweet(getUserTimeLine(screenName));
+//        currentUserStatusPost(recordInfos);
+//    }
 
     /**
      * 获取新增Twitter用户列表
@@ -224,7 +217,9 @@ public class TwitterCurrentUser {
             for(CurrentUserInfo user : users){
                 String userId = user.getUserId();
                 String userName = user.getUserName();
-                getUserTweetAndPostbyUser(userName);
+                logger.info("get current user : {} 's  tweet ", userName);
+//                getUserTweetAndPostbyUser(userName);
+                getUserTimeLine(userName);
                 twitterDaoImpl.deleteTwCurrentUser(userId);
             }
         }
@@ -236,5 +231,4 @@ public class TwitterCurrentUser {
         TwitterCurrentUser spiderCurrentUser = new TwitterCurrentUser();
         spiderCurrentUser.postUserTweet();
     }
-
 }

@@ -183,7 +183,7 @@ public class GoogleCurrentUser {
                 daoImpl.delGpCurrentUserById(userId);
             }
         }
-        Thread.sleep(10*60*1000L);
+        Thread.sleep(30*60*1000L);
         postUserTweet();
     }
 

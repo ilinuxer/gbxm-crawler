@@ -137,9 +137,14 @@ public class TwitterDaoImpl {
 	 * 针对每个用户获取上次since_id
 	 */
 	public long getLastSinceId(String screenName){
+		Long result;
 		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
 			TwitterDao twitterDao = sqlSession.getMapper(TwitterDao.class);
-			return twitterDao.getLastSinceId(screenName);
+			result = twitterDao.getLastSinceId(screenName);
+			if(result==null){
+				result = 1L;
+			}
+			return result;
 		}
 	}
 

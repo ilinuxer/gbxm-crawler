@@ -72,70 +72,54 @@ public class Google {
         return result;
     }
 
-    /**
-     * 传入gplus 应用列表，设置Plus 对象
-     */
-    private Plus setGplus(List<GoogleToken> tokens, int index) throws GeneralSecurityException, IOException {
-        Plus result;
-        GoogleToken token = tokens.get(index);
-        result = setGplus(token);
-        return result;
-    }
 
     /**
      * 根据userId获取用户的推文信息
      */
-    private ArrayList<GooglePlusStatus> getGoogeActivities(List<GoogleToken> tokens, int index, String userId, long lastUpdateTime) throws InterruptedException {
+    private ArrayList<GooglePlusStatus> getGoogeActivities(GoogleToken token, String userId, long lastUpdateTime) throws InterruptedException, GeneralSecurityException, IOException {
         ArrayList<GooglePlusStatus> result = new ArrayList<>();
-        try {
-            Plus plus = setGplus(tokens, index);
-            Plus.Activities.List activities = plus.activities().list(userId, "public");
-            activities.setMaxResults(100L);//最大可设置为100
 
-            //设置获取推文信息参数
-            activities.setFields("nextPageToken,items(id,title,published,updated,url,actor/id,actor/displayName,"
-                    + "object/id,object/actor/id,object/actor/displayName,object/originalContent,object/url,"
-                    + "object/replies/totalItems,object/plusoners/totalItems,object/resharers/totalItems,"
-                    + "object/attachments,annotation,geocode,placeName)");
-            ActivityFeed feed = activities.execute();
+        Plus plus = setGplus(token);
+        Plus.Activities.List activities = plus.activities().list(userId, "public");
+        activities.setMaxResults(100L);//最大可设置为100
 
-            if (feed.getItems() == null | feed.getItems().isEmpty()) {
-                return null;
+        //设置获取推文信息参数
+        activities.setFields("nextPageToken,items(id,title,published,updated,url,actor/id,actor/displayName,"
+                + "object/id,object/actor/id,object/actor/displayName,object/originalContent,object/url,"
+                + "object/replies/totalItems,object/plusoners/totalItems,object/resharers/totalItems,"
+                + "object/attachments,annotation,geocode,placeName)");
+        ActivityFeed feed = activities.execute();
+
+        if (feed.getItems() == null | feed.getItems().isEmpty()) {
+            return null;
+        }
+
+        for (Activity activity : feed.getItems()) {
+            if (activity.getPublished().getValue() <= lastUpdateTime) {
+                break;
             }
-
-            for (Activity activity : feed.getItems()) {
-                if (activity.getPublished().getValue() <= lastUpdateTime) {
-                    break;
-                }
-                result.add(Convert.convertActivity2GPS(activity));
-
-            }
-        } catch (Exception e) {
-            logger.error("Exception : {} ", LogbackUtil.expection2Str(e));
-
-            if (index < tokens.size()) {
-                index++;
-            } else {
-                Thread.sleep(24 * 60 * 60 * 1000L);
-                index = 0;
-            }
-            result = getGoogeActivities(tokens, index, userId, lastUpdateTime);
+            result.add(Convert.convertActivity2GPS(activity));
         }
 
         return result;
     }
 
     /**
+     * 获取监控用户推文信息
      *
+     * @param token
+     * @param userInfo
+     * @throws InterruptedException
      */
-    private void googleActivitiesAction(List<GoogleToken> tokens, int index, UserInfo userInfo) throws InterruptedException {
+    private void googleActivitiesAction(GoogleToken token, UserInfo userInfo) throws InterruptedException, GeneralSecurityException, IOException {
+
         List<RecordInfo> records = new ArrayList<>();
         long currentTime = System.currentTimeMillis();
         String userId = userInfo.getUserId();
         long lastUpdateTime = userInfo.getLastUpdateTime().getTime();
-        ArrayList<GooglePlusStatus> userStatus = getGoogeActivities(tokens, index, userId,lastUpdateTime);
-        if(userStatus.size()>0){
-            for(GooglePlusStatus status:userStatus){
+        ArrayList<GooglePlusStatus> userStatus = getGoogeActivities(token, userId, lastUpdateTime);
+        if (userStatus.size() > 0) {
+            for (GooglePlusStatus status : userStatus) {
                 records.add(Convert.convertGPS2Record(status, currentTime));
             }
             PostData data = new PostData();
@@ -148,20 +132,36 @@ public class Google {
     }
 
     /**
+     * 一个token对应多个用户
+     */
+    private void googleActivitiesAction(GoogleToken token, List<UserInfo> userInfos) throws InterruptedException, GeneralSecurityException, IOException {
+        for (UserInfo userInfo : userInfos) {
+            googleActivitiesAction(token, userInfo);
+        }
+    }
+
+    /**
      *
      */
-    private void googleActivitiesAction(UserInfo userInfo) throws InterruptedException {
-        List<GoogleToken> tokens = getAppsInfo();
-        int index = 0;
-        googleActivitiesAction(tokens,index,userInfo);
+    private void googleActivitiesAction(List<GoogleToken> tokens){
+        int userCount = getUserCount();
+        int tokensCount = tokens.size();
+        int count = userCount/(tokensCount-1);
+        logger.info("{} users each token has",count);
+        //count 每个token分到多少用户
+        int i = 0;
+        while(i<=count){
+
+        }
     }
+
 
     /**
      * 获取分页内的监控用户列表
      */
-    private List<UserInfo> getGplusUserInfos(int index, int size) {
+    private List<UserInfo> getGplusUserInfos(int start, int size) {
         List<UserInfo> result;
-        result = daoImpl.getUsers(index, size);
+        result = daoImpl.getUsers(start, size);
         return result;
     }
 
@@ -175,6 +175,10 @@ public class Google {
 
     public static void main(String[] args) {
         Google google = new Google();
+        System.out.println(google.getUserCount());
+        System.out.println(google.getAppsInfo().size());
+        int size = google.getUserCount() / google.getAppsInfo().size();
+
 //        System.out.println(JsonUtils.toJson(google.getAppsInfo()));
 
     }

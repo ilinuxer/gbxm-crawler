@@ -14,25 +14,20 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.auth.AccessToken;
 import zx.soft.gbxm.twitter.dao.TwitterDaoImpl;
+import zx.soft.gbxm.twitter.domain.RecordInfo;
 import zx.soft.gbxm.twitter.utils.PostUrlConfig;
 
 public class Follows {
+	TwitterCurrentUser twitterCurrentUser = new TwitterCurrentUser();
 
 	public static Logger logger = LoggerFactory.getLogger(Follows.class);
 	private Twitter twitter;
 	private static final int COUNT = 200;//每页的数量,取最大值200
-//	private static int page = 1;//获取第一页信息
-//	private static long sinceId = 1L;
 
 	private TwitterDaoImpl twitterDaoImpl = new TwitterDaoImpl();
 	private final ClientResource clientResource = new ClientResource(URL);
-	private static final String URL = getPostUrl();
-	/**
-	 * 获取post接口url
-	 */
-	private static String getPostUrl(){
-		return PostUrlConfig.getProp("posturl.properties").getProperty("post.url");
-	}
+	private static final String URL = TwitterCurrentUser.getPostUrl();
+
 
 	public Follows(Twitter twitter) {
 		this.twitter = twitter;
@@ -70,51 +65,46 @@ public class Follows {
 	 * 获取新增用户的历史信息，
 	 *
 	 */
-	public List<Status> getUserTimeLine(String screenName) throws TwitterException {
-		List<Status> result = new ArrayList<>();
+	public void getUserTimeLine(String screenName) throws TwitterException {
+		int tweetCount = 0;
 
-		long lastSinceId =0L;
+		long lastSinceId;
 		lastSinceId = twitterDaoImpl.getLastSinceId(screenName);
 		int page = 1;
-		//单页情况
-		Paging paging = new Paging(page,COUNT,lastSinceId);
-		ResponseList<Status> statuses = twitter.getUserTimeline(screenName,paging);
-		if(statuses.size() != 0){
-			twitterDaoImpl.updateTwMonitor(screenName,statuses.get(0).getId());
-			result.addAll(statuses);
-		}
+//		//单页情况
+//		Paging paging = new Paging(page,COUNT,lastSinceId);
+//		ResponseList<Status> statuses = twitter.getUserTimeline(screenName,paging);
+//		if(statuses.size() != 0){
+//			twitterDaoImpl.updateTwMonitor(screenName,statuses.get(0).getId());
+//			result.addAll(statuses);
+//		}
 
 
 		//分页情况
-//		boolean flag = true;
-//		while(flag){
-//			Paging paging = new Paging(page, COUNT, lastSinceId);
-//			ResponseList<Status> statuses = twitter.getHomeTimeline(paging);
-//			if(page==1){
-//				twitterDaoImpl.updateTwMonitor(screenName,statuses.get(0).getId());
-//			}
-//			logger.info("page=" + page + ",size=" + statuses.size());
-//			page++;
-//			if (statuses.size() == 0) {
-//				flag = false;
-//			} else {
-//				result.addAll(statuses);
-//			}
-//		}
-		return result;
+		boolean flag = true;
+		while(flag){
+			Paging paging = new Paging(page, COUNT, lastSinceId);
+			ResponseList<Status> statuses = twitter.getUserTimeline(screenName,paging);
+			if(page==1 && statuses.size()!=0){
+				twitterDaoImpl.updateTwMonitor(screenName,statuses.get(0).getId());
+			}
+			logger.info("page=" + page + ",size=" + statuses.size());
+			tweetCount = tweetCount + statuses.size();
+			page++;
+			if (statuses.size() == 0) {
+				flag = false;
+			} else {
+				//获取数据并post到指定接口
+				List<RecordInfo> recordInfos = twitterCurrentUser.exchageTweet(statuses);
+				twitterCurrentUser.currentUserStatusPost(recordInfos);
+			}
+		}
+		logger.info("{} tweet "+tweetCount +" tweet ",screenName);
 	}
 
 	public void setAccessToken(AccessToken accessToken) {
 		twitter.setOAuthAccessToken(accessToken);
 	}
-
-//	public void setSinceId(long sinceId) {
-//		this.sinceId = sinceId;
-//	}
-//
-//	public long getSinceId() {
-//		return sinceId;
-//	}
 
 	public Twitter getTwitter() {
 		return this.twitter;

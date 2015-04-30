@@ -21,18 +21,18 @@ public class TwitterUser {
     }
 
     private void postDataByUser(String screenName){
-        logger.info("get {} 's tweet ",screenName);
-        twitterCurrentUser.getUserTweetAndPostbyUser(screenName);
+        twitterCurrentUser.getUserTimeLine(screenName);
     }
 
     private void postUserTweet() throws InterruptedException {
         List<MonitorUser> users = getMonitorUsers();
-        if(users.size()!=0){
+        logger.info("monitor user count is {} " , users.size());
+        if(users.size()!=0 && !users.isEmpty()){
             for(MonitorUser user : users){
                 postDataByUser(user.getScreenName());
             }
         }
-        Thread.sleep(10*60*1000L);
+        Thread.sleep(30*60*1000L);
         postUserTweet();
     }
 
