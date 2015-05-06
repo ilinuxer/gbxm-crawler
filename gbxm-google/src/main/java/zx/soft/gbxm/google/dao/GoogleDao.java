@@ -46,6 +46,12 @@ public interface GoogleDao {
 	public List<UserInfo> getUsers(int start,int size);
 
 	/**
+	 * 获取跟踪推文信息列表
+	 */
+	@Select("SELECT `status_id` FROM `status_monitor` WHERE `status_sns` = \"gp\"")
+	public List<String> getGpFocusStatuses();
+
+	/**
 	 * 获取总的监控用户数量
 	 */
 	@Select("SELECT COUNT(1) FROM `googleUserInfos`")

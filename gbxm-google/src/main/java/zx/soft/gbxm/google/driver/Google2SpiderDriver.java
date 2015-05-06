@@ -6,12 +6,11 @@ import java.security.GeneralSecurityException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import zx.soft.gbxm.google.api.GoogleCurrentUserSpider;
-import zx.soft.gbxm.google.api.GoogleSpider;
+import zx.soft.gbxm.google.api.Google2Spider;
 
-public class GoogleSpiderDriver {
+public class Google2SpiderDriver {
 
-    private static Logger logger = LoggerFactory.getLogger(GoogleSpiderDriver.class);
+    private static Logger logger = LoggerFactory.getLogger(Google2SpiderDriver.class);
 
     public static void main(String[] args) throws IOException, GeneralSecurityException, InterruptedException {
         if (args.length == 0) {
@@ -23,12 +22,15 @@ public class GoogleSpiderDriver {
         switch (args[0]) {
             case "googleSpider":
                 logger.info("google spider: ");
-                GoogleSpider.main(leftArgs);
+                Google2Spider.main(leftArgs);
+//                GoogleUser.main(leftArgs);
+//                GoogleSpider.main(leftArgs);
                 break;
-            case "currentSpider":
-                logger.info("google current spider:");
-                GoogleCurrentUserSpider.main(leftArgs);
-                break;
+//            case "currentSpider":
+//                logger.info("google current spider:");
+//                GoogleCurrentUserSpider.main(leftArgs);
+//                GoogleCurrentUser.main(leftArgs);
+//                break;
             default:
                 return;
         }

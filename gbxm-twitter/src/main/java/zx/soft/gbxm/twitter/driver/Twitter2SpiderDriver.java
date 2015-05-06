@@ -5,17 +5,14 @@ import java.io.IOException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import zx.soft.gbxm.twitter.api.TwitterCurrentUserSpider;
-import zx.soft.gbxm.twitter.api.TwitterSpider;
+import zx.soft.gbxm.twitter.api.Twitter2Spider;
 
 /**
  * 驱动类
- *
- * @author fgq
  */
-public class TwitterSpiderDriver {
+public class Twitter2SpiderDriver {
 
-    private static Logger logger = LoggerFactory.getLogger(TwitterSpiderDriver.class);
+    private static Logger logger = LoggerFactory.getLogger(Twitter2SpiderDriver.class);
 
     /**
      * 主函数
@@ -24,6 +21,7 @@ public class TwitterSpiderDriver {
      * @throws IOException
      */
     public static void main(String[] args) throws InterruptedException, IOException {
+
 
         if (args.length == 0) {
             System.err.println("Usage: Driver <class-name>");
@@ -35,16 +33,14 @@ public class TwitterSpiderDriver {
         switch (args[0]) {
             case "twitterSpider":
                 logger.info("twitter spider： ");
-                TwitterSpider.main(leftArgs);
-                break;
-            case "currentSpider":
-                logger.info("current twitter spider: ");
-                TwitterCurrentUserSpider.main(leftArgs);
+                Twitter2Spider.main(leftArgs);
                 break;
             default:
                 return;
         }
 
     }
+
+
 
 }

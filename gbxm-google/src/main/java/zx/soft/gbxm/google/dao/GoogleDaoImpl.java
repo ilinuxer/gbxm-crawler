@@ -4,13 +4,11 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import zx.soft.gbxm.google.api.Google;
 import zx.soft.gbxm.google.domain.GooglePlusStatus;
 import zx.soft.gbxm.google.domain.GoogleToken;
 import zx.soft.gbxm.google.domain.UserInfo;
@@ -59,7 +57,7 @@ public class GoogleDaoImpl {
 		List<UserInfo> result;
 		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
 			GoogleDao googleDao = sqlSession.getMapper(GoogleDao.class);
-			result = googleDao.getUsers(index * 100, size);
+			result = googleDao.getUsers(index, size);
 		}
 		return result;
 
@@ -86,6 +84,17 @@ public class GoogleDaoImpl {
 			logger.info("deleted from current user {}" ,userId);
 		}
 
+	}
+	/**
+	 * 获取跟踪推文信息列表
+	 */
+	public List<String> getGpFocusStatuses(){
+		List<String> result;
+		try(SqlSession sqlSession = sqlSessionFactory.openSession()){
+			GoogleDao googleDao = sqlSession.getMapper(GoogleDao.class);
+			result = googleDao.getGpFocusStatuses();
+		}
+		return result;
 	}
 
 	//获得表长度

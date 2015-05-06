@@ -223,7 +223,8 @@ public class TwitterCurrentUser {
                 twitterDaoImpl.deleteTwCurrentUser(userId);
             }
         }
-        Thread.sleep(30*60*1000L);
+        logger.info("start sleep ,please check it 0.25 hour's latter");
+        Thread.sleep(15*60*1000L);
         postUserTweet();
     }
 

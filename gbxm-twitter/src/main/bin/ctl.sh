@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mainClass=zx.soft.gbxm.twitter.driver.TwitterSpiderDriver
+mainClass=zx.soft.gbxm.twitter.driver.Twitter2SpiderDriver
 
 # resolve links - $0 may be a softlink
 PRG="$0"

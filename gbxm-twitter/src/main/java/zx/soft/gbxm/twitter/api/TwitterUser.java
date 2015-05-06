@@ -24,7 +24,7 @@ public class TwitterUser {
         twitterCurrentUser.getUserTimeLine(screenName);
     }
 
-    private void postUserTweet() throws InterruptedException {
+    protected void postUserTweet() throws InterruptedException {
         List<MonitorUser> users = getMonitorUsers();
         logger.info("monitor user count is {} " , users.size());
         if(users.size()!=0 && !users.isEmpty()){
@@ -32,13 +32,13 @@ public class TwitterUser {
                 postDataByUser(user.getScreenName());
             }
         }
+        logger.info("start sleep ,please check it 0.5 hour's latter");
         Thread.sleep(30*60*1000L);
         postUserTweet();
     }
 
     public static void main(String[] args) {
         TwitterUser twitterUser = new TwitterUser();
-//        System.out.println(JsonUtils.toJson(twitterUser.getMonitorUsers()));
         try {
             twitterUser.postUserTweet();
         } catch (InterruptedException e) {

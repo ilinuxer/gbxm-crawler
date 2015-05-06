@@ -1,19 +1,720 @@
-2015-04-28 16:06:17,805 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：2
-2015-04-28 16:06:23,272 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 100
-2015-04-28 16:06:24,978 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-04-28 16:08:34,114 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：2
-2015-04-28 16:08:37,685 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 100
-2015-04-28 16:08:38,754 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-04-28 16:10:01,229 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：2
-2015-04-28 16:10:04,522 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 100
-2015-04-28 16:10:05,660 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-04-28 16:10:08,678 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 100
-2015-04-28 16:10:09,391 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-04-28 16:27:55,051 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：0
-2015-04-28 16:34:36,240 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:177] - 本次查找到新增用户数量为 ：2
-2015-04-28 16:34:39,609 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 61
-2015-04-28 16:34:40,534 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-04-28 16:34:40,540 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:86 ] - deleted from current user 107104888235128311144
-2015-04-28 16:34:43,492 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:154] - post record number is 100
-2015-04-28 16:34:44,187 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-04-28 16:34:44,190 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:86 ] - deleted from current user 104888438811403077762
+2015-05-06 10:10:14,224 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：3
+2015-05-06 10:10:18,596 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 107658787431067089650 's tweet 
+2015-05-06 10:10:18,620 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:157] - post record number is 100
+2015-05-06 10:10:19,783 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-06 10:10:20,629 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:84 ] - deleted from current user 107658787431067089650
+2015-05-06 10:10:23,765 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 109683997264820223800 's tweet 
+2015-05-06 10:10:23,781 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:157] - post record number is 100
+2015-05-06 10:10:24,464 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-06 10:10:25,173 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:84 ] - deleted from current user 109683997264820223800
+2015-05-06 10:10:27,657 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 103391122277267904430 's tweet 
+2015-05-06 10:10:27,674 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:157] - post record number is 100
+2015-05-06 10:10:28,371 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-06 10:10:29,090 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:84 ] - deleted from current user 103391122277267904430
+2015-05-06 10:11:03,937 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:163] - [ {
+  "userId" : "115507729860405305367",
+  "userName" : "匆匆过客",
+  "lastUpdateTime" : "Wed May 06 10:58:05 CST 2015"
+}, {
+  "userId" : "115966731066290970501",
+  "userName" : "Terence Shen",
+  "lastUpdateTime" : "Wed May 06 10:58:07 CST 2015"
+}, {
+  "userId" : "116783753306852576430",
+  "userName" : "半世繁华 #",
+  "lastUpdateTime" : "Wed May 06 10:58:09 CST 2015"
+}, {
+  "userId" : "110924633889503463658",
+  "userName" : "阿波罗网",
+  "lastUpdateTime" : "Wed May 06 10:58:11 CST 2015"
+}, {
+  "userId" : "112490042570629515172",
+  "userName" : "温云超",
+  "lastUpdateTime" : "Wed May 06 10:58:13 CST 2015"
+}, {
+  "userId" : "117567717331828811008",
+  "userName" : "香港泛藍頻道 Pan-Blue Coalition (HK)",
+  "lastUpdateTime" : "Wed May 06 10:58:14 CST 2015"
+}, {
+  "userId" : "106588126896466413629",
+  "userName" : "沈良庆",
+  "lastUpdateTime" : "Wed May 06 10:58:16 CST 2015"
+}, {
+  "userId" : "114298116173607662731",
+  "userName" : "张佳佳",
+  "lastUpdateTime" : "Wed May 06 10:58:18 CST 2015"
+}, {
+  "userId" : "115765325971597823747",
+  "userName" : "巴黎张健",
+  "lastUpdateTime" : "Wed May 06 10:58:18 CST 2015"
+}, {
+  "userId" : "117434449313782369534",
+  "userName" : "Bored Panda",
+  "lastUpdateTime" : "Wed May 06 10:58:19 CST 2015"
+}, {
+  "userId" : "101842039723189178420",
+  "userName" : "adidas",
+  "lastUpdateTime" : "Wed May 06 10:58:21 CST 2015"
+}, {
+  "userId" : "114652426720393992131",
+  "userName" : "Angry Birds Guide",
+  "lastUpdateTime" : "Wed May 06 10:58:22 CST 2015"
+}, {
+  "userId" : "106514245945423854894",
+  "userName" : "TGN",
+  "lastUpdateTime" : "Wed May 06 10:58:23 CST 2015"
+}, {
+  "userId" : "108135164222994461119",
+  "userName" : "Jewel Daab",
+  "lastUpdateTime" : "Wed May 06 10:58:24 CST 2015"
+}, {
+  "userId" : "102936327893428076685",
+  "userName" : "ROBLOX",
+  "lastUpdateTime" : "Wed May 06 10:58:26 CST 2015"
+}, {
+  "userId" : "101672346056816602228",
+  "userName" : "Nintendo",
+  "lastUpdateTime" : "Wed May 06 10:58:28 CST 2015"
+}, {
+  "userId" : "111967417062761314875",
+  "userName" : "博谈网",
+  "lastUpdateTime" : "Wed May 06 10:58:30 CST 2015"
+}, {
+  "userId" : "102747773522123588602",
+  "userName" : "蔡玉珠",
+  "lastUpdateTime" : "Wed May 06 10:58:32 CST 2015"
+}, {
+  "userId" : "100917823525814237110",
+  "userName" : "Xbox 360 Cheats",
+  "lastUpdateTime" : "Wed May 06 10:58:34 CST 2015"
+}, {
+  "userId" : "104569341456857245757",
+  "userName" : "Game Informer",
+  "lastUpdateTime" : "Wed May 06 10:58:36 CST 2015"
+}, {
+  "userId" : "111439001801024738155",
+  "userName" : "Lumosity",
+  "lastUpdateTime" : "Wed May 06 10:58:38 CST 2015"
+}, {
+  "userId" : "112979554768234842332",
+  "userName" : "Deadtales machinima",
+  "lastUpdateTime" : "Wed May 06 10:58:40 CST 2015"
+}, {
+  "userId" : "116076382061631523609",
+  "userName" : "EverQuest Next",
+  "lastUpdateTime" : "Wed May 06 10:58:41 CST 2015"
+}, {
+  "userId" : "110234839124607982532",
+  "userName" : "VICE UK",
+  "lastUpdateTime" : "Wed May 06 10:58:43 CST 2015"
+}, {
+  "userId" : "107658787431067089650",
+  "userName" : "Smosh",
+  "lastUpdateTime" : "Wed May 06 10:10:18 CST 2015"
+}, {
+  "userId" : "109683997264820223800",
+  "userName" : "Qwertee",
+  "lastUpdateTime" : "Wed May 06 10:10:23 CST 2015"
+}, {
+  "userId" : "103391122277267904430",
+  "userName" : "New York Red Bulls",
+  "lastUpdateTime" : "Wed May 06 10:10:27 CST 2015"
+} ]
+2015-05-06 10:11:03,942 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 10:11:07,896 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-05-06 10:11:08,372 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-06 10:11:10,268 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-05-06 10:11:10,739 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-06 10:11:13,092 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-06 10:11:13,575 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-06 10:11:16,454 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 阿波罗网 's tweets number is 0
+2015-05-06 10:11:16,935 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-06 10:11:17,900 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-05-06 10:11:18,385 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-06 10:11:21,069 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-06 10:11:21,542 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-06 10:11:23,945 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-05-06 10:11:24,442 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-06 10:11:25,437 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-05-06 10:11:25,911 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-06 10:11:27,173 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-05-06 10:11:27,641 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-06 10:11:29,859 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-05-06 10:11:30,339 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-06 10:11:32,547 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-05-06 10:11:33,352 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds Guide 's tweet 
+2015-05-06 10:11:34,787 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds Guide 's tweets number is 0
+2015-05-06 10:11:35,301 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-06 10:11:37,332 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-05-06 10:11:37,809 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-06 10:11:39,753 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-05-06 10:11:40,230 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-06 10:11:42,486 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-05-06 10:11:42,973 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-06 10:11:45,298 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-05-06 10:11:45,769 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-06 10:11:48,874 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 博谈网 's tweets number is 0
+2015-05-06 10:11:49,346 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-06 10:11:51,630 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-06 10:11:52,105 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-06 10:11:54,271 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-06 10:11:54,744 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-06 10:11:56,898 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Game Informer 's tweets number is 0
+2015-05-06 10:11:57,389 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-06 10:11:59,982 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
+2015-05-06 10:12:00,478 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Deadtales machinima 's tweet 
+2015-05-06 10:12:02,703 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Deadtales machinima 's tweets number is 0
+2015-05-06 10:12:03,196 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-06 10:12:05,140 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
+2015-05-06 10:12:05,612 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE UK 's tweet 
+2015-05-06 10:12:07,056 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE UK 's tweets number is 0
+2015-05-06 10:12:07,528 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-06 10:12:10,581 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
+2015-05-06 10:12:11,058 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-06 10:12:13,358 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Qwertee 's tweets number is 0
+2015-05-06 10:12:13,835 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get New York Red Bulls 's tweet 
+2015-05-06 10:12:16,016 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user New York Red Bulls 's tweets number is 0
+2015-05-06 10:13:42,678 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 10:13:46,159 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-05-06 10:13:46,637 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-06 10:13:48,880 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-05-06 10:13:49,358 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-06 10:13:51,815 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-06 10:13:52,627 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-06 10:13:55,499 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 阿波罗网 's tweets number is 0
+2015-05-06 10:13:55,967 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-06 10:13:56,895 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-05-06 10:13:57,359 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-06 10:13:59,997 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-06 10:14:00,461 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-06 10:14:02,502 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-05-06 10:14:02,966 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-06 10:14:03,986 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-05-06 10:14:04,456 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-06 10:14:05,808 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-05-06 10:14:06,273 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-06 10:14:08,549 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-05-06 10:14:09,018 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-06 10:14:11,269 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-05-06 10:14:11,744 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds Guide 's tweet 
+2015-05-06 10:14:12,736 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds Guide 's tweets number is 0
+2015-05-06 10:14:13,203 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-06 10:14:15,317 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-05-06 10:14:15,788 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-06 10:14:17,414 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-05-06 10:14:17,882 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-06 10:14:20,251 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-05-06 10:14:20,721 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-06 10:14:22,487 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-05-06 10:14:22,953 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-06 10:14:26,216 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 博谈网 's tweets number is 0
+2015-05-06 10:14:26,684 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-06 10:14:28,817 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-06 10:14:29,280 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-06 10:14:31,586 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-06 10:14:32,054 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-06 10:14:33,927 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Game Informer 's tweets number is 0
+2015-05-06 10:14:34,410 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-06 10:14:36,590 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
+2015-05-06 10:14:37,059 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Deadtales machinima 's tweet 
+2015-05-06 10:14:38,970 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Deadtales machinima 's tweets number is 0
+2015-05-06 10:14:39,442 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-06 10:14:41,495 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
+2015-05-06 10:14:41,962 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE UK 's tweet 
+2015-05-06 10:14:43,272 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE UK 's tweets number is 0
+2015-05-06 10:14:43,747 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-06 10:14:47,466 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
+2015-05-06 10:14:47,934 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-06 10:14:50,088 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Qwertee 's tweets number is 0
+2015-05-06 10:14:50,556 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get New York Red Bulls 's tweet 
+2015-05-06 10:14:53,438 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user New York Red Bulls 's tweets number is 0
+2015-05-06 10:40:29,683 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：1
+2015-05-06 10:40:33,074 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 111395306401981598462 's tweet 
+2015-05-06 10:40:33,086 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:157] - post record number is 100
+2015-05-06 10:40:34,425 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-06 10:40:35,134 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:84 ] - deleted from current user 111395306401981598462
+2015-05-06 10:50:31,895 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：2
+2015-05-06 10:50:35,399 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 112862156630911696233 's tweet 
+2015-05-06 10:50:35,423 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:157] - post record number is 100
+2015-05-06 10:50:36,553 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-06 10:50:37,278 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:84 ] - deleted from current user 112862156630911696233
+2015-05-06 10:50:39,300 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 103296322950048605562 's tweet 
+2015-05-06 10:50:39,303 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:157] - post record number is 15
+2015-05-06 10:50:39,574 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-06 10:50:40,274 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:84 ] - deleted from current user 103296322950048605562
+2015-05-06 10:50:40,391 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 10:50:42,625 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 10:50:46,223 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-05-06 10:50:46,704 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-06 10:50:49,018 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-05-06 10:50:49,497 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-06 10:50:51,848 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-06 10:50:52,330 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-06 10:50:55,725 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-06 10:50:55,726 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user 阿波罗网 's tweets number is 5
+2015-05-06 10:50:56,216 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-06 10:50:57,364 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-05-06 10:50:57,847 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-06 10:51:00,599 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-06 10:51:01,073 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-06 10:51:03,297 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-05-06 10:51:03,771 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-06 10:51:05,200 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-05-06 10:51:05,677 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-06 10:51:07,255 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-05-06 10:51:07,730 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-06 10:51:10,399 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-05-06 10:51:10,882 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-06 10:51:13,481 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-05-06 10:51:13,961 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds Guide 's tweet 
+2015-05-06 10:51:15,102 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds Guide 's tweets number is 0
+2015-05-06 10:51:15,577 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-06 10:51:18,331 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-05-06 10:51:18,817 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-06 10:51:20,924 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-05-06 10:51:21,400 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-06 10:51:23,876 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-05-06 10:51:24,354 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-06 10:51:26,737 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-05-06 10:51:27,226 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-06 10:51:30,354 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-06 10:51:30,355 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user 博谈网 's tweets number is 1
+2015-05-06 10:51:30,830 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-06 10:51:33,287 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-06 10:51:33,759 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-06 10:51:36,178 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-06 10:51:36,652 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-06 10:51:38,925 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Game Informer 's tweets number is 0
+2015-05-06 10:51:39,400 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-06 10:51:42,046 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
+2015-05-06 10:51:42,520 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Deadtales machinima 's tweet 
+2015-05-06 10:51:44,785 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Deadtales machinima 's tweets number is 0
+2015-05-06 10:51:45,265 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-06 10:51:47,178 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
+2015-05-06 10:51:47,655 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE UK 's tweet 
+2015-05-06 10:51:49,334 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE UK 's tweets number is 0
+2015-05-06 10:51:49,809 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-06 10:51:53,644 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
+2015-05-06 10:51:54,118 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-06 10:51:56,424 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Qwertee 's tweets number is 0
+2015-05-06 10:51:56,896 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get New York Red Bulls 's tweet 
+2015-05-06 10:51:59,189 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user New York Red Bulls 's tweets number is 0
+2015-05-06 10:51:59,668 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Developers 's tweet 
+2015-05-06 10:52:02,486 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google Developers 's tweets number is 0
+2015-05-06 10:52:02,976 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen Türkiye 's tweet 
+2015-05-06 10:52:05,280 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user AskMen Türkiye 's tweets number is 0
+2015-05-06 10:52:05,754 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes of Kingennie 's tweet 
+2015-05-06 10:52:06,951 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Forbes of Kingennie 's tweets number is 0
+2015-05-06 10:53:06,261 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 10:53:09,996 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-05-06 10:53:10,479 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-06 10:53:12,679 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-05-06 10:53:13,164 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-06 10:53:15,532 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-06 10:53:16,014 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-06 10:53:18,691 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 阿波罗网 's tweets number is 0
+2015-05-06 10:53:19,215 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-06 10:53:20,475 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-05-06 10:53:20,957 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-06 10:53:23,972 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-06 10:53:24,456 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-06 10:53:26,666 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-05-06 10:53:27,149 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-06 10:53:28,291 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-05-06 10:53:28,769 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-06 10:53:30,288 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-05-06 10:53:30,785 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-06 10:53:33,426 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-05-06 10:53:33,922 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-06 10:53:36,261 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-05-06 10:53:36,737 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds Guide 's tweet 
+2015-05-06 10:53:37,979 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds Guide 's tweets number is 0
+2015-05-06 10:53:38,459 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-06 10:53:41,079 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-05-06 10:53:41,566 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-06 10:53:43,496 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-05-06 10:53:44,015 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-06 10:53:46,521 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-05-06 10:53:47,005 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-06 10:53:49,130 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-05-06 10:53:49,618 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-06 10:53:53,464 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-06 10:53:53,464 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user 博谈网 's tweets number is 1
+2015-05-06 10:53:53,950 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-06 10:53:56,913 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-06 10:53:57,416 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-06 10:53:59,823 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-06 10:54:00,312 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-06 10:54:02,721 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Game Informer 's tweets number is 0
+2015-05-06 10:54:03,214 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-06 10:54:05,704 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
+2015-05-06 10:54:06,195 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Deadtales machinima 's tweet 
+2015-05-06 10:54:08,048 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Deadtales machinima 's tweets number is 0
+2015-05-06 10:54:08,540 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-06 10:54:10,610 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
+2015-05-06 10:54:11,105 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE UK 's tweet 
+2015-05-06 10:54:12,441 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE UK 's tweets number is 0
+2015-05-06 10:54:12,918 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-06 10:54:16,565 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
+2015-05-06 10:54:17,041 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-06 10:54:19,188 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Qwertee 's tweets number is 0
+2015-05-06 10:54:19,666 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get New York Red Bulls 's tweet 
+2015-05-06 10:54:21,802 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user New York Red Bulls 's tweets number is 0
+2015-05-06 10:54:22,290 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Developers 's tweet 
+2015-05-06 10:54:24,880 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google Developers 's tweets number is 0
+2015-05-06 10:54:25,366 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen Türkiye 's tweet 
+2015-05-06 10:54:27,590 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user AskMen Türkiye 's tweets number is 0
+2015-05-06 10:54:28,066 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes of Kingennie 's tweet 
+2015-05-06 10:54:29,374 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Forbes of Kingennie 's tweets number is 0
+2015-05-06 10:54:42,645 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 10:54:46,691 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-05-06 10:54:47,163 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-06 10:54:49,343 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-05-06 10:54:49,837 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-06 10:54:52,374 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-06 10:54:52,835 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-06 10:54:55,354 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 阿波罗网 's tweets number is 0
+2015-05-06 10:54:55,827 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-06 10:54:56,926 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-05-06 10:54:57,407 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-06 10:55:00,174 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-06 10:55:00,642 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-06 10:55:02,927 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-05-06 10:55:03,398 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-06 10:55:04,554 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-05-06 10:55:05,029 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-06 10:55:06,858 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-05-06 10:55:07,329 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-06 10:55:09,777 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-05-06 10:55:10,242 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-06 10:55:12,768 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-05-06 10:55:13,234 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds Guide 's tweet 
+2015-05-06 10:55:14,399 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds Guide 's tweets number is 0
+2015-05-06 10:55:14,865 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-06 10:55:17,547 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-05-06 10:55:18,012 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-06 10:55:20,096 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-05-06 10:55:20,562 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-06 10:55:23,053 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-05-06 10:55:23,517 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-06 10:55:25,864 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-05-06 10:55:26,340 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-06 10:55:29,608 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 博谈网 's tweets number is 0
+2015-05-06 10:55:30,073 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-06 10:55:32,844 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-06 10:55:33,308 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-06 10:55:35,717 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-06 10:55:36,181 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-06 10:55:38,821 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Game Informer 's tweets number is 0
+2015-05-06 10:55:39,283 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-06 10:55:41,792 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
+2015-05-06 10:55:42,257 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Deadtales machinima 's tweet 
+2015-05-06 10:55:44,347 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Deadtales machinima 's tweets number is 0
+2015-05-06 10:55:44,814 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-06 10:55:47,128 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
+2015-05-06 10:55:47,631 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE UK 's tweet 
+2015-05-06 10:55:49,023 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE UK 's tweets number is 0
+2015-05-06 10:55:49,495 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-06 10:55:52,770 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
+2015-05-06 10:55:53,283 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-06 10:55:55,471 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Qwertee 's tweets number is 0
+2015-05-06 10:55:55,949 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get New York Red Bulls 's tweet 
+2015-05-06 10:55:58,000 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user New York Red Bulls 's tweets number is 0
+2015-05-06 10:55:58,471 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Developers 's tweet 
+2015-05-06 10:56:00,904 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google Developers 's tweets number is 0
+2015-05-06 10:56:01,396 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen Türkiye 's tweet 
+2015-05-06 10:56:03,408 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user AskMen Türkiye 's tweets number is 0
+2015-05-06 10:56:03,893 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes of Kingennie 's tweet 
+2015-05-06 10:56:05,052 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Forbes of Kingennie 's tweets number is 0
+2015-05-06 10:56:05,576 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
+2015-05-06 11:17:10,520 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 11:17:14,765 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-05-06 11:17:15,239 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-06 11:17:20,779 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-05-06 11:17:21,360 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-06 11:17:24,480 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-06 11:17:24,962 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-06 11:17:27,431 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 阿波罗网 's tweets number is 0
+2015-05-06 11:17:27,896 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-06 11:17:28,907 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-05-06 11:17:29,372 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-06 11:17:32,260 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-06 11:17:32,727 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-06 11:17:35,262 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-05-06 11:17:35,724 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-06 11:17:36,755 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-05-06 11:17:37,216 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-06 11:17:38,542 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-05-06 11:17:39,006 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-06 11:17:41,260 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-05-06 11:17:41,722 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-06 11:17:43,918 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-05-06 11:17:44,388 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds Guide 's tweet 
+2015-05-06 11:17:45,427 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds Guide 's tweets number is 0
+2015-05-06 11:17:45,893 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-06 11:17:47,823 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-05-06 11:17:48,289 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-06 11:17:49,929 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-05-06 11:17:50,397 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-06 11:17:52,748 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-05-06 11:17:53,211 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-06 11:17:55,187 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-05-06 11:17:55,654 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-06 11:17:58,258 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 博谈网 's tweets number is 0
+2015-05-06 11:17:58,723 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-06 11:18:01,160 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-06 11:18:01,630 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-06 11:18:03,905 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-06 11:18:04,371 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-06 11:18:06,653 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Game Informer 's tweets number is 0
+2015-05-06 11:18:07,118 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-06 11:18:09,368 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
+2015-05-06 11:18:09,829 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Deadtales machinima 's tweet 
+2015-05-06 11:18:11,778 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Deadtales machinima 's tweets number is 0
+2015-05-06 11:18:12,242 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-06 11:18:14,059 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
+2015-05-06 11:18:14,519 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE UK 's tweet 
+2015-05-06 11:18:16,000 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE UK 's tweets number is 0
+2015-05-06 11:18:16,461 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-06 11:18:19,962 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
+2015-05-06 11:18:20,430 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-06 11:18:22,716 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Qwertee 's tweets number is 0
+2015-05-06 11:18:23,179 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get New York Red Bulls 's tweet 
+2015-05-06 11:18:25,150 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user New York Red Bulls 's tweets number is 0
+2015-05-06 11:18:25,621 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Developers 's tweet 
+2015-05-06 11:18:27,947 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google Developers 's tweets number is 0
+2015-05-06 11:18:28,410 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen Türkiye 's tweet 
+2015-05-06 11:18:30,526 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user AskMen Türkiye 's tweets number is 0
+2015-05-06 11:18:30,987 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes of Kingennie 's tweet 
+2015-05-06 11:18:32,259 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Forbes of Kingennie 's tweets number is 0
+2015-05-06 11:18:32,718 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
+2015-05-06 11:18:34,884 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user msnbc 's tweets number is 0
+2015-05-06 11:18:35,349 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
+2015-05-06 11:20:40,863 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
+2015-05-06 11:20:40,864 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 11:35:09,906 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：1
+2015-05-06 11:35:12,728 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 110234839124607982532 's tweet 
+2015-05-06 11:35:13,442 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:84 ] - deleted from current user 110234839124607982532
+2015-05-06 11:35:13,561 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 11:50:23,911 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
+2015-05-06 11:50:23,917 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 11:50:37,642 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 11:50:41,589 [main] ERROR zx.soft.utils.time.TimeUtils [Line:112] - Exception:Unparseable date: "2015-05-06T03:49:33.933Z";java.text.DateFormat.parse(DateFormat.java:357);zx.soft.utils.time.TimeUtils.transTimeLong(TimeUtils.java:109);zx.soft.gbxm.google.common.Convert.convertGPS2Record(Convert.java:90);zx.soft.gbxm.google.api.GoogleUser.googleActivitiesSingle(GoogleUser.java:113);zx.soft.gbxm.google.api.GoogleUser.googleActivitiesByToken(GoogleUser.java:133);zx.soft.gbxm.google.api.GoogleUser.googleActivitiesMutils(GoogleUser.java:165);zx.soft.gbxm.google.api.GoogleUser.googleAction(GoogleUser.java:194);zx.soft.gbxm.google.api.GoogleUser.main(GoogleUser.java:201);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:606);com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+2015-05-06 11:50:41,589 [main] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:167] - this token is over limited 
+2015-05-06 11:50:41,589 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
+2015-05-06 12:20:24,411 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
+2015-05-06 12:20:24,411 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 12:50:26,981 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
+2015-05-06 12:50:26,981 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 12:50:48,562 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 12:51:16,672 [main] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:167] - this token is over limited 
+2015-05-06 12:51:16,673 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
+2015-05-06 13:20:27,478 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
+2015-05-06 13:20:27,478 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 13:24:40,713 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 13:24:44,992 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-05-06 13:24:45,454 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-06 13:24:47,864 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-05-06 13:24:48,324 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-06 13:24:50,830 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-06 13:24:51,289 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-06 13:24:54,394 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 阿波罗网 's tweets number is 0
+2015-05-06 13:24:54,852 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-06 13:24:55,840 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-05-06 13:24:56,301 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-06 13:24:58,865 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-06 13:24:59,326 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-06 13:25:01,552 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-05-06 13:25:02,012 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-06 13:25:03,014 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-05-06 13:25:03,474 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-06 13:25:05,030 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-05-06 13:25:05,490 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-06 13:25:07,895 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-05-06 13:25:08,353 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-06 13:25:10,427 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-05-06 13:25:10,886 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds Guide 's tweet 
+2015-05-06 13:25:11,908 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds Guide 's tweets number is 0
+2015-05-06 13:25:12,371 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-06 13:25:14,367 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-05-06 13:25:14,831 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-06 13:25:16,626 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-05-06 13:25:17,089 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-06 13:25:19,409 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-05-06 13:25:19,869 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-06 13:25:22,067 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-05-06 13:25:22,528 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-06 13:25:25,109 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 博谈网 's tweets number is 0
+2015-05-06 13:25:25,568 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-06 13:25:27,722 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-06 13:25:28,185 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-06 13:25:30,789 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-06 13:25:31,247 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-06 13:25:33,412 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Game Informer 's tweets number is 0
+2015-05-06 13:25:33,872 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-06 13:25:36,311 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
+2015-05-06 13:25:36,776 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Deadtales machinima 's tweet 
+2015-05-06 13:25:39,019 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Deadtales machinima 's tweets number is 0
+2015-05-06 13:25:39,480 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-06 13:25:41,285 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
+2015-05-06 13:25:41,743 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE UK 's tweet 
+2015-05-06 13:25:43,217 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE UK 's tweets number is 0
+2015-05-06 13:25:43,676 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-06 13:25:47,064 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
+2015-05-06 13:25:47,523 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-06 13:25:49,547 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Qwertee 's tweets number is 0
+2015-05-06 13:25:50,005 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get New York Red Bulls 's tweet 
+2015-05-06 13:25:52,078 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user New York Red Bulls 's tweets number is 0
+2015-05-06 13:25:52,539 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Developers 's tweet 
+2015-05-06 13:25:54,970 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google Developers 's tweets number is 0
+2015-05-06 13:25:55,430 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen Türkiye 's tweet 
+2015-05-06 13:25:57,375 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user AskMen Türkiye 's tweets number is 0
+2015-05-06 13:25:57,832 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes of Kingennie 's tweet 
+2015-05-06 13:25:59,000 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Forbes of Kingennie 's tweets number is 0
+2015-05-06 13:25:59,461 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
+2015-05-06 13:26:01,799 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user msnbc 's tweets number is 0
+2015-05-06 13:26:02,256 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jimbo Han 's tweet 
+2015-05-06 13:26:03,280 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jimbo Han 's tweets number is 0
+2015-05-06 13:26:03,742 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
+2015-05-06 13:50:27,963 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
+2015-05-06 13:50:27,963 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 14:20:29,417 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
+2015-05-06 14:20:29,418 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 14:26:04,579 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 14:26:08,310 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-05-06 14:26:08,772 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-06 14:26:10,623 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-05-06 14:26:11,093 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-06 14:26:13,401 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-06 14:26:13,861 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-06 14:26:16,706 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 阿波罗网 's tweets number is 0
+2015-05-06 14:26:17,179 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-06 14:26:18,093 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-05-06 14:26:18,551 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-06 14:26:21,219 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-06 14:26:21,678 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-06 14:26:24,026 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-05-06 14:26:24,503 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-06 14:26:25,552 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-05-06 14:26:26,025 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-06 14:26:27,545 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-05-06 14:26:28,044 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-06 14:26:30,530 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-05-06 14:26:30,994 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-06 14:26:33,155 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-05-06 14:26:33,622 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds Guide 's tweet 
+2015-05-06 14:26:34,800 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds Guide 's tweets number is 0
+2015-05-06 14:26:35,265 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-06 14:26:37,541 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-05-06 14:26:38,002 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-06 14:26:39,700 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-05-06 14:26:40,160 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-06 14:26:43,232 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-05-06 14:26:43,694 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-06 14:26:45,716 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-05-06 14:26:46,177 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-06 14:26:49,278 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 博谈网 's tweets number is 0
+2015-05-06 14:26:49,746 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-06 14:26:51,658 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-06 14:26:52,128 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-06 14:26:54,347 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-06 14:26:54,806 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-06 14:26:57,141 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Game Informer 's tweets number is 0
+2015-05-06 14:26:57,616 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-06 14:27:00,562 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
+2015-05-06 14:27:01,021 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Deadtales machinima 's tweet 
+2015-05-06 14:27:03,090 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Deadtales machinima 's tweets number is 0
+2015-05-06 14:27:03,550 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-06 14:27:05,448 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
+2015-05-06 14:27:05,911 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE UK 's tweet 
+2015-05-06 14:27:07,311 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE UK 's tweets number is 0
+2015-05-06 14:27:07,766 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-06 14:27:11,337 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
+2015-05-06 14:27:11,794 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-06 14:27:14,179 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Qwertee 's tweets number is 0
+2015-05-06 14:27:14,637 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get New York Red Bulls 's tweet 
+2015-05-06 14:27:16,656 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user New York Red Bulls 's tweets number is 0
+2015-05-06 14:27:17,119 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Developers 's tweet 
+2015-05-06 14:27:19,644 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google Developers 's tweets number is 0
+2015-05-06 14:27:20,105 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen Türkiye 's tweet 
+2015-05-06 14:27:22,152 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user AskMen Türkiye 's tweets number is 0
+2015-05-06 14:27:22,619 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes of Kingennie 's tweet 
+2015-05-06 14:27:23,801 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Forbes of Kingennie 's tweets number is 0
+2015-05-06 14:27:24,262 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
+2015-05-06 14:27:26,294 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user msnbc 's tweets number is 0
+2015-05-06 14:27:26,752 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jimbo Han 's tweet 
+2015-05-06 14:27:27,811 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jimbo Han 's tweets number is 0
+2015-05-06 14:27:28,274 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
+2015-05-06 14:50:29,903 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
+2015-05-06 14:50:29,904 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 15:09:32,026 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:102] - post comment number is 50
+2015-05-06 15:09:33,673 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-06 15:20:30,389 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
+2015-05-06 15:20:30,390 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
+2015-05-06 15:27:29,302 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-06 15:27:33,021 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-05-06 15:27:33,616 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-06 15:27:35,892 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-05-06 15:27:37,168 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-06 15:27:39,630 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-06 15:27:40,212 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-06 15:27:44,282 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 阿波罗网 's tweets number is 0
+2015-05-06 15:27:44,862 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-06 15:27:46,157 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-05-06 15:27:47,859 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-06 15:27:51,017 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-06 15:27:52,677 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-06 15:27:56,356 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-05-06 15:27:57,096 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-06 15:27:58,883 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-05-06 15:27:59,478 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-06 15:28:01,792 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-05-06 15:28:03,122 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-06 15:28:05,950 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-05-06 15:28:06,540 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-06 15:28:09,125 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-05-06 15:28:09,701 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds Guide 's tweet 
+2015-05-06 15:28:10,975 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds Guide 's tweets number is 0
+2015-05-06 15:28:11,568 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-06 15:28:14,659 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-05-06 15:28:15,254 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-06 15:28:17,239 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-05-06 15:28:18,734 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-06 15:28:21,412 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-05-06 15:28:22,010 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-06 15:28:24,267 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-05-06 15:28:24,860 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-06 15:28:30,246 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 博谈网 's tweets number is 0
+2015-05-06 15:28:32,029 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-06 15:28:35,458 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-06 15:28:36,198 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-06 15:28:38,712 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-06 15:28:39,305 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-06 15:28:41,837 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Game Informer 's tweets number is 0
+2015-05-06 15:28:42,435 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-06 15:28:45,251 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
+2015-05-06 15:28:46,886 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Deadtales machinima 's tweet 
+2015-05-06 15:28:49,646 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Deadtales machinima 's tweets number is 0
+2015-05-06 15:28:50,206 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-06 15:28:53,035 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
+2015-05-06 15:28:54,347 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE UK 's tweet 
+2015-05-06 15:28:56,158 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE UK 's tweets number is 0
+2015-05-06 15:28:57,837 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-06 15:29:01,095 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
+2015-05-06 15:29:01,709 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-06 15:29:03,997 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Qwertee 's tweets number is 0
+2015-05-06 15:29:04,596 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get New York Red Bulls 's tweet 
+2015-05-06 15:29:08,905 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user New York Red Bulls 's tweets number is 0
+2015-05-06 15:29:09,506 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Developers 's tweet 
+2015-05-06 15:29:14,172 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google Developers 's tweets number is 0
+2015-05-06 15:29:14,931 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen Türkiye 's tweet 
+2015-05-06 15:29:17,271 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user AskMen Türkiye 's tweets number is 0
+2015-05-06 15:29:17,878 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes of Kingennie 's tweet 
+2015-05-06 15:29:19,453 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Forbes of Kingennie 's tweets number is 0
+2015-05-06 15:29:20,054 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
+2015-05-06 15:29:22,609 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user msnbc 's tweets number is 0
+2015-05-06 15:29:24,116 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jimbo Han 's tweet 
+2015-05-06 15:29:25,443 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jimbo Han 's tweets number is 0
+2015-05-06 15:29:26,474 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
+2015-05-06 15:50:31,409 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
+2015-05-06 15:50:31,409 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter

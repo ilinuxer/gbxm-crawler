@@ -1,5 +1,6 @@
 package zx.soft.gbxm.google.common;
 
+import com.google.api.services.plus.model.Comment;
 import zx.soft.gbxm.google.domain.GooglePlusStatus;
 import zx.soft.gbxm.google.domain.RecordInfo;
 import zx.soft.utils.checksum.CheckSumUtils;
@@ -10,6 +11,11 @@ import com.google.api.services.plus.model.Activity.PlusObject.Attachments;
 
 public class Convert {
 
+	/**
+	 * 将activity对象转换为GooglePlusStatus(google的状态信息)
+	 * @param activity
+	 * @return
+	 */
 	public static GooglePlusStatus convertActivity2GPS(Activity activity) {
 		GooglePlusStatus googlePlusStatus = new GooglePlusStatus();
 		googlePlusStatus.setId(activity.getId());
@@ -70,6 +76,12 @@ public class Convert {
 		return googlePlusStatus;
 	}
 
+	/**
+	 * GooglePlusStatus--> recordInfo
+	 * @param googlePlusStatus
+	 * @param currentTime
+	 * @return
+	 */
 	public static RecordInfo convertGPS2Record(GooglePlusStatus googlePlusStatus, long currentTime) {
 		RecordInfo record = new RecordInfo();
 		record.setId(CheckSumUtils.getMD5(googlePlusStatus.getUrl()).toUpperCase());
@@ -93,6 +105,29 @@ public class Convert {
 		record.setUpdate_time(TimeUtils.transTimeLong(googlePlusStatus.getUpdated()));
 		record.setLocation(googlePlusStatus.getPlace_name());
 		record.setGeo(googlePlusStatus.getLatitude() + " " + googlePlusStatus.getLongitude());
+		return record;
+	}
+
+	/**
+	 * 将评论信息转化为接口可接受的信息
+	 * @param comment
+	 * @return
+	 */
+	public static RecordInfo convertComment2Record(Comment comment,long currentTime){
+		RecordInfo record = new RecordInfo();
+		record.setId(CheckSumUtils.getMD5(comment.getSelfLink()).toUpperCase());
+		record.setMid(comment.getId());
+		record.setNickname(comment.getActor().getDisplayName());
+		record.setUsername(comment.getActor().getId());
+		record.setHome_url(comment.getActor().getUrl());
+		record.setOriginal_id(comment.getInReplyTo().get(0).getId());
+		record.setOriginal_url(comment.getInReplyTo().get(0).getUrl());
+		record.setContent(comment.getObject().getContent());
+		record.setAttitude_count(Integer.parseInt(comment.getPlusoners().getTotalItems().toString()));
+		record.setTimestamp(comment.getPublished().getValue());
+		record.setLocation_code(comment.getPublished().getTimeZoneShift());
+		record.setUpdate_time(comment.getUpdated().getValue());
+		record.setLasttime(currentTime);
 		return record;
 	}
 }

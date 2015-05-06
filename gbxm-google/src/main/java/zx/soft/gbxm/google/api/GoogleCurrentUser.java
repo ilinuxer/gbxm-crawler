@@ -26,6 +26,7 @@ import zx.soft.utils.log.LogbackUtil;
 import java.io.File;
 import java.io.IOException;
 import java.security.GeneralSecurityException;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -46,14 +47,14 @@ public class GoogleCurrentUser {
     /**
      * 获取google＋应用列表
      */
-    private List<GoogleToken> getAppsInfo() {
+    public List<GoogleToken> getAppsInfo() {
         return daoImpl.getGoogleTokens();
     }
 
     /**
      * 配置plus
      */
-    private Plus getGoolgePlus(GoogleToken token) throws GeneralSecurityException, IOException {
+    public Plus getGoolgePlus(GoogleToken token) throws GeneralSecurityException, IOException {
         Plus result;
         httpTransport = GoogleNetHttpTransport.newTrustedTransport();
         String appName = token.getApp_name();
@@ -103,22 +104,23 @@ public class GoogleCurrentUser {
                     + "object/attachments,annotation,geocode,placeName)");
             ActivityFeed feed = activities.execute();
 
+//            System.out.println(feed.getNextPageToken()==null?"nextToken is empty ":feed.getNextPageToken());
             if (feed.getItems() == null | feed.getItems().isEmpty()) {
                 return null;
             }
             for (Activity activity : feed.getItems()) {
                 result.add(Convert.convertActivity2GPS(activity));
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             logger.error("Exception : {} ", LogbackUtil.expection2Str(e));
 
-            if(index < tokens.size()){
+            if (index < tokens.size()) {
                 index++;
             } else {
-                Thread.sleep(24*60*60*1000L);
+                Thread.sleep(24 * 60 * 60 * 1000L);
                 index = 0;
             }
-            result = getGoogeActivities(tokens,index,userId);
+            result = getGoogeActivities(tokens, index, userId);
         }
         return result;
     }
@@ -126,15 +128,15 @@ public class GoogleCurrentUser {
     /**
      * 根据用户id获取用户的历史推文信息
      */
-    private ArrayList<GooglePlusStatus> getGoogleActivities(String userId){
+    private ArrayList<GooglePlusStatus> getGoogleActivities(String userId) {
         List<GoogleToken> tokens = getAppsInfo();
         ArrayList<GooglePlusStatus> result;
 
         int index = 0;
         try {
-            result = getGoogeActivities(tokens,index,userId);
+            result = getGoogeActivities(tokens, index, userId);
         } catch (InterruptedException e) {
-            logger.error("Exception : {}",LogbackUtil.expection2Str(e));
+            logger.error("Exception : {}", LogbackUtil.expection2Str(e));
             throw new RuntimeException(e);
         }
         return result;
@@ -143,10 +145,11 @@ public class GoogleCurrentUser {
     /**
      * 根据用户userId 获取用户历史推文信息，并将其post 到指定的接口
      */
-    private void getGoogleActivitiesAndPost(String userId){
+    private void getGoogleActivitiesAndPost(String userId) {
         List<GooglePlusStatus> statuses = getGoogleActivities(userId);
         long currentTime = System.currentTimeMillis();
-        if(statuses.size() > 0){
+        logger.info("get {} 's tweet " ,userId);
+        if (statuses != null && statuses.size() > 0) {
             List<RecordInfo> records = new ArrayList<>();
             for (GooglePlusStatus status : statuses) {
                 records.add(Convert.convertGPS2Record(status, currentTime));
@@ -157,13 +160,13 @@ public class GoogleCurrentUser {
             data.setRecords(records);
             RestletPost.post(data);
         }
-
+        daoImpl.updatedUserInfo(userId,new Timestamp(currentTime));
     }
 
     /**
      * 获取新增Google用户信息列表
      */
-    public List<CurrentUserInfo> getCurrentUser(){
+    public List<CurrentUserInfo> getCurrentUser() {
         List<CurrentUserInfo> result;
         result = daoImpl.getGpCurrentUser();
         return result;
@@ -175,19 +178,18 @@ public class GoogleCurrentUser {
     public void postUserTweet() throws InterruptedException {
         List<CurrentUserInfo> users = getCurrentUser();
         logger.info("本次查找到新增用户数量为 ：" + users.size());
-        if(users.size() != 0){
-            for(CurrentUserInfo user : users){
+        if (users.size() != 0) {
+            for (CurrentUserInfo user : users) {
                 String userId = user.getUserId();
                 String userName = user.getUserName();
                 getGoogleActivitiesAndPost(userId);
                 daoImpl.delGpCurrentUserById(userId);
             }
         }
-        Thread.sleep(30*60*1000L);
+        logger.info("start sleep ,please check it 0.5 hour's latter");
+        Thread.sleep(30 * 60 * 1000L);
         postUserTweet();
     }
-
-
 
 
     public static void main(String[] args) {

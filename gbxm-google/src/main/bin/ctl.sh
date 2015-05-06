@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mainClass=zx.soft.gbxm.google.driver.GoogleSpiderDriver
+mainClass=zx.soft.gbxm.google.driver.Google2SpiderDriver
 
 # resolve links - $0 may be a softlink
 PRG="$0"

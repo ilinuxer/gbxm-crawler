@@ -11,6 +11,6 @@ public class GoogleDaoDemo {
         GoogleDaoImpl dao = new GoogleDaoImpl();
 //        System.out.println(JsonUtils.toJson(dao.getGoogleTokens()));
 //        System.out.println(dao.getUsers(12,100).size());
-        System.out.println(dao.getUserCount());
+        System.out.println(dao.getGpFocusStatuses());
     }
 }

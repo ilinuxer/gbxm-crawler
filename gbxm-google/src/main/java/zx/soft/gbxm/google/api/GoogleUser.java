@@ -13,17 +13,16 @@ import com.google.api.services.plus.model.Activity;
 import com.google.api.services.plus.model.ActivityFeed;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import zx.soft.gbxm.google.common.ConstUtils;
 import zx.soft.gbxm.google.common.Convert;
 import zx.soft.gbxm.google.common.RestletPost;
 import zx.soft.gbxm.google.dao.GoogleDaoImpl;
 import zx.soft.gbxm.google.domain.*;
 import zx.soft.utils.json.JsonUtils;
-import zx.soft.utils.log.LogbackUtil;
 
 import java.io.File;
 import java.io.IOException;
 import java.security.GeneralSecurityException;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -31,29 +30,23 @@ import java.util.List;
 /**
  * Created by jimbo on 4/23/15.
  */
-public class Google {
-    private static Logger logger = LoggerFactory.getLogger(Google.class);
+public class GoogleUser {
+    private static Logger logger = LoggerFactory.getLogger(GoogleUser.class);
 
     private static FileDataStoreFactory dataStoreFactory;
     private static HttpTransport httpTransport;
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
     protected GoogleAuthorizationCodeFlow flow;
 
-    private static final int SIZE_USER_COUNT = 100;
+    private static final long SIZE_HISTORY_COUNT = 100L;
 
     protected GoogleDaoImpl daoImpl = new GoogleDaoImpl();
-
-    /**
-     * 获取google应用列表
-     */
-    private List<GoogleToken> getAppsInfo() {
-        return daoImpl.getGoogleTokens();
-    }
+    protected GoogleCurrentUser currentUser = new GoogleCurrentUser();
 
     /**
      * 设置获取数据的plus
      */
-    private Plus setGplus(GoogleToken token) throws GeneralSecurityException, IOException {
+    protected Plus setGplus(GoogleToken token) throws GeneralSecurityException, IOException {
         Plus result;
         httpTransport = GoogleNetHttpTransport.newTrustedTransport();
         String appName = token.getApp_name();
@@ -81,7 +74,7 @@ public class Google {
 
         Plus plus = setGplus(token);
         Plus.Activities.List activities = plus.activities().list(userId, "public");
-        activities.setMaxResults(100L);//最大可设置为100
+        activities.setMaxResults(SIZE_HISTORY_COUNT);//最大可设置为100
 
         //设置获取推文信息参数
         activities.setFields("nextPageToken,items(id,title,published,updated,url,actor/id,actor/displayName,"
@@ -100,25 +93,22 @@ public class Google {
             }
             result.add(Convert.convertActivity2GPS(activity));
         }
-
         return result;
     }
 
     /**
-     * 获取监控用户推文信息
-     *
-     * @param token
-     * @param userInfo
-     * @throws InterruptedException
+     * 获取监控用户推文信息(一对一)
      */
-    private void googleActivitiesAction(GoogleToken token, UserInfo userInfo) throws InterruptedException, GeneralSecurityException, IOException {
+    private void googleActivitiesSingle(GoogleToken token, UserInfo userInfo) throws InterruptedException, GeneralSecurityException, IOException {
 
         List<RecordInfo> records = new ArrayList<>();
         long currentTime = System.currentTimeMillis();
         String userId = userInfo.getUserId();
         long lastUpdateTime = userInfo.getLastUpdateTime().getTime();
         ArrayList<GooglePlusStatus> userStatus = getGoogeActivities(token, userId, lastUpdateTime);
-        if (userStatus.size() > 0) {
+        if (userStatus == null || userStatus.size() == 0) {
+            logger.info("google+ user {} 's tweets number is 0", userInfo.getUserName());
+        } else if (userStatus.size() > 0) {
             for (GooglePlusStatus status : userStatus) {
                 records.add(Convert.convertGPS2Record(status, currentTime));
             }
@@ -127,34 +117,31 @@ public class Google {
             data.setRecords(records);
             //post并将数据插入数据库
             RestletPost.post(data);
-            daoImpl.insertGooglePlusListStatus(userStatus);
+            logger.info("google+ user {} 's tweets number is " + records.size(), userInfo.getUserName());
+//            daoImpl.insertGooglePlusListStatus(userStatus);
         }
+
+        daoImpl.updatedUserInfo(userId, new Timestamp(currentTime));
     }
 
     /**
-     * 一个token对应多个用户
+     * 一对多(此处应该设为多线程，暂时未实现)
      */
-    private void googleActivitiesAction(GoogleToken token, List<UserInfo> userInfos) throws InterruptedException, GeneralSecurityException, IOException {
+    private void googleActivitiesByToken(GoogleToken token, List<UserInfo> userInfos) throws InterruptedException, GeneralSecurityException, IOException {
         for (UserInfo userInfo : userInfos) {
-            googleActivitiesAction(token, userInfo);
+            logger.info("get {} 's tweet ", userInfo.getUserName());
+            googleActivitiesSingle(token, userInfo);
         }
+//        Thread.sleep(60*60*1000L);
+//        googleActivitiesByToken(token,userInfos);
     }
 
     /**
-     *
+     * 获取监控用户的数量
      */
-    private void googleActivitiesAction(List<GoogleToken> tokens){
-        int userCount = getUserCount();
-        int tokensCount = tokens.size();
-        int count = userCount/(tokensCount-1);
-        logger.info("{} users each token has",count);
-        //count 每个token分到多少用户
-        int i = 0;
-        while(i<=count){
-
-        }
+    private int getUserCount() {
+        return daoImpl.getUserCount();
     }
-
 
     /**
      * 获取分页内的监控用户列表
@@ -166,20 +153,56 @@ public class Google {
     }
 
     /**
-     * 获取监控用户的数量
+     *
      */
-    private int getUserCount() {
-        return daoImpl.getUserCount();
+    private void googleActivitiesMutils(List<GoogleToken> tokens) throws InterruptedException {
+        int userCount = getUserCount();
+        int tokensCount = tokens.size();
+        if (userCount <= tokensCount * 10) {
+            List<UserInfo> users = getGplusUserInfos(0, userCount);
+//            logger.info(JsonUtils.toJson(users));
+            try {
+                googleActivitiesByToken(tokens.get(0), users);
+            } catch (Exception e) {
+                logger.error("this token is over limited ");
+            }
+        } else {
+
+            int count = userCount / (tokensCount - 1);
+            logger.info("{} users each token has", count);
+            for (int i = 0; i < tokensCount; i++) {
+
+                GoogleToken token = tokens.get(i);
+                List<UserInfo> users = getGplusUserInfos((count * i), count);
+                logger.info(JsonUtils.toJson(users));
+                try {
+                    googleActivitiesByToken(token, users);
+                } catch (Exception e) {
+                    logger.error("this token is over limited ");
+                    continue;
+                }
+            }
+
+        }
+        logger.info("start sleep ,please check it 1 hour's latter");
+        Thread.sleep(60 * 60 * 1000L);
+        googleActivitiesMutils(tokens);
+    }
+
+    private void googleAction() throws InterruptedException {
+        List<GoogleToken> tokens = currentUser.getAppsInfo();
+        googleActivitiesMutils(tokens);
     }
 
 
     public static void main(String[] args) {
-        Google google = new Google();
-        System.out.println(google.getUserCount());
-        System.out.println(google.getAppsInfo().size());
-        int size = google.getUserCount() / google.getAppsInfo().size();
-
-//        System.out.println(JsonUtils.toJson(google.getAppsInfo()));
+        GoogleUser google = new GoogleUser();
+        try {
+            google.googleAction();
+        } catch (InterruptedException e) {
+            logger.error("Thread sleep exception :{}", e);
+            throw new RuntimeException(e);
+        }
 
     }
 }
