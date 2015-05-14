@@ -83,6 +83,7 @@ public class Convert {
 	 * @return
 	 */
 	public static RecordInfo convertGPS2Record(GooglePlusStatus googlePlusStatus, long currentTime) {
+		currentTime = zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(currentTime);
 		RecordInfo record = new RecordInfo();
 		record.setId(CheckSumUtils.getMD5(googlePlusStatus.getUrl()).toUpperCase());
 		record.setMid(googlePlusStatus.getId());
@@ -99,10 +100,10 @@ public class Convert {
 		record.setComment_count(googlePlusStatus.getObject_replies_totalitems());
 		record.setRepost_count(googlePlusStatus.getObject_resharers_totalitems());
 		record.setAttitude_count(googlePlusStatus.getObject_plusoners_totalitems());
-		record.setTimestamp(TimeUtils.transTimeLong(googlePlusStatus.getPublished()));
+		record.setTimestamp(zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(TimeUtils.transTwitterTimeLong(googlePlusStatus.getPublished())));
 		record.setLasttime(currentTime);
 		record.setFirst_time(currentTime);
-		record.setUpdate_time(TimeUtils.transTimeLong(googlePlusStatus.getUpdated()));
+		record.setUpdate_time(zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(TimeUtils.transTwitterTimeLong(googlePlusStatus.getUpdated())));
 		record.setLocation(googlePlusStatus.getPlace_name());
 		record.setGeo(googlePlusStatus.getLatitude() + " " + googlePlusStatus.getLongitude());
 		return record;
@@ -114,6 +115,8 @@ public class Convert {
 	 * @return
 	 */
 	public static RecordInfo convertComment2Record(Comment comment,long currentTime){
+		currentTime = zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(currentTime);
+
 		RecordInfo record = new RecordInfo();
 		record.setId(CheckSumUtils.getMD5(comment.getSelfLink()).toUpperCase());
 		record.setMid(comment.getId());
@@ -124,9 +127,9 @@ public class Convert {
 		record.setOriginal_url(comment.getInReplyTo().get(0).getUrl());
 		record.setContent(comment.getObject().getContent());
 		record.setAttitude_count(Integer.parseInt(comment.getPlusoners().getTotalItems().toString()));
-		record.setTimestamp(comment.getPublished().getValue());
+		record.setTimestamp(zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(comment.getPublished().getValue()));
 		record.setLocation_code(comment.getPublished().getTimeZoneShift());
-		record.setUpdate_time(comment.getUpdated().getValue());
+		record.setUpdate_time(zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(comment.getUpdated().getValue()));
 		record.setLasttime(currentTime);
 		return record;
 	}

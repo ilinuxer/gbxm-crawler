@@ -15,6 +15,7 @@ import zx.soft.gbxm.twitter.domain.PostData;
 import zx.soft.gbxm.twitter.domain.RecordInfo;
 import zx.soft.gbxm.twitter.domain.Token;
 import zx.soft.gbxm.twitter.utils.PostUrlConfig;
+import zx.soft.gbxm.twitter.utils.TimeUtil;
 import zx.soft.model.user.CurrentUserInfo;
 import zx.soft.utils.checksum.CheckSumUtils;
 import zx.soft.utils.config.ConfigUtil;
@@ -150,8 +151,8 @@ public class TwitterCurrentUser {
             record.setUrl(url);//url
             record.setContent(twitterStatus.getText()); //该记录内容
             record.setRepost_count(twitterStatus.getRetweet_count());//转发数
-            record.setTimestamp(status.getCreatedAt().getTime());//该记录发布时间
-            long currentTime = System.currentTimeMillis();
+            record.setTimestamp(TimeUtil.exchangeTime(status.getCreatedAt().getTime()));//该记录发布时间
+            long currentTime = TimeUtil.exchangeTime(System.currentTimeMillis());
             record.setLasttime(currentTime);//lasttime
             record.setUpdate_time(currentTime); //update_time
             record.setFirst_time(currentTime); //first_time

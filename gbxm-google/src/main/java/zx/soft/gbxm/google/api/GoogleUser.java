@@ -121,7 +121,7 @@ public class GoogleUser {
 //            daoImpl.insertGooglePlusListStatus(userStatus);
         }
 
-        daoImpl.updatedUserInfo(userId, new Timestamp(currentTime));
+        daoImpl.updatedUserInfo(userId, new Timestamp(currentTime - 60*60 *1000L));
     }
 
     /**

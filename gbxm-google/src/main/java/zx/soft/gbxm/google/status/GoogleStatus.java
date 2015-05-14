@@ -119,16 +119,24 @@ public class GoogleStatus {
         List<GoogleToken> tokens = currentUser3.getAppsInfo();
         Plus plus = setGplus(tokens);
         List<String> statuses = getFocusTweets();
+        if(statuses==null | statuses.size()==0){
+            logger.info("focus status size is 0, 0.5 hours later will try again");
+        }
         for(String status : statuses){
             try {
                 List<Comment> comments = getTweetStatus(plus,status);
+                if (comments == null | comments.size()==0){
+                    continue;
+                }
                 postComment(comments);
             } catch (Exception e) {
+                e.printStackTrace();
                 logger.info("get comment error");
                 Thread.sleep(15 * 60 * 1000);
-                getPostComments();
             }
         }
+        Thread.sleep(30 * 60 * 1000);
+        getPostComments();
     }
 
 
