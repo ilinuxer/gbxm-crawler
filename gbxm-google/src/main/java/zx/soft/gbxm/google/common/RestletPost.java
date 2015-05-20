@@ -23,6 +23,8 @@ public class RestletPost {
 	public static boolean post(PostData data) {
 		Representation entity = new StringRepresentation(JsonUtils.toJsonWithoutPretty(data));
 		entity.setMediaType(MediaType.APPLICATION_JSON);
+
+//		entity.setEncodings();
 		try {
 			clientResource.post(entity);
 			Response response = clientResource.getResponse();

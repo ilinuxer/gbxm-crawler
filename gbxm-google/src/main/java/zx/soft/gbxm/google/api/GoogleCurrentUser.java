@@ -104,7 +104,6 @@ public class GoogleCurrentUser {
                     + "object/attachments,annotation,geocode,placeName)");
             ActivityFeed feed = activities.execute();
 
-//            System.out.println(feed.getNextPageToken()==null?"nextToken is empty ":feed.getNextPageToken());
             if (feed.getItems() == null | feed.getItems().isEmpty()) {
                 return null;
             }
@@ -197,7 +196,7 @@ public class GoogleCurrentUser {
         try {
             spider.postUserTweet();
         } catch (InterruptedException e) {
-            logger.error("error");
+            logger.error("Thread sleep error");
             e.printStackTrace();
         }
     }

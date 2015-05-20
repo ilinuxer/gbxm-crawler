@@ -4,6 +4,7 @@ import com.google.api.services.plus.model.Comment;
 import zx.soft.gbxm.google.domain.GooglePlusStatus;
 import zx.soft.gbxm.google.domain.RecordInfo;
 import zx.soft.utils.checksum.CheckSumUtils;
+import zx.soft.utils.json.JsonUtils;
 import zx.soft.utils.time.TimeUtils;
 
 import com.google.api.services.plus.model.Activity;
@@ -97,7 +98,9 @@ public class Convert {
 		record.setTitle(googlePlusStatus.getTitle());
 		record.setContent(googlePlusStatus.getTitle() + " " + googlePlusStatus.getObject_original_content() + " "
 				+ googlePlusStatus.getAnnotation() + " " + googlePlusStatus.getObject_attachments_content());
-		record.setComment_count(googlePlusStatus.getObject_replies_totalitems());
+//		record.setComment_count(googlePlusStatus.getObject_replies_totalitems());
+//		评论数置零
+		record.setComment_count(0);
 		record.setRepost_count(googlePlusStatus.getObject_resharers_totalitems());
 		record.setAttitude_count(googlePlusStatus.getObject_plusoners_totalitems());
 		record.setTimestamp(zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(TimeUtils.transTwitterTimeLong(googlePlusStatus.getPublished())));
@@ -127,9 +130,9 @@ public class Convert {
 		record.setOriginal_url(comment.getInReplyTo().get(0).getUrl());
 		record.setContent(comment.getObject().getContent());
 		record.setAttitude_count(Integer.parseInt(comment.getPlusoners().getTotalItems().toString()));
-		record.setTimestamp(zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(comment.getPublished().getValue()));
+		record.setTimestamp(comment.getPublished().getValue());
 		record.setLocation_code(comment.getPublished().getTimeZoneShift());
-		record.setUpdate_time(zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(comment.getUpdated().getValue()));
+		record.setUpdate_time(comment.getUpdated().getValue());
 		record.setLasttime(currentTime);
 		return record;
 	}

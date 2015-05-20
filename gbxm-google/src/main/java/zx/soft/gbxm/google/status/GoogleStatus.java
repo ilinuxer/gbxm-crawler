@@ -12,6 +12,7 @@ import zx.soft.gbxm.google.dao.GoogleDaoImpl;
 import zx.soft.gbxm.google.domain.GoogleToken;
 import zx.soft.gbxm.google.domain.PostData;
 import zx.soft.gbxm.google.domain.RecordInfo;
+import zx.soft.utils.json.JsonUtils;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
@@ -47,7 +48,7 @@ public class GoogleStatus {
             GoogleToken token = tokens.get(index);
             plus = setGplus(token);
         }catch (Exception e){
-            logger.info("set plus error ,get next token" );
+            logger.info("set plus error ,get next token");
             if(index < tokens.size()-1){
                 index++;
                 plus = setGplus(tokens,index);
@@ -81,10 +82,13 @@ public class GoogleStatus {
      */
     protected List<Comment> getTweetStatus(Plus plus,String statusId) throws GeneralSecurityException, IOException {
 
+        List<Comment> comments = null;
         Plus.Comments.List commentList = plus.comments().list(statusId);
         commentList.setMaxResults(200L);
         CommentFeed commentFeed = commentList.execute();
-        List<Comment> comments = commentFeed.getItems();
+        if (commentFeed != null | commentFeed.size() == 0){
+            comments = commentFeed.getItems();
+        }
         return comments;
     }
 
@@ -130,11 +134,11 @@ public class GoogleStatus {
                 }
                 postComment(comments);
             } catch (Exception e) {
-                e.printStackTrace();
-                logger.info("get comment error");
-                Thread.sleep(15 * 60 * 1000);
+                logger.info(" {}  has no comments " , status);
+                continue;
             }
         }
+        logger.info("one round is over sleep 0.5 hours");
         Thread.sleep(30 * 60 * 1000);
         getPostComments();
     }

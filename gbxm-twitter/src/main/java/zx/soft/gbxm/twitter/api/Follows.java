@@ -71,14 +71,6 @@ public class Follows {
 		long lastSinceId;
 		lastSinceId = twitterDaoImpl.getLastSinceId(screenName);
 		int page = 1;
-//		//单页情况
-//		Paging paging = new Paging(page,COUNT,lastSinceId);
-//		ResponseList<Status> statuses = twitter.getUserTimeline(screenName,paging);
-//		if(statuses.size() != 0){
-//			twitterDaoImpl.updateTwMonitor(screenName,statuses.get(0).getId());
-//			result.addAll(statuses);
-//		}
-
 
 		//分页情况
 		boolean flag = true;

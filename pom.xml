@@ -11,6 +11,7 @@
 	<artifactId>gbxm-crawler</artifactId>
 	<packaging>pom</packaging>
 	<name>GBXM Crawler</name>
+	<version>1.2.0</version>
 	<description>socila network service crawler</description>
 
 	<modules>

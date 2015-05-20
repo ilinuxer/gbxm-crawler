@@ -1,169 +1,133 @@
-2015-05-07 09:35:07,970 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：0
-2015-05-07 09:35:07,983 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
-2015-05-07 09:35:08,692 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
-2015-05-07 09:35:10,898 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:130] - get comment error
-2015-05-07 09:35:12,672 [Thread-1] ERROR zx.soft.utils.time.TimeUtils [Line:112] - Exception:Unparseable date: "2015-05-06T15:47:03.126Z";java.text.DateFormat.parse(DateFormat.java:357);zx.soft.utils.time.TimeUtils.transTimeLong(TimeUtils.java:109);zx.soft.gbxm.google.common.Convert.convertGPS2Record(Convert.java:102);zx.soft.gbxm.google.api.GoogleUser.googleActivitiesSingle(GoogleUser.java:113);zx.soft.gbxm.google.api.GoogleUser.googleActivitiesByToken(GoogleUser.java:133);zx.soft.gbxm.google.api.GoogleUser.googleActivitiesMutils(GoogleUser.java:165);zx.soft.gbxm.google.api.GoogleUser.googleAction(GoogleUser.java:194);zx.soft.gbxm.google.api.GoogleUser.main(GoogleUser.java:201);zx.soft.gbxm.google.api.Google2Spider$ThreadTwo.run(Google2Spider.java:39);java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145);java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615);java.lang.Thread.run(Thread.java:745)
-2015-05-07 09:35:12,672 [Thread-1] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:167] - this token is over limited 
-2015-05-07 09:35:12,672 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
-2015-05-07 09:50:13,574 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:130] - get comment error
-2015-05-07 10:05:08,449 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：3
-2015-05-07 10:05:12,554 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 107935194391480889237 's tweet 
-2015-05-07 10:05:12,554 [Thread-0] ERROR zx.soft.utils.time.TimeUtils [Line:112] - Exception:Unparseable date: "2015-05-01T23:50:17.083Z";java.text.DateFormat.parse(DateFormat.java:357);zx.soft.utils.time.TimeUtils.transTimeLong(TimeUtils.java:109);zx.soft.gbxm.google.common.Convert.convertGPS2Record(Convert.java:102);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivitiesAndPost(GoogleCurrentUser.java:155);zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:185);zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:191);zx.soft.gbxm.google.api.GoogleCurrentUser.main(GoogleCurrentUser.java:198);zx.soft.gbxm.google.api.Google2Spider$ThreadOne.run(Google2Spider.java:28);java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145);java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615);java.lang.Thread.run(Thread.java:745)
-2015-05-07 10:05:12,560 [Thread-0] ERROR z.soft.utils.threads.ApplyThreadPool [Line:39 ] - Thread exception: Thread-0
-java.lang.RuntimeException: java.text.ParseException: Unparseable date: "2015-05-01T23:50:17.083Z"
-	at zx.soft.utils.time.TimeUtils.transTimeLong(TimeUtils.java:113) ~[common-utils-1.1.0.jar:na]
-	at zx.soft.gbxm.google.common.Convert.convertGPS2Record(Convert.java:102) ~[classes/:na]
-	at zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivitiesAndPost(GoogleCurrentUser.java:155) ~[classes/:na]
-	at zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:185) ~[classes/:na]
-	at zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:191) ~[classes/:na]
-	at zx.soft.gbxm.google.api.GoogleCurrentUser.main(GoogleCurrentUser.java:198) ~[classes/:na]
-	at zx.soft.gbxm.google.api.Google2Spider$ThreadOne.run(Google2Spider.java:28) ~[classes/:na]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) ~[na:1.7.0_75]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) ~[na:1.7.0_75]
-	at java.lang.Thread.run(Thread.java:745) ~[na:1.7.0_75]
-Caused by: java.text.ParseException: Unparseable date: "2015-05-01T23:50:17.083Z"
-	at java.text.DateFormat.parse(DateFormat.java:357) ~[na:1.7.0_75]
-	at zx.soft.utils.time.TimeUtils.transTimeLong(TimeUtils.java:109) ~[common-utils-1.1.0.jar:na]
-	... 9 common frames omitted
-2015-05-07 10:05:16,222 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:130] - get comment error
-2015-05-07 10:05:53,199 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：3
-2015-05-07 10:05:57,593 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 107935194391480889237 's tweet 
-2015-05-07 10:05:57,600 [main] ERROR zx.soft.utils.time.TimeUtils [Line:112] - Exception:Unparseable date: "2015-05-01T23:50:17.083Z";java.text.DateFormat.parse(DateFormat.java:357);zx.soft.utils.time.TimeUtils.transTimeLong(TimeUtils.java:109);zx.soft.gbxm.google.common.Convert.convertGPS2Record(Convert.java:102);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivitiesAndPost(GoogleCurrentUser.java:155);zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:185);zx.soft.gbxm.google.api.GoogleCurrentUser.main(GoogleCurrentUser.java:198);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:606);com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
-2015-05-07 10:20:18,796 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:130] - get comment error
-2015-05-07 10:35:35,345 [Thread-1] WARN  o.a.i.d.pooled.PooledDataSource [Line:495] - Execution of ping query 'select 1' failed: Communications link failure
-
-The last packet successfully received from the server was 1,820,227 milliseconds ago.  The last packet sent successfully to the server was 22,666 milliseconds ago.
-2015-05-07 10:36:07,386 [Thread-1] WARN  o.a.i.d.pooled.PooledDataSource [Line:495] - Execution of ping query 'select 1' failed: Communications link failure
-
-The last packet successfully received from the server was 950,687 milliseconds ago.  The last packet sent successfully to the server was 32,038 milliseconds ago.
-2015-05-07 10:36:29,032 [Thread-1] WARN  o.a.i.d.pooled.PooledDataSource [Line:495] - Execution of ping query 'select 1' failed: Communications link failure
-
-The last packet successfully received from the server was 971,166 milliseconds ago.  The last packet sent successfully to the server was 21,645 milliseconds ago.
-2015-05-07 10:36:30,637 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
-2015-05-07 10:36:54,108 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：3
-2015-05-07 10:36:54,810 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
-2015-05-07 10:37:14,400 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
-2015-05-07 10:37:14,400 [Thread-0] ERROR z.s.g.google.api.GoogleCurrentUser [Line:85 ] - 新建google flow plus 时出错
-2015-05-07 10:37:14,402 [Thread-0] ERROR z.s.g.google.api.GoogleCurrentUser [Line:115] - Exception : java.net.SocketTimeoutException: connect timed out;zx.soft.gbxm.google.api.GoogleCurrentUser.getGooglePlus(GoogleCurrentUser.java:86);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogeActivities(GoogleCurrentUser.java:97);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivities(GoogleCurrentUser.java:137);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivitiesAndPost(GoogleCurrentUser.java:149);zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:185);zx.soft.gbxm.google.api.GoogleCurrentUser.main(GoogleCurrentUser.java:198);zx.soft.gbxm.google.api.Google2Spider$ThreadOne.run(Google2Spider.java:28);java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145);java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615);java.lang.Thread.run(Thread.java:745) 
-2015-05-07 10:37:14,823 [Thread-1] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:167] - this token is over limited 
-2015-05-07 10:37:14,824 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
-2015-05-07 10:37:34,771 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：3
-2015-05-07 10:37:35,301 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
-2015-05-07 10:37:54,881 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
-2015-05-07 10:37:55,008 [Thread-0] ERROR z.s.g.google.api.GoogleCurrentUser [Line:85 ] - 新建google flow plus 时出错
-2015-05-07 10:37:55,023 [Thread-0] ERROR z.s.g.google.api.GoogleCurrentUser [Line:115] - Exception : java.net.SocketTimeoutException: connect timed out;zx.soft.gbxm.google.api.GoogleCurrentUser.getGooglePlus(GoogleCurrentUser.java:86);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogeActivities(GoogleCurrentUser.java:97);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivities(GoogleCurrentUser.java:137);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivitiesAndPost(GoogleCurrentUser.java:149);zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:185);zx.soft.gbxm.google.api.GoogleCurrentUser.main(GoogleCurrentUser.java:198);zx.soft.gbxm.google.api.Google2Spider$ThreadOne.run(Google2Spider.java:28);java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145);java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615);java.lang.Thread.run(Thread.java:745) 
-2015-05-07 10:37:55,313 [Thread-1] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:167] - this token is over limited 
-2015-05-07 10:37:55,313 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
-2015-05-07 10:38:14,893 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
-2015-05-07 10:38:15,032 [Thread-0] ERROR z.s.g.google.api.GoogleCurrentUser [Line:85 ] - 新建google flow plus 时出错
-2015-05-07 10:38:15,032 [Thread-0] ERROR z.s.g.google.api.GoogleCurrentUser [Line:115] - Exception : java.net.SocketTimeoutException: connect timed out;zx.soft.gbxm.google.api.GoogleCurrentUser.getGooglePlus(GoogleCurrentUser.java:86);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogeActivities(GoogleCurrentUser.java:97);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogeActivities(GoogleCurrentUser.java:123);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivities(GoogleCurrentUser.java:137);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivitiesAndPost(GoogleCurrentUser.java:149);zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:185);zx.soft.gbxm.google.api.GoogleCurrentUser.main(GoogleCurrentUser.java:198);zx.soft.gbxm.google.api.Google2Spider$ThreadOne.run(Google2Spider.java:28);java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145);java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615);java.lang.Thread.run(Thread.java:745) 
-2015-05-07 10:38:34,904 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
-2015-05-07 10:38:35,043 [Thread-0] ERROR z.s.g.google.api.GoogleCurrentUser [Line:85 ] - 新建google flow plus 时出错
-2015-05-07 10:38:35,044 [Thread-0] ERROR z.s.g.google.api.GoogleCurrentUser [Line:115] - Exception : java.net.SocketTimeoutException: connect timed out;zx.soft.gbxm.google.api.GoogleCurrentUser.getGooglePlus(GoogleCurrentUser.java:86);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogeActivities(GoogleCurrentUser.java:97);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogeActivities(GoogleCurrentUser.java:123);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogeActivities(GoogleCurrentUser.java:123);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivities(GoogleCurrentUser.java:137);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivitiesAndPost(GoogleCurrentUser.java:149);zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:185);zx.soft.gbxm.google.api.GoogleCurrentUser.main(GoogleCurrentUser.java:198);zx.soft.gbxm.google.api.Google2Spider$ThreadOne.run(Google2Spider.java:28);java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145);java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615);java.lang.Thread.run(Thread.java:745) 
-2015-05-07 10:39:05,093 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：3
-2015-05-07 10:39:25,653 [main] ERROR z.s.g.google.api.GoogleCurrentUser [Line:85 ] - 新建google flow plus 时出错
-2015-05-07 10:39:25,655 [main] ERROR z.s.g.google.api.GoogleCurrentUser [Line:115] - Exception : java.net.SocketTimeoutException: connect timed out;zx.soft.gbxm.google.api.GoogleCurrentUser.getGooglePlus(GoogleCurrentUser.java:86);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogeActivities(GoogleCurrentUser.java:97);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivities(GoogleCurrentUser.java:137);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivitiesAndPost(GoogleCurrentUser.java:149);zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:185);zx.soft.gbxm.google.api.GoogleCurrentUser.main(GoogleCurrentUser.java:198);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:606);com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) 
-2015-05-07 10:39:46,466 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：3
-2015-05-07 10:39:51,465 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 107935194391480889237 's tweet 
-2015-05-07 10:39:51,470 [main] ERROR zx.soft.utils.time.TimeUtils [Line:114] - Exception:Unparseable date: "2015-05-01T23:50:17.083Z";java.text.DateFormat.parse(DateFormat.java:357);zx.soft.utils.time.TimeUtils.transTimeLong(TimeUtils.java:111);zx.soft.gbxm.google.common.Convert.convertGPS2Record(Convert.java:105);zx.soft.gbxm.google.api.GoogleCurrentUser.getGoogleActivitiesAndPost(GoogleCurrentUser.java:155);zx.soft.gbxm.google.api.GoogleCurrentUser.postUserTweet(GoogleCurrentUser.java:185);zx.soft.gbxm.google.api.GoogleCurrentUser.main(GoogleCurrentUser.java:198);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:606);com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
-2015-05-07 10:41:13,878 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:180] - 本次查找到新增用户数量为 ：3
-2015-05-07 10:41:17,827 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 107935194391480889237 's tweet 
-2015-05-07 10:41:17,850 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:157] - post record number is 99
-2015-05-07 10:41:18,974 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:41:19,788 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:84 ] - deleted from current user 107935194391480889237
-2015-05-07 10:41:22,980 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 115999208343224352426 's tweet 
-2015-05-07 10:41:22,997 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:157] - post record number is 100
-2015-05-07 10:41:23,665 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:41:24,363 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:84 ] - deleted from current user 115999208343224352426
-2015-05-07 10:41:28,573 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:151] - get 114542928368198238414 's tweet 
-2015-05-07 10:41:28,589 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:157] - post record number is 100
-2015-05-07 10:41:29,326 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:41:30,013 [main] INFO  z.soft.gbxm.google.dao.GoogleDaoImpl [Line:84 ] - deleted from current user 114542928368198238414
-2015-05-07 10:41:30,129 [main] INFO  z.s.g.google.api.GoogleCurrentUser [Line:189] - start sleep ,please check it 0.5 hour's latter
-2015-05-07 10:42:40,776 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
-2015-05-07 10:42:45,630 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:42:45,630 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user 匆匆过客 's tweets number is 8
-2015-05-07 10:42:46,223 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
-2015-05-07 10:42:48,908 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
-2015-05-07 10:42:49,379 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
-2015-05-07 10:42:52,851 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:42:52,852 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user 半世繁华 # 's tweets number is 9
-2015-05-07 10:42:53,323 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
-2015-05-07 10:42:57,082 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:42:57,083 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user 阿波罗网 's tweets number is 17
-2015-05-07 10:42:57,560 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
-2015-05-07 10:42:58,953 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
-2015-05-07 10:42:59,427 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
-2015-05-07 10:43:02,668 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
-2015-05-07 10:43:03,139 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
-2015-05-07 10:43:06,170 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
-2015-05-07 10:43:06,641 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
-2015-05-07 10:43:08,015 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
-2015-05-07 10:43:08,484 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
-2015-05-07 10:43:10,534 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
-2015-05-07 10:43:11,004 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
-2015-05-07 10:43:14,047 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:43:14,047 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user Bored Panda 's tweets number is 3
-2015-05-07 10:43:14,517 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
-2015-05-07 10:43:17,182 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
-2015-05-07 10:43:17,651 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds Guide 's tweet 
-2015-05-07 10:43:19,137 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds Guide 's tweets number is 0
-2015-05-07 10:43:19,609 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
-2015-05-07 10:43:22,668 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:43:22,669 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user TGN 's tweets number is 6
-2015-05-07 10:43:23,147 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
-2015-05-07 10:43:25,927 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:43:25,927 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user Jewel Daab 's tweets number is 23
-2015-05-07 10:43:26,399 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
-2015-05-07 10:43:29,620 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:43:29,620 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user ROBLOX 's tweets number is 1
-2015-05-07 10:43:30,094 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
-2015-05-07 10:43:32,702 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:43:32,702 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user Nintendo 's tweets number is 2
-2015-05-07 10:43:33,174 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
-2015-05-07 10:43:37,147 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:43:37,147 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user 博谈网 's tweets number is 29
-2015-05-07 10:43:37,616 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
-2015-05-07 10:43:40,576 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:43:40,576 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user 蔡玉珠 's tweets number is 30
-2015-05-07 10:43:41,046 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
-2015-05-07 10:43:43,737 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
-2015-05-07 10:43:44,208 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
-2015-05-07 10:43:47,302 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:43:47,302 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user Game Informer 's tweets number is 27
-2015-05-07 10:43:47,771 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
-2015-05-07 10:43:50,786 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
-2015-05-07 10:43:51,259 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Deadtales machinima 's tweet 
-2015-05-07 10:43:53,989 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Deadtales machinima 's tweets number is 0
-2015-05-07 10:43:54,459 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
-2015-05-07 10:43:56,893 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
-2015-05-07 10:43:57,364 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE UK 's tweet 
-2015-05-07 10:43:59,220 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE UK 's tweets number is 0
-2015-05-07 10:43:59,694 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
-2015-05-07 10:44:02,911 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
-2015-05-07 10:44:03,380 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
-2015-05-07 10:44:06,322 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:44:06,322 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user Qwertee 's tweets number is 5
-2015-05-07 10:44:06,794 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get New York Red Bulls 's tweet 
-2015-05-07 10:44:09,823 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:44:09,823 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user New York Red Bulls 's tweets number is 8
-2015-05-07 10:44:10,293 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Developers 's tweet 
-2015-05-07 10:44:13,784 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:44:13,785 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user Google Developers 's tweets number is 3
-2015-05-07 10:44:14,256 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen Türkiye 's tweet 
-2015-05-07 10:44:16,926 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user AskMen Türkiye 's tweets number is 0
-2015-05-07 10:44:17,404 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes of Kingennie 's tweet 
-2015-05-07 10:44:19,017 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Forbes of Kingennie 's tweets number is 0
-2015-05-07 10:44:19,491 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
-2015-05-07 10:44:22,233 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:30 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-07 10:44:22,233 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:120] - google+ user msnbc 's tweets number is 4
-2015-05-07 10:44:22,706 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jimbo Han 's tweet 
-2015-05-07 10:44:24,317 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jimbo Han 's tweets number is 0
-2015-05-07 10:44:24,790 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 中国数字时代 's tweet 
-2015-05-07 10:44:28,425 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 中国数字时代 's tweets number is 0
-2015-05-07 10:44:28,898 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 缤纷岁月 's tweet 
-2015-05-07 10:44:31,594 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 缤纷岁月 's tweets number is 0
-2015-05-07 10:44:32,067 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 林森 's tweet 
-2015-05-07 10:44:35,939 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 林森 's tweets number is 0
-2015-05-07 10:44:36,416 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:187] - start sleep ,please check it 1 hour's latter
-2015-05-07 10:52:00,246 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:124] - focus status size is 0, 0.5 hours later will try again
+2015-05-20 09:08:00,522 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
+2015-05-20 09:08:02,217 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-05-20 09:08:02,807 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:03,248 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 33
+2015-05-20 09:08:03,632 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:04,035 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 33
+2015-05-20 09:08:04,415 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:04,868 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-05-20 09:08:04,960 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:05,544 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-05-20 09:08:05,734 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:06,282 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-05-20 09:08:06,372 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:06,910 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 67
+2015-05-20 09:08:07,444 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:08,235 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 40
+2015-05-20 09:08:08,633 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:09,090 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
+2015-05-20 09:08:09,565 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:10,048 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 60
+2015-05-20 09:08:10,506 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:11,135 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
+2015-05-20 09:08:11,600 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:12,107 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
+2015-05-20 09:08:12,601 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:13,006 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 26
+2015-05-20 09:08:13,375 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:13,829 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-05-20 09:08:14,039 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:14,704 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
+2015-05-20 09:08:15,163 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:15,610 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
+2015-05-20 09:08:16,117 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:16,611 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
+2015-05-20 09:08:17,090 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:17,657 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
+2015-05-20 09:08:18,148 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:18,625 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
+2015-05-20 09:08:19,084 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:19,428 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-05-20 09:08:19,519 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:19,929 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-05-20 09:08:20,458 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-05-20 09:08:21,106 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-05-20 09:08:21,703 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-05-20 09:08:22,206 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-05-20 09:08:22,596 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-05-20 09:08:23,107 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-05-20 09:08:23,628 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-05-20 09:08:24,157 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-05-20 09:08:24,674 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-05-20 09:08:25,125 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
+2015-05-20 09:08:25,678 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:26,216 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 60
+2015-05-20 09:08:26,693 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:27,058 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-05-20 09:08:27,149 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:27,636 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 13
+2015-05-20 09:08:27,896 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:28,252 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
+2015-05-20 09:08:28,568 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:28,927 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-05-20 09:08:29,037 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:29,433 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-05-20 09:08:29,769 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:30,138 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-05-20 09:08:30,232 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:30,591 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-05-20 09:08:30,694 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:31,089 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
+2015-05-20 09:08:31,398 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:31,743 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-05-20 09:08:31,834 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:32,186 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-05-20 09:08:32,275 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:32,736 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-05-20 09:08:32,826 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:33,228 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
+2015-05-20 09:08:33,557 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:33,920 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
+2015-05-20 09:08:34,201 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:34,576 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
+2015-05-20 09:08:34,896 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:35,234 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-05-20 09:08:35,327 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:35,713 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-05-20 09:08:36,057 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:36,431 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-05-20 09:08:37,318 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-05-20 09:08:37,680 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-05-20 09:08:37,771 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:38,159 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 7
+2015-05-20 09:08:38,371 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:38,755 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-05-20 09:08:38,845 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:39,389 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13gglurspyqxphri04cfroobzqxizmy5jc.1431732770671295  has no comments 
+2015-05-20 09:08:40,291 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431122880832334  has no comments 
+2015-05-20 09:08:40,819 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431121232642746  has no comments 
+2015-05-20 09:08:41,374 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431112330077034  has no comments 
+2015-05-20 09:08:41,916 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431096488062192  has no comments 
+2015-05-20 09:08:42,424 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431092763716422  has no comments 
+2015-05-20 09:08:42,976 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431091766529543  has no comments 
+2015-05-20 09:08:44,161 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-05-20 09:08:44,326 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:45,073 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-05-20 09:08:45,251 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:45,682 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-05-20 09:08:45,775 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:46,197 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 14
+2015-05-20 09:08:46,509 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:47,566 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
+2015-05-20 09:08:47,857 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:48,876 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 159
+2015-05-20 09:08:49,715 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:50,699 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 159
+2015-05-20 09:08:51,569 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:52,626 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 159
+2015-05-20 09:08:53,427 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:54,625 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 159
+2015-05-20 09:08:55,410 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:56,425 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-05-20 09:08:57,319 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:57,969 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 122
+2015-05-20 09:08:58,630 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:59,198 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 14
+2015-05-20 09:08:59,458 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:08:59,853 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 14
+2015-05-20 09:09:00,129 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:09:00,479 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 8
+2015-05-20 09:09:00,705 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:09:01,082 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
+2015-05-20 09:09:01,381 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-05-20 09:09:01,381 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:141] - one round is over sleep 0.5 hours

@@ -8,7 +8,7 @@ import zx.soft.utils.log.LogbackUtil;
  * Created by jimbo on 5/5/15.
  */
 public class TwitterUserSpider {
-    private static Logger logger = LoggerFactory.getLogger(TwitterCurrentUserSpider.class);
+    private static Logger logger = LoggerFactory.getLogger(TwitterUserSpider.class);
 
     public static void main(String[] args) {
         logger.info("get twitter user's Tweet");

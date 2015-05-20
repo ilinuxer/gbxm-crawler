@@ -12,7 +12,7 @@ public class Twitter2Spider {
     public static void main(String[] args) {
         ThreadPoolExecutor pool = ApplyThreadPool.getThreadPoolExector();
         pool.execute(new ThreadOne(args));
-        pool.execute(new ThreadTwo(args));
+//        pool.execute(new ThreadTwo(args));
     }
 
     public static class ThreadOne implements Runnable{
@@ -28,14 +28,14 @@ public class Twitter2Spider {
         }
     }
 
-    public static class ThreadTwo implements Runnable{
-        private String[] args;
-        public ThreadTwo(String[] args){
-            this.args = args;
-        }
-        @Override
-        public void run() {
-            TwitterCurrentUserSpider.main(args);
-        }
-    }
+//    public static class ThreadTwo implements Runnable{
+//        private String[] args;
+//        public ThreadTwo(String[] args){
+//            this.args = args;
+//        }
+//        @Override
+//        public void run() {
+//            TwitterCurrentUserSpider.main(args);
+//        }
+//    }
 }

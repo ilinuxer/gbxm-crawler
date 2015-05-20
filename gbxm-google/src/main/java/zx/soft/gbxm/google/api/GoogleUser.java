@@ -118,7 +118,6 @@ public class GoogleUser {
             //post并将数据插入数据库
             RestletPost.post(data);
             logger.info("google+ user {} 's tweets number is " + records.size(), userInfo.getUserName());
-//            daoImpl.insertGooglePlusListStatus(userStatus);
         }
 
         daoImpl.updatedUserInfo(userId, new Timestamp(currentTime - 60*60 *1000L));
@@ -132,8 +131,6 @@ public class GoogleUser {
             logger.info("get {} 's tweet ", userInfo.getUserName());
             googleActivitiesSingle(token, userInfo);
         }
-//        Thread.sleep(60*60*1000L);
-//        googleActivitiesByToken(token,userInfos);
     }
 
     /**
@@ -160,7 +157,7 @@ public class GoogleUser {
         int tokensCount = tokens.size();
         if (userCount <= tokensCount * 10) {
             List<UserInfo> users = getGplusUserInfos(0, userCount);
-//            logger.info(JsonUtils.toJson(users));
+            logger.info("there has {} users",userCount);
             try {
                 googleActivitiesByToken(tokens.get(0), users);
             } catch (Exception e) {
@@ -171,7 +168,7 @@ public class GoogleUser {
             int count = userCount / (tokensCount - 1);
             logger.info("{} users each token has", count);
             for (int i = 0; i < tokensCount; i++) {
-
+                logger.info("this is token number {}",i);
                 GoogleToken token = tokens.get(i);
                 List<UserInfo> users = getGplusUserInfos((count * i), count);
                 logger.info(JsonUtils.toJson(users));
