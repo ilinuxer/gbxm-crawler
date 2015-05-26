@@ -14,22 +14,26 @@ import java.util.List;
 public class TwitterUser {
     private static Logger logger = LoggerFactory.getLogger(TwitterUser.class);
 
-    private TwitterDaoImpl twitterDao = new TwitterDaoImpl();
-    private TwitterCurrentUser twitterCurrentUser = new TwitterCurrentUser();
+    private static TwitterDaoImpl twitterDao = new TwitterDaoImpl();
+    private static TwitterCurrentUser twitterCurrentUser = new TwitterCurrentUser();
 
-    private List<MonitorUser> getMonitorUsers() {
+    private static List<MonitorUser> getMonitorUsers() {
         return twitterDao.getMoitorUsers();
     }
 
-    private void postDataByUser(List<MonitorUser> users) throws InterruptedException {
+    private static void postDataByUser(List<MonitorUser> users) throws InterruptedException {
         twitterCurrentUser.getUserTimeLine(users);
     }
 
-    protected void postUserTweet() throws InterruptedException {
+    public static void postUserTweet() throws InterruptedException {
         List<MonitorUser> users = getMonitorUsers();
         logger.info("monitor user count is {} ", users.size());
         if (users.size() != 0 && !users.isEmpty()) {
             postDataByUser(users);
+
+            logger.info("one round is over ,start sleep ,please check it 0.5 hour's latter");
+            Thread.sleep(30 * 60 * 1000L);
+            postUserTweet();
         } else {
             logger.info("there has no monitor user ");
             Thread.sleep(1 * 60 * 60 * 1000L);

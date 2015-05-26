@@ -103,7 +103,8 @@ public class GoogleUser {
 
         List<RecordInfo> records = new ArrayList<>();
         long currentTime = System.currentTimeMillis();
-        String userId = userInfo.getUserId();
+//        String userId = userInfo.getUserId();
+        String userId = "115765325971597823747";
         long lastUpdateTime = userInfo.getLastUpdateTime().getTime();
         ArrayList<GooglePlusStatus> userStatus = getGoogeActivities(token, userId, lastUpdateTime);
         if (userStatus == null || userStatus.size() == 0) {
@@ -171,7 +172,6 @@ public class GoogleUser {
                 logger.info("this is token number {}",i);
                 GoogleToken token = tokens.get(i);
                 List<UserInfo> users = getGplusUserInfos((count * i), count);
-                logger.info(JsonUtils.toJson(users));
                 try {
                     googleActivitiesByToken(token, users);
                 } catch (Exception e) {

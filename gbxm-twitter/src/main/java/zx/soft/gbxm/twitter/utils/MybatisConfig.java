@@ -25,7 +25,6 @@ public class MybatisConfig {
 
 		} catch (IOException e) {
 			logger.info("Mybatis Config  IOException");
-			e.printStackTrace();
 			throw new RuntimeException(e);
 		}
 	}

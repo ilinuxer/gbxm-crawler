@@ -34,6 +34,7 @@ public class TwitterCurrentUser {
     private static TwitterDaoImpl twitterDaoImpl = new TwitterDaoImpl();
     private final ClientResource clientResource = new ClientResource(URL);
     private static final String URL = getPostUrl();
+    private int tokenNum = getTokens().size();
 
     /**
      * 获取post接口url
@@ -54,12 +55,7 @@ public class TwitterCurrentUser {
      */
     private Twitter setTwitter(int i) throws InterruptedException {
         List<Token> tokens = getTokens();
-        if (i >= tokens.size()) {
-            logger.info("tokens has used, Thread will sleep 0.5 hours");
-            Thread.sleep(1000 * 60 * 15L);
-            i = 0;
-            setTwitter(i);
-        }
+        logger.info("token number {} " ,i);
         Token token = tokens.get(i);
         Properties properties = ConfigUtil.getProps("oauthconsumer.properties");
         Twitter result = new TwitterFactory().getInstance();
@@ -87,11 +83,25 @@ public class TwitterCurrentUser {
             try {
                 getUserTimeLineIn(twitter, userScreenName);
             } catch (TwitterException e) {
-                logger.info("token's limit is used , next token");
-                index++;
-                setTwitterUserTimeLine(index, i, users);
+                if (e.getErrorCode() == 88){
+                    logger.info("token's limit is used , next token");
+                    index++;
+                    if (index>=tokenNum){
+                        logger.info("tokens has used, Thread will sleep 0.25 hours");
+                        Thread.sleep(1000 * 60 * 10L);
+                        index = 0;
+                    }
+                    setTwitterUserTimeLine(index, i, users);
+                }else {
+                    logger.error("user {} has something wrong during get tweets",users.get(i).getScreenName());
+                    continue;
+                }
             }
         }
+        logger.info("one round is over ,start sleep ,please check it 0.5 hour's latter");
+        Thread.sleep(30 * 60 * 1000L);
+        TwitterUser.postUserTweet();
+
     }
 
     /**
@@ -102,9 +112,6 @@ public class TwitterCurrentUser {
         for (int i = 0; i < users.size(); i++) {
             setTwitterUserTimeLine(index, i, users);
         }
-        logger.info("start sleep ,please check it 0.5 hour's latter");
-        Thread.sleep(30 * 60 * 1000L);
-
     }
 
     /**

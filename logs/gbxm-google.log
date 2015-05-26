@@ -1,133 +1,352 @@
-2015-05-20 09:08:00,522 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
-2015-05-20 09:08:02,217 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
-2015-05-20 09:08:02,807 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:03,248 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 33
-2015-05-20 09:08:03,632 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:04,035 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 33
-2015-05-20 09:08:04,415 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:04,868 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
-2015-05-20 09:08:04,960 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:05,544 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
-2015-05-20 09:08:05,734 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:06,282 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
-2015-05-20 09:08:06,372 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:06,910 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 67
-2015-05-20 09:08:07,444 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:08,235 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 40
-2015-05-20 09:08:08,633 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:09,090 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
-2015-05-20 09:08:09,565 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:10,048 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 60
-2015-05-20 09:08:10,506 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:11,135 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
-2015-05-20 09:08:11,600 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:12,107 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
-2015-05-20 09:08:12,601 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:13,006 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 26
-2015-05-20 09:08:13,375 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:13,829 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
-2015-05-20 09:08:14,039 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:14,704 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
-2015-05-20 09:08:15,163 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:15,610 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
-2015-05-20 09:08:16,117 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:16,611 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
-2015-05-20 09:08:17,090 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:17,657 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
-2015-05-20 09:08:18,148 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:18,625 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
-2015-05-20 09:08:19,084 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:19,428 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
-2015-05-20 09:08:19,519 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:19,929 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
-2015-05-20 09:08:20,458 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
-2015-05-20 09:08:21,106 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
-2015-05-20 09:08:21,703 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
-2015-05-20 09:08:22,206 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
-2015-05-20 09:08:22,596 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
-2015-05-20 09:08:23,107 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
-2015-05-20 09:08:23,628 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
-2015-05-20 09:08:24,157 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
-2015-05-20 09:08:24,674 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
-2015-05-20 09:08:25,125 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 62
-2015-05-20 09:08:25,678 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:26,216 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 60
-2015-05-20 09:08:26,693 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:27,058 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
-2015-05-20 09:08:27,149 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:27,636 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 13
-2015-05-20 09:08:27,896 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:28,252 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
-2015-05-20 09:08:28,568 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:28,927 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
-2015-05-20 09:08:29,037 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:29,433 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
-2015-05-20 09:08:29,769 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:30,138 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
-2015-05-20 09:08:30,232 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:30,591 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
-2015-05-20 09:08:30,694 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:31,089 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
-2015-05-20 09:08:31,398 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:31,743 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
-2015-05-20 09:08:31,834 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:32,186 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
-2015-05-20 09:08:32,275 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:32,736 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
-2015-05-20 09:08:32,826 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:33,228 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
-2015-05-20 09:08:33,557 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:33,920 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
-2015-05-20 09:08:34,201 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:34,576 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
-2015-05-20 09:08:34,896 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:35,234 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
-2015-05-20 09:08:35,327 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:35,713 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
-2015-05-20 09:08:36,057 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:36,431 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
-2015-05-20 09:08:37,318 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
-2015-05-20 09:08:37,680 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
-2015-05-20 09:08:37,771 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:38,159 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 7
-2015-05-20 09:08:38,371 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:38,755 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
-2015-05-20 09:08:38,845 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:39,389 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13gglurspyqxphri04cfroobzqxizmy5jc.1431732770671295  has no comments 
-2015-05-20 09:08:40,291 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431122880832334  has no comments 
-2015-05-20 09:08:40,819 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431121232642746  has no comments 
-2015-05-20 09:08:41,374 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431112330077034  has no comments 
-2015-05-20 09:08:41,916 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431096488062192  has no comments 
-2015-05-20 09:08:42,424 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431092763716422  has no comments 
-2015-05-20 09:08:42,976 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431091766529543  has no comments 
-2015-05-20 09:08:44,161 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
-2015-05-20 09:08:44,326 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:45,073 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
-2015-05-20 09:08:45,251 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:45,682 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
-2015-05-20 09:08:45,775 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:46,197 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 14
-2015-05-20 09:08:46,509 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:47,566 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
-2015-05-20 09:08:47,857 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:48,876 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 159
-2015-05-20 09:08:49,715 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:50,699 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 159
-2015-05-20 09:08:51,569 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:52,626 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 159
-2015-05-20 09:08:53,427 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:54,625 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 159
-2015-05-20 09:08:55,410 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:56,425 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
-2015-05-20 09:08:57,319 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:57,969 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 122
-2015-05-20 09:08:58,630 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:59,198 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 14
-2015-05-20 09:08:59,458 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:08:59,853 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 14
-2015-05-20 09:09:00,129 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:09:00,479 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 8
-2015-05-20 09:09:00,705 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:09:01,082 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 21
-2015-05-20 09:09:01,381 [main] INFO  z.s.gbxm.google.common.RestletPost [Line:32 ] - {"errorCode":0,"errorMessage":"ok"}
-2015-05-20 09:09:01,381 [main] INFO  z.s.gbxm.google.status.GoogleStatus [Line:141] - one round is over sleep 0.5 hours
+2015-05-25 14:58:36,981 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:162] - there has 57 users
+2015-05-25 14:58:36,997 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 匆匆过客 's tweet 
+2015-05-25 14:58:39,263 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 匆匆过客 's tweets number is 0
+2015-05-25 14:58:39,723 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get Terence Shen 's tweet 
+2015-05-25 14:58:41,431 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Terence Shen 's tweets number is 0
+2015-05-25 14:58:41,898 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 半世繁华 # 's tweet 
+2015-05-25 14:58:45,111 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-25 14:58:45,563 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 阿波罗网 's tweet 
+2015-05-25 14:58:47,069 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 阿波罗网 's tweets number is 0
+2015-05-25 14:58:47,857 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 温云超 's tweet 
+2015-05-25 14:58:49,478 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 温云超 's tweets number is 0
+2015-05-25 14:58:49,955 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-25 14:58:51,662 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-25 14:58:52,149 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 沈良庆 's tweet 
+2015-05-25 14:58:53,620 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 沈良庆 's tweets number is 0
+2015-05-25 14:58:54,078 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 张佳佳 's tweet 
+2015-05-25 15:05:03,656 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:161] - there has 57 users
+2015-05-25 15:05:03,662 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-25 15:05:07,154 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 匆匆过客 's tweets number is 0
+2015-05-25 15:05:07,662 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-25 15:05:10,107 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Terence Shen 's tweets number is 0
+2015-05-25 15:05:10,593 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-25 15:05:12,963 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-25 15:05:13,453 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-25 15:05:14,872 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 阿波罗网 's tweets number is 0
+2015-05-25 15:05:15,345 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-25 15:05:16,845 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 温云超 's tweets number is 0
+2015-05-25 15:05:17,314 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-25 15:05:18,903 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-25 15:05:19,393 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-25 15:05:21,226 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 沈良庆 's tweets number is 0
+2015-05-25 15:05:21,712 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-25 15:05:23,804 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 张佳佳 's tweets number is 0
+2015-05-25 15:05:24,276 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-25 15:05:26,143 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 巴黎张健 's tweets number is 0
+2015-05-25 15:05:27,266 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-25 15:05:29,117 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Bored Panda 's tweets number is 0
+2015-05-25 15:05:29,627 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-25 15:05:31,898 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user adidas 's tweets number is 0
+2015-05-25 15:05:32,385 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Machinima 's tweet 
+2015-05-25 15:05:33,919 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Machinima 's tweets number is 0
+2015-05-25 15:05:34,395 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-25 15:05:35,789 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user TGN 's tweets number is 0
+2015-05-25 15:05:36,614 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-25 15:05:38,910 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jewel Daab 's tweets number is 0
+2015-05-25 15:05:39,418 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-25 15:05:41,338 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user ROBLOX 's tweets number is 0
+2015-05-25 15:05:41,827 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-25 15:05:44,072 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Nintendo 's tweets number is 0
+2015-05-25 15:05:45,438 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-25 15:05:46,885 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 博谈网 's tweets number is 0
+2015-05-25 15:05:47,359 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-25 15:05:48,600 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-25 15:05:49,099 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-25 15:05:50,776 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-25 15:05:51,565 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-25 15:05:52,952 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Game Informer 's tweets number is 0
+2015-05-25 15:05:53,682 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-25 15:05:55,338 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Lumosity 's tweets number is 0
+2015-05-25 15:05:56,846 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds 's tweet 
+2015-05-25 15:05:58,695 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Angry Birds 's tweets number is 0
+2015-05-25 15:05:59,412 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-25 15:06:00,857 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user EverQuest Next 's tweets number is 0
+2015-05-25 15:06:01,342 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE 's tweet 
+2015-05-25 15:06:02,926 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user VICE 's tweets number is 0
+2015-05-25 15:06:03,416 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-25 15:06:05,795 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Smosh 's tweets number is 0
+2015-05-25 15:06:06,291 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-25 15:06:07,989 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Qwertee 's tweets number is 0
+2015-05-25 15:06:08,473 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen 's tweet 
+2015-05-25 15:06:10,519 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user AskMen 's tweets number is 0
+2015-05-25 15:06:11,334 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Red Bull 's tweet 
+2015-05-25 15:06:12,605 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Red Bull 's tweets number is 0
+2015-05-25 15:06:13,077 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google 's tweet 
+2015-05-25 15:06:14,410 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Google 's tweets number is 0
+2015-05-25 15:06:15,352 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes 's tweet 
+2015-05-25 15:06:16,944 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Forbes 's tweets number is 0
+2015-05-25 15:06:18,538 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
+2015-05-25 15:06:19,824 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user msnbc 's tweets number is 0
+2015-05-25 15:06:22,358 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jimbo Han 's tweet 
+2015-05-25 15:06:24,843 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jimbo Han 's tweets number is 0
+2015-05-25 15:06:25,450 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 中国数字时代 's tweet 
+2015-05-25 15:06:27,427 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 中国数字时代 's tweets number is 0
+2015-05-25 15:06:28,702 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 缤纷岁月 's tweet 
+2015-05-25 15:06:30,366 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 缤纷岁月 's tweets number is 0
+2015-05-25 15:06:31,103 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 林森 's tweet 
+2015-05-25 15:06:32,461 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 林森 's tweets number is 0
+2015-05-25 15:06:32,942 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蟹农场 's tweet 
+2015-05-25 15:06:34,274 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蟹农场 's tweets number is 0
+2015-05-25 15:06:36,521 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 许文娟 's tweet 
+2015-05-25 15:06:38,189 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 许文娟 's tweets number is 0
+2015-05-25 15:06:40,386 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Selectism 's tweet 
+2015-05-25 15:06:42,115 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Selectism 's tweets number is 0
+2015-05-25 15:06:42,586 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Greg Miller 's tweet 
+2015-05-25 15:06:44,151 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Greg Miller 's tweets number is 0
+2015-05-25 15:06:45,103 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get PlayStation 's tweet 
+2015-05-25 15:06:47,714 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user PlayStation 's tweets number is 0
+2015-05-25 15:06:48,191 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get euronews (in English) 's tweet 
+2015-05-25 15:06:49,934 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user euronews (in English) 's tweets number is 0
+2015-05-25 15:06:50,401 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get The Ritz-Carlton 's tweet 
+2015-05-25 15:06:52,269 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user The Ritz-Carlton 's tweets number is 0
+2015-05-25 15:06:52,763 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get DoubleTree by Hilton 's tweet 
+2015-05-25 15:06:54,192 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user DoubleTree by Hilton 's tweets number is 0
+2015-05-25 15:06:54,673 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jaana Nyström 's tweet 
+2015-05-25 15:06:56,535 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jaana Nyström 's tweets number is 0
+2015-05-25 15:06:57,023 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Viator.com 's tweet 
+2015-05-25 15:06:58,913 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Viator.com 's tweets number is 0
+2015-05-25 15:06:59,396 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get LateRooms.com 's tweet 
+2015-05-25 15:07:01,882 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user LateRooms.com 's tweets number is 0
+2015-05-25 15:07:02,689 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Curacao 411 's tweet 
+2015-05-25 15:07:04,044 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Curacao 411 's tweets number is 0
+2015-05-25 15:07:05,693 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Condé Nast Traveler 's tweet 
+2015-05-25 15:07:08,735 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Condé Nast Traveler 's tweets number is 0
+2015-05-25 15:07:09,560 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Australia 's tweet 
+2015-05-25 15:07:12,570 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Australia 's tweets number is 0
+2015-05-25 15:07:15,333 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Hilton Hotels & Resorts 's tweet 
+2015-05-25 15:07:17,493 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Hilton Hotels & Resorts 's tweets number is 0
+2015-05-25 15:07:17,970 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Arianna Huffington 's tweet 
+2015-05-25 15:07:20,878 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Arianna Huffington 's tweets number is 0
+2015-05-25 15:07:21,366 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Chrome 's tweet 
+2015-05-25 15:07:23,415 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Google Chrome 's tweets number is 0
+2015-05-25 15:07:24,262 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Wall Street Journal 's tweet 
+2015-05-25 15:07:25,676 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Wall Street Journal 's tweets number is 0
+2015-05-25 15:07:29,682 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Dalai Lama 's tweet 
+2015-05-25 15:07:31,174 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Dalai Lama 's tweets number is 0
+2015-05-25 15:07:31,773 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Dadisi Olutosin 's tweet 
+2015-05-25 15:07:33,034 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Dadisi Olutosin 's tweets number is 0
+2015-05-25 15:07:35,252 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Discover Magazine 's tweet 
+2015-05-25 15:07:36,625 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Discover Magazine 's tweets number is 0
+2015-05-25 15:07:37,098 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lee Graham 's tweet 
+2015-05-25 15:07:38,646 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Lee Graham 's tweets number is 0
+2015-05-25 15:07:40,253 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:184] - start sleep ,please check it 1 hour's latter
+2015-05-25 16:24:18,549 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:161] - there has 57 users
+2015-05-25 16:24:18,549 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-25 16:24:21,319 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 匆匆过客 's tweets number is 0
+2015-05-25 16:24:22,936 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-25 16:24:24,620 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Terence Shen 's tweets number is 0
+2015-05-25 16:24:25,105 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-25 16:24:26,572 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-25 16:24:27,061 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-25 16:24:31,337 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 阿波罗网 's tweets number is 0
+2015-05-25 16:24:31,892 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-25 16:24:33,441 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 温云超 's tweets number is 0
+2015-05-25 16:24:36,199 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-25 16:24:40,056 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-25 16:24:40,708 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-25 16:24:42,662 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 沈良庆 's tweets number is 0
+2015-05-25 16:24:43,315 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-25 16:24:46,980 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 张佳佳 's tweets number is 0
+2015-05-25 16:24:48,856 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-25 16:24:50,745 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 巴黎张健 's tweets number is 0
+2015-05-25 16:24:51,258 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-25 16:24:52,616 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Bored Panda 's tweets number is 0
+2015-05-25 16:24:54,649 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-25 16:24:58,192 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user adidas 's tweets number is 0
+2015-05-25 16:24:58,790 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Machinima 's tweet 
+2015-05-25 16:25:00,341 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Machinima 's tweets number is 0
+2015-05-25 16:25:00,831 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-25 16:25:03,698 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user TGN 's tweets number is 0
+2015-05-25 16:25:05,085 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-25 16:25:06,575 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jewel Daab 's tweets number is 0
+2015-05-25 16:25:07,067 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-25 16:25:08,733 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user ROBLOX 's tweets number is 0
+2015-05-25 16:25:09,210 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-25 16:25:12,026 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Nintendo 's tweets number is 0
+2015-05-25 16:25:12,526 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-25 16:25:14,068 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 博谈网 's tweets number is 0
+2015-05-25 16:25:14,599 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-25 16:25:16,857 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-25 16:25:17,330 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-25 16:25:20,003 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-25 16:25:20,586 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-25 16:25:22,879 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Game Informer 's tweets number is 0
+2015-05-25 16:25:23,360 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-25 16:25:24,930 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Lumosity 's tweets number is 0
+2015-05-25 16:25:25,399 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds 's tweet 
+2015-05-25 16:25:29,365 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Angry Birds 's tweets number is 0
+2015-05-25 16:25:29,840 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-25 16:25:31,450 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user EverQuest Next 's tweets number is 0
+2015-05-25 16:25:31,918 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE 's tweet 
+2015-05-25 16:25:33,346 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user VICE 's tweets number is 0
+2015-05-25 16:25:33,838 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-25 16:25:36,819 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Smosh 's tweets number is 0
+2015-05-25 16:25:38,725 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-25 16:25:40,152 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Qwertee 's tweets number is 0
+2015-05-25 16:25:40,633 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen 's tweet 
+2015-05-25 16:25:43,023 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user AskMen 's tweets number is 0
+2015-05-25 16:25:45,256 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Red Bull 's tweet 
+2015-05-25 16:25:46,746 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Red Bull 's tweets number is 0
+2015-05-25 16:25:47,221 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google 's tweet 
+2015-05-25 16:25:48,895 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Google 's tweets number is 0
+2015-05-25 16:25:49,391 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes 's tweet 
+2015-05-25 16:25:50,792 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Forbes 's tweets number is 0
+2015-05-25 16:25:51,306 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
+2015-05-25 16:25:56,087 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user msnbc 's tweets number is 0
+2015-05-25 16:25:56,695 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jimbo Han 's tweet 
+2015-05-25 16:25:58,247 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jimbo Han 's tweets number is 0
+2015-05-25 16:25:58,725 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 中国数字时代 's tweet 
+2015-05-25 16:26:01,341 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 中国数字时代 's tweets number is 0
+2015-05-25 16:26:02,881 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 缤纷岁月 's tweet 
+2015-05-25 16:26:04,882 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 缤纷岁月 's tweets number is 0
+2015-05-25 16:26:05,359 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 林森 's tweet 
+2015-05-25 16:26:06,840 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 林森 's tweets number is 0
+2015-05-25 16:26:07,309 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蟹农场 's tweet 
+2015-05-25 16:26:09,350 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蟹农场 's tweets number is 0
+2015-05-25 16:26:11,128 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 许文娟 's tweet 
+2015-05-25 16:26:12,774 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 许文娟 's tweets number is 0
+2015-05-25 16:26:13,267 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Selectism 's tweet 
+2015-05-25 16:26:15,131 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Selectism 's tweets number is 0
+2015-05-25 16:26:15,608 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Greg Miller 's tweet 
+2015-05-25 16:26:19,039 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Greg Miller 's tweets number is 0
+2015-05-25 16:26:19,533 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get PlayStation 's tweet 
+2015-05-25 16:26:20,986 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user PlayStation 's tweets number is 0
+2015-05-25 16:26:21,456 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get euronews (in English) 's tweet 
+2015-05-25 16:26:23,709 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user euronews (in English) 's tweets number is 0
+2015-05-25 16:26:24,184 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get The Ritz-Carlton 's tweet 
+2015-05-25 16:26:25,724 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user The Ritz-Carlton 's tweets number is 0
+2015-05-25 16:26:27,421 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get DoubleTree by Hilton 's tweet 
+2015-05-25 16:26:30,345 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user DoubleTree by Hilton 's tweets number is 0
+2015-05-25 16:26:30,840 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jaana Nyström 's tweet 
+2015-05-25 16:26:32,337 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jaana Nyström 's tweets number is 0
+2015-05-25 16:26:32,913 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Viator.com 's tweet 
+2015-05-25 16:26:36,056 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Viator.com 's tweets number is 0
+2015-05-25 16:26:37,347 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get LateRooms.com 's tweet 
+2015-05-25 16:26:38,816 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user LateRooms.com 's tweets number is 0
+2015-05-25 16:26:39,283 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Curacao 411 's tweet 
+2015-05-25 16:26:40,854 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Curacao 411 's tweets number is 0
+2015-05-25 16:26:43,194 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Condé Nast Traveler 's tweet 
+2015-05-25 16:26:45,547 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Condé Nast Traveler 's tweets number is 0
+2015-05-25 16:26:46,012 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Australia 's tweet 
+2015-05-25 16:26:47,507 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Australia 's tweets number is 0
+2015-05-25 16:26:48,044 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Hilton Hotels & Resorts 's tweet 
+2015-05-25 16:26:51,286 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Hilton Hotels & Resorts 's tweets number is 0
+2015-05-25 16:26:52,606 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Arianna Huffington 's tweet 
+2015-05-25 16:26:54,040 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Arianna Huffington 's tweets number is 0
+2015-05-25 16:26:54,524 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Chrome 's tweet 
+2015-05-25 16:26:56,883 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Google Chrome 's tweets number is 0
+2015-05-25 16:26:57,370 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Wall Street Journal 's tweet 
+2015-05-25 16:27:00,340 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Wall Street Journal 's tweets number is 0
+2015-05-25 16:27:00,830 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Dalai Lama 's tweet 
+2015-05-25 16:27:02,901 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Dalai Lama 's tweets number is 0
+2015-05-25 16:27:03,389 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Dadisi Olutosin 's tweet 
+2015-05-25 16:27:04,757 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Dadisi Olutosin 's tweets number is 0
+2015-05-25 16:27:05,248 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Discover Magazine 's tweet 
+2015-05-25 16:27:08,078 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Discover Magazine 's tweets number is 0
+2015-05-25 16:27:09,408 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lee Graham 's tweet 
+2015-05-25 16:27:10,966 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Lee Graham 's tweets number is 0
+2015-05-25 16:27:11,442 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:184] - start sleep ,please check it 1 hour's latter
+2015-05-25 17:27:16,796 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:161] - there has 57 users
+2015-05-25 17:27:16,796 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
+2015-05-25 17:27:18,913 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 匆匆过客 's tweets number is 0
+2015-05-25 17:27:19,399 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
+2015-05-25 17:27:21,661 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Terence Shen 's tweets number is 0
+2015-05-25 17:27:22,146 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
+2015-05-25 17:27:24,001 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 半世繁华 # 's tweets number is 0
+2015-05-25 17:27:24,748 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
+2015-05-25 17:27:26,696 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 阿波罗网 's tweets number is 0
+2015-05-25 17:27:29,955 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
+2015-05-25 17:27:38,409 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 温云超 's tweets number is 0
+2015-05-25 17:27:39,017 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
+2015-05-25 17:27:40,814 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
+2015-05-25 17:27:41,293 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
+2015-05-25 17:27:43,146 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 沈良庆 's tweets number is 0
+2015-05-25 17:27:43,624 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
+2015-05-25 17:27:45,471 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 张佳佳 's tweets number is 0
+2015-05-25 17:27:45,947 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
+2015-05-25 17:27:47,799 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 巴黎张健 's tweets number is 0
+2015-05-25 17:27:48,276 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
+2015-05-25 17:27:49,982 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Bored Panda 's tweets number is 0
+2015-05-25 17:27:50,467 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
+2015-05-25 17:27:52,726 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user adidas 's tweets number is 0
+2015-05-25 17:27:53,211 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Machinima 's tweet 
+2015-05-25 17:27:54,938 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Machinima 's tweets number is 0
+2015-05-25 17:27:55,420 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
+2015-05-25 17:27:57,156 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user TGN 's tweets number is 0
+2015-05-25 17:27:57,634 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
+2015-05-25 17:27:59,470 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jewel Daab 's tweets number is 0
+2015-05-25 17:27:59,952 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
+2015-05-25 17:28:01,717 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user ROBLOX 's tweets number is 0
+2015-05-25 17:28:02,214 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
+2015-05-25 17:28:04,819 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Nintendo 's tweets number is 0
+2015-05-25 17:28:05,315 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
+2015-05-25 17:28:07,125 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 博谈网 's tweets number is 0
+2015-05-25 17:28:07,604 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
+2015-05-25 17:28:09,343 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蔡玉珠 's tweets number is 0
+2015-05-25 17:28:09,823 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
+2015-05-25 17:28:11,626 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-05-25 17:28:12,894 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
+2015-05-25 17:28:15,711 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Game Informer 's tweets number is 0
+2015-05-25 17:28:16,204 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
+2015-05-25 17:28:19,269 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Lumosity 's tweets number is 0
+2015-05-25 17:28:20,186 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds 's tweet 
+2015-05-25 17:28:22,827 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Angry Birds 's tweets number is 0
+2015-05-25 17:28:24,060 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
+2015-05-25 17:28:27,865 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user EverQuest Next 's tweets number is 0
+2015-05-25 17:28:28,942 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE 's tweet 
+2015-05-25 17:28:31,110 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user VICE 's tweets number is 0
+2015-05-25 17:28:32,469 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
+2015-05-25 17:28:42,329 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Smosh 's tweets number is 0
+2015-05-25 17:28:45,236 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
+2015-05-25 17:28:48,164 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Qwertee 's tweets number is 0
+2015-05-25 17:28:51,187 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen 's tweet 
+2015-05-25 17:28:53,330 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user AskMen 's tweets number is 0
+2015-05-25 17:28:59,750 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Red Bull 's tweet 
+2015-05-25 17:29:02,070 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Red Bull 's tweets number is 0
+2015-05-25 17:29:02,678 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google 's tweet 
+2015-05-25 17:29:04,446 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Google 's tweets number is 0
+2015-05-25 17:29:04,939 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes 's tweet 
+2015-05-25 17:29:07,079 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Forbes 's tweets number is 0
+2015-05-25 17:29:07,564 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
+2015-05-25 17:29:09,491 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user msnbc 's tweets number is 0
+2015-05-25 17:29:10,266 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jimbo Han 's tweet 
+2015-05-25 17:29:15,781 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jimbo Han 's tweets number is 0
+2015-05-25 17:29:16,385 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 中国数字时代 's tweet 
+2015-05-25 17:29:18,151 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 中国数字时代 's tweets number is 0
+2015-05-25 17:29:18,625 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 缤纷岁月 's tweet 
+2015-05-25 17:29:21,095 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 缤纷岁月 's tweets number is 0
+2015-05-25 17:29:21,597 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 林森 's tweet 
+2015-05-25 17:29:24,659 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 林森 's tweets number is 0
+2015-05-25 17:29:25,137 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蟹农场 's tweet 
+2015-05-25 17:29:30,884 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蟹农场 's tweets number is 0
+2015-05-25 17:29:35,565 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 许文娟 's tweet 
+2015-05-25 17:29:38,766 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 许文娟 's tweets number is 0
+2015-05-25 17:29:39,373 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Selectism 's tweet 
+2015-05-25 17:29:41,126 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Selectism 's tweets number is 0
+2015-05-25 17:29:41,604 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Greg Miller 's tweet 
+2015-05-25 17:29:43,367 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Greg Miller 's tweets number is 0
+2015-05-25 17:29:44,075 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get PlayStation 's tweet 
+2015-05-25 17:29:46,032 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user PlayStation 's tweets number is 0
+2015-05-25 17:29:46,510 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get euronews (in English) 's tweet 
+2015-05-25 17:29:48,358 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user euronews (in English) 's tweets number is 0
+2015-05-25 17:29:50,159 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get The Ritz-Carlton 's tweet 
+2015-05-25 17:29:51,945 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user The Ritz-Carlton 's tweets number is 0
+2015-05-25 17:29:52,430 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get DoubleTree by Hilton 's tweet 
+2015-05-25 17:29:54,941 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user DoubleTree by Hilton 's tweets number is 0
+2015-05-25 17:29:55,443 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jaana Nyström 's tweet 
+2015-05-25 17:29:57,334 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jaana Nyström 's tweets number is 0
+2015-05-25 17:29:57,813 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Viator.com 's tweet 
+2015-05-25 17:30:00,069 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Viator.com 's tweets number is 0
+2015-05-25 17:30:00,560 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get LateRooms.com 's tweet 
+2015-05-25 17:30:03,515 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user LateRooms.com 's tweets number is 0
+2015-05-25 17:30:06,494 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Curacao 411 's tweet 
+2015-05-25 17:30:09,142 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Curacao 411 's tweets number is 0
+2015-05-25 17:30:09,738 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Condé Nast Traveler 's tweet 
+2015-05-25 17:30:11,837 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Condé Nast Traveler 's tweets number is 0
+2015-05-25 17:30:12,526 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Australia 's tweet 
+2015-05-25 17:30:14,446 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Australia 's tweets number is 0
+2015-05-25 17:30:15,761 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Hilton Hotels & Resorts 's tweet 
+2015-05-25 17:30:17,696 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Hilton Hotels & Resorts 's tweets number is 0
+2015-05-25 17:30:18,181 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Arianna Huffington 's tweet 
+2015-05-25 17:30:40,378 [main] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:165] - this token is over limited 
+2015-05-25 17:30:40,378 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:184] - start sleep ,please check it 1 hour's latter

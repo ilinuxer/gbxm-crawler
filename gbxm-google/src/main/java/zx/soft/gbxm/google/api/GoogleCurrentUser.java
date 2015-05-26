@@ -176,7 +176,7 @@ public class GoogleCurrentUser {
      */
     public void postUserTweet() throws InterruptedException {
         List<CurrentUserInfo> users = getCurrentUser();
-        logger.info("本次查找到新增用户数量为 ：" + users.size());
+        logger.info("there has {} current user to add " , users.size());
         if (users.size() != 0) {
             for (CurrentUserInfo user : users) {
                 String userId = user.getUserId();
