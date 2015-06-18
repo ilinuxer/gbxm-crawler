@@ -21,7 +21,6 @@ import zx.soft.model.user.CurrentUserInfo;
 import zx.soft.utils.checksum.CheckSumUtils;
 import zx.soft.utils.config.ConfigUtil;
 import zx.soft.utils.json.JsonUtils;
-import zx.soft.utils.log.LogbackUtil;
 
 import java.io.IOException;
 import java.util.*;
@@ -32,15 +31,21 @@ import java.util.*;
 public class TwitterCurrentUser {
     private static Logger logger = LoggerFactory.getLogger(TwitterCurrentUser.class);
     private static TwitterDaoImpl twitterDaoImpl = new TwitterDaoImpl();
-    private final ClientResource clientResource = new ClientResource(URL);
-    private static final String URL = getPostUrl();
+    private final ClientResource clientResource1 = new ClientResource(URLs.get(0));
+    private final ClientResource clientResource2 = new ClientResource(URLs.get(1));
+    private static final LinkedList<String> URLs = getPostUrl();
     private int tokenNum = getTokens().size();
 
     /**
      * 获取post接口url
      */
-    protected static String getPostUrl() {
-        return PostUrlConfig.getProp("posturl.properties").getProperty("post.url");
+    protected static LinkedList<String> getPostUrl() {
+        LinkedList<String> result = new LinkedList<>();
+//        return PostUrlConfig.getProp("posturl.properties").getProperty("post.url").split(",");
+        String[] strings = PostUrlConfig.getProp("posturl.properties").getProperty("post.url").split(",");
+        result.add(strings[0]);
+        result.add(strings[1]);
+        return result;
     }
 
     /**
@@ -53,7 +58,7 @@ public class TwitterCurrentUser {
     /**
      * 设置Twitter 实例
      */
-    private Twitter setTwitter(int i) throws InterruptedException {
+    public Twitter setTwitter(int i) throws InterruptedException {
         List<Token> tokens = getTokens();
         logger.info("token number {} " ,i);
         Token token = tokens.get(i);
@@ -176,25 +181,48 @@ public class TwitterCurrentUser {
     /**
      * 将用户推文信息post到指定接口
      */
-    protected void currentUserStatusPost(List<RecordInfo> recordInfos) {
+    protected void currentUserStatusPostGB(List<RecordInfo> recordInfos) {
         PostData postData = new PostData();
         postData.setNum(recordInfos.size());
-        logger.info("post record number is : " + recordInfos.size());
+        logger.info("post GBXM record number is : " + recordInfos.size());
         postData.setRecords(recordInfos);
         Representation entity = new StringRepresentation(JsonUtils.toJson(postData));
         entity.setMediaType(MediaType.APPLICATION_JSON);
 
         try {
-            Representation representation = clientResource.post(entity);
-            Response response = clientResource.getResponse();
+            Representation representation1 = clientResource1.post(entity);
+            Response response1 = clientResource1.getResponse();
             try {
-                logger.info(response.getEntity().getText());
+                logger.info("GBXM :: {}" ,response1.getEntity().getText());
             } catch (IOException e) {
                 e.printStackTrace();
             }
         } catch (ResourceException e) {
-            logger.error("post data to solr error ");
+            e.printStackTrace();
+            logger.error("post data to GBXM solr error ");
             logger.error(e.getMessage());
+        }
+    }
+    //将推文信息post到省厅slor接口
+    protected void currentUserStatusPostST(List<RecordInfo> recordInfos) {
+        PostData postData = new PostData();
+        postData.setNum(recordInfos.size());
+        logger.info("post STXM record number is : " + recordInfos.size());
+        postData.setRecords(recordInfos);
+        Representation entity = new StringRepresentation(JsonUtils.toJson(postData));
+        entity.setMediaType(MediaType.APPLICATION_JSON);
+
+        try {
+            Representation representation2 = clientResource2.post(entity);
+            Response response2 = clientResource2.getResponse();
+            try {
+                logger.info("STXM :: {}" ,response2.getEntity().getText());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } catch (ResourceException e) {
+            e.printStackTrace();
+            logger.error("post data to STXM solr error ");
         }
     }
 }

@@ -103,8 +103,8 @@ public class GoogleUser {
 
         List<RecordInfo> records = new ArrayList<>();
         long currentTime = System.currentTimeMillis();
-//        String userId = userInfo.getUserId();
-        String userId = "115765325971597823747";
+        String userId = userInfo.getUserId();
+//        String userId = "115765325971597823747";
         long lastUpdateTime = userInfo.getLastUpdateTime().getTime();
         ArrayList<GooglePlusStatus> userStatus = getGoogeActivities(token, userId, lastUpdateTime);
         if (userStatus == null || userStatus.size() == 0) {
@@ -121,7 +121,7 @@ public class GoogleUser {
             logger.info("google+ user {} 's tweets number is " + records.size(), userInfo.getUserName());
         }
 
-        daoImpl.updatedUserInfo(userId, new Timestamp(currentTime - 60*60 *1000L));
+        daoImpl.updatedUserInfo(userId, new Timestamp(zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(currentTime)));
     }
 
     /**

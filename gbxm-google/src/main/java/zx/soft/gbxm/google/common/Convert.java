@@ -4,7 +4,6 @@ import com.google.api.services.plus.model.Comment;
 import zx.soft.gbxm.google.domain.GooglePlusStatus;
 import zx.soft.gbxm.google.domain.RecordInfo;
 import zx.soft.utils.checksum.CheckSumUtils;
-import zx.soft.utils.json.JsonUtils;
 import zx.soft.utils.time.TimeUtils;
 
 import com.google.api.services.plus.model.Activity;
@@ -58,11 +57,15 @@ public class Convert {
 
 		if (activity.getObject().getAttachments() != null) {
 			String content = "";
+			String attachmentUrl = "";
 			java.util.List<Attachments> attachments = activity.getObject().getAttachments();
 			for (Attachments attachment : attachments) {
 				content = content + "  " + attachment.getContent();
+				attachmentUrl = attachmentUrl +" , "+ attachment.getUrl();
+
 			}
 			googlePlusStatus.setObject_attachments_content(content);
+			googlePlusStatus.setAttachment_url(attachmentUrl);
 		}
 		if (activity.getAnnotation() != null) {
 			googlePlusStatus.setAnnotation(activity.getAnnotation());
@@ -100,6 +103,7 @@ public class Convert {
 				+ googlePlusStatus.getAnnotation() + " " + googlePlusStatus.getObject_attachments_content());
 //		record.setComment_count(googlePlusStatus.getObject_replies_totalitems());
 //		评论数置零
+		record.setPic_url(googlePlusStatus.getAttachment_url());
 		record.setComment_count(0);
 		record.setRepost_count(googlePlusStatus.getObject_resharers_totalitems());
 		record.setAttitude_count(googlePlusStatus.getObject_plusoners_totalitems());

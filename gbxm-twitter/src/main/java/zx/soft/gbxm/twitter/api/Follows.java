@@ -3,19 +3,14 @@ package zx.soft.gbxm.twitter.api;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.restlet.resource.ClientResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import twitter4j.Paging;
-import twitter4j.ResponseList;
-import twitter4j.Status;
-import twitter4j.Twitter;
-import twitter4j.TwitterException;
+import twitter4j.*;
 import twitter4j.auth.AccessToken;
 import zx.soft.gbxm.twitter.dao.TwitterDaoImpl;
 import zx.soft.gbxm.twitter.domain.RecordInfo;
-import zx.soft.gbxm.twitter.utils.PostUrlConfig;
+import zx.soft.utils.json.JsonUtils;
 
 public class Follows {
 	TwitterCurrentUser twitterCurrentUser = new TwitterCurrentUser();
@@ -25,8 +20,9 @@ public class Follows {
 	private static final int COUNT = 200;//每页的数量,取最大值200
 
 	private TwitterDaoImpl twitterDaoImpl = new TwitterDaoImpl();
-	private final ClientResource clientResource = new ClientResource(URL);
-	private static final String URL = TwitterCurrentUser.getPostUrl();
+//	private final ClientResource clientResource1 = new ClientResource(URLs[0]);
+//	private final ClientResource clientResource2 = new ClientResource(URLs[1]);
+//	private static final String[] URLs = TwitterCurrentUser.getPostUrl();
 
 
 	public Follows(Twitter twitter) {
@@ -76,7 +72,7 @@ public class Follows {
 		boolean flag = true;
 		while(flag){
 			Paging paging = new Paging(page, COUNT, lastSinceId);
-			ResponseList<Status> statuses = twitter.getUserTimeline(screenName,paging);
+			ResponseList<Status> statuses = twitter.getUserTimeline(screenName, paging);
 			if(page==1 && statuses.size()!=0){
 				twitterDaoImpl.updateTwMonitor(screenName,statuses.get(0).getId());
 			}
@@ -88,10 +84,18 @@ public class Follows {
 			} else {
 				//获取数据并post到指定接口
 				List<RecordInfo> recordInfos = twitterCurrentUser.exchageTweet(statuses);
-				twitterCurrentUser.currentUserStatusPost(recordInfos);
+				twitterCurrentUser.currentUserStatusPostGB(recordInfos);
+				twitterCurrentUser.currentUserStatusPostST(recordInfos);
 			}
 		}
 		logger.info("{} tweet "+tweetCount +" tweet ",screenName);
+	}
+
+	public ResponseList<Status> getRetweet(String statusId) throws TwitterException {
+		long statusIdL = Long.parseLong(statusId);
+		ResponseList<Status> result = twitter.getRetweets(statusIdL);
+		logger.info(JsonUtils.toJson(result));
+		return result;
 	}
 
 	public void setAccessToken(AccessToken accessToken) {

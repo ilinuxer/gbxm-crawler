@@ -15,6 +15,7 @@ public class GooglePlusStatus implements Serializable {
 	private String object_id = ""; // 对象的 ID。转发动态时，它就是转发的动态的ID
 	private String object_actor_id = ""; // 原始执行人的ID
 	private String object_actor_display_name = ""; // 原始执行人昵称（适合用于显示）
+	private String attachment_url = ""; // 推文中附件的链接地址
 	// object_original_content+object_content+object_attachments_content+annotation=content
 	private String object_original_content = ""; // 作者提供的内容（文字），此储存内容不带任何 HTML 格式。创建或更新动态时，必须在请求中以纯文本的形式提供此值
 	private String object_url = ""; // 指向链接资源的网址
@@ -117,6 +118,15 @@ public class GooglePlusStatus implements Serializable {
 
 	public void setObject_original_content(String object_original_content) {
 		this.object_original_content = object_original_content;
+	}
+
+
+	public String getAttachment_url() {
+		return attachment_url;
+	}
+
+	public void setAttachment_url(String attachment_url) {
+		this.attachment_url = attachment_url;
 	}
 
 	public String getObject_url() {

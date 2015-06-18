@@ -10,7 +10,8 @@ public class TimeUtils {
      * 将东京时间转换为北京时间
      */
     public static long exchangeTime(long tokyoTime){
-        return tokyoTime - 60*60*1000L;
+//        return tokyoTime - 60*60*1000L;
+        return tokyoTime;
     }
 
 

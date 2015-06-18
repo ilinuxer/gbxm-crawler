@@ -6,6 +6,7 @@ package zx.soft.gbxm.twitter.utils;
 public class TimeUtil {
 
     public static long exchangeTime(long tokoyTime){
-        return tokoyTime - 60*60*1000L;
+//        return tokoyTime - 60*60*1000L;
+        return tokoyTime;
     }
 }
