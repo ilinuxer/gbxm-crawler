@@ -106,7 +106,7 @@ public class GoogleStatus {
             PostData data = new PostData();
             data.setNum(records.size());
             data.setRecords(records);
-            RestletPost.post(data);
+            RestletPost.postGB(data);
         }
 
     }

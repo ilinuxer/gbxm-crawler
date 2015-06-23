@@ -69,7 +69,7 @@ public class GoogleSpider {
 					data.setNum(records.size());
 					data.setRecords(records);
 					//post并将数据插入数据库
-					RestletPost.post(data);
+					RestletPost.postGB(data);
 					googleDaoImpl.insertGooglePlusListStatus(googlePlusStatuses);
 				}
 				if (googleDaoImpl.isExisted(ConstUtils.USER_INFO_GOOGLE_PLUS_TABLE, userId)) {

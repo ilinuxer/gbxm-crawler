@@ -17,7 +17,6 @@ import zx.soft.gbxm.google.common.Convert;
 import zx.soft.gbxm.google.common.RestletPost;
 import zx.soft.gbxm.google.dao.GoogleDaoImpl;
 import zx.soft.gbxm.google.domain.*;
-import zx.soft.utils.json.JsonUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -113,15 +112,27 @@ public class GoogleUser {
             for (GooglePlusStatus status : userStatus) {
                 records.add(Convert.convertGPS2Record(status, currentTime));
             }
-            PostData data = new PostData();
-            data.setNum(records.size());
-            data.setRecords(records);
-            //post并将数据插入数据库
-            RestletPost.post(data);
+            //post数据
+            postData(records);
+
             logger.info("google+ user {} 's tweets number is " + records.size(), userInfo.getUserName());
         }
 
         daoImpl.updatedUserInfo(userId, new Timestamp(zx.soft.gbxm.google.timeutils.TimeUtils.exchangeTime(currentTime)));
+    }
+
+    /**
+     * post数据到国保和省厅solr
+     */
+    private void postData(List<RecordInfo> records){
+        PostData dataGB = new PostData();
+        PostData dataST = new PostData();
+        dataGB.setNum(records.size());
+        dataST.setNum(records.size());
+        dataGB.setRecords(records);
+        dataST.setRecords(records);
+        RestletPost.postGB(dataGB);
+        RestletPost.postST(dataST);
     }
 
     /**

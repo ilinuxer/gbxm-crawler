@@ -1,352 +1,1136 @@
-2015-05-25 14:58:36,981 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:162] - there has 57 users
-2015-05-25 14:58:36,997 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 匆匆过客 's tweet 
-2015-05-25 14:58:39,263 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 匆匆过客 's tweets number is 0
-2015-05-25 14:58:39,723 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get Terence Shen 's tweet 
-2015-05-25 14:58:41,431 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Terence Shen 's tweets number is 0
-2015-05-25 14:58:41,898 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 半世繁华 # 's tweet 
-2015-05-25 14:58:45,111 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 半世繁华 # 's tweets number is 0
-2015-05-25 14:58:45,563 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 阿波罗网 's tweet 
-2015-05-25 14:58:47,069 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 阿波罗网 's tweets number is 0
-2015-05-25 14:58:47,857 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 温云超 's tweet 
-2015-05-25 14:58:49,478 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 温云超 's tweets number is 0
-2015-05-25 14:58:49,955 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
-2015-05-25 14:58:51,662 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
-2015-05-25 14:58:52,149 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 沈良庆 's tweet 
-2015-05-25 14:58:53,620 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 沈良庆 's tweets number is 0
-2015-05-25 14:58:54,078 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:133] - get 张佳佳 's tweet 
-2015-05-25 15:05:03,656 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:161] - there has 57 users
-2015-05-25 15:05:03,662 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
-2015-05-25 15:05:07,154 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 匆匆过客 's tweets number is 0
-2015-05-25 15:05:07,662 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
-2015-05-25 15:05:10,107 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Terence Shen 's tweets number is 0
-2015-05-25 15:05:10,593 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
-2015-05-25 15:05:12,963 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 半世繁华 # 's tweets number is 0
-2015-05-25 15:05:13,453 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
-2015-05-25 15:05:14,872 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 阿波罗网 's tweets number is 0
-2015-05-25 15:05:15,345 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
-2015-05-25 15:05:16,845 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 温云超 's tweets number is 0
-2015-05-25 15:05:17,314 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
-2015-05-25 15:05:18,903 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
-2015-05-25 15:05:19,393 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
-2015-05-25 15:05:21,226 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 沈良庆 's tweets number is 0
-2015-05-25 15:05:21,712 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
-2015-05-25 15:05:23,804 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 张佳佳 's tweets number is 0
-2015-05-25 15:05:24,276 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
-2015-05-25 15:05:26,143 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 巴黎张健 's tweets number is 0
-2015-05-25 15:05:27,266 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
-2015-05-25 15:05:29,117 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Bored Panda 's tweets number is 0
-2015-05-25 15:05:29,627 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
-2015-05-25 15:05:31,898 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user adidas 's tweets number is 0
-2015-05-25 15:05:32,385 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Machinima 's tweet 
-2015-05-25 15:05:33,919 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Machinima 's tweets number is 0
-2015-05-25 15:05:34,395 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
-2015-05-25 15:05:35,789 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user TGN 's tweets number is 0
-2015-05-25 15:05:36,614 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
-2015-05-25 15:05:38,910 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jewel Daab 's tweets number is 0
-2015-05-25 15:05:39,418 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
-2015-05-25 15:05:41,338 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user ROBLOX 's tweets number is 0
-2015-05-25 15:05:41,827 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
-2015-05-25 15:05:44,072 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Nintendo 's tweets number is 0
-2015-05-25 15:05:45,438 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
-2015-05-25 15:05:46,885 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 博谈网 's tweets number is 0
-2015-05-25 15:05:47,359 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
-2015-05-25 15:05:48,600 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蔡玉珠 's tweets number is 0
-2015-05-25 15:05:49,099 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
-2015-05-25 15:05:50,776 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Xbox 360 Cheats 's tweets number is 0
-2015-05-25 15:05:51,565 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
-2015-05-25 15:05:52,952 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Game Informer 's tweets number is 0
-2015-05-25 15:05:53,682 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
-2015-05-25 15:05:55,338 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Lumosity 's tweets number is 0
-2015-05-25 15:05:56,846 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds 's tweet 
-2015-05-25 15:05:58,695 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Angry Birds 's tweets number is 0
-2015-05-25 15:05:59,412 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
-2015-05-25 15:06:00,857 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user EverQuest Next 's tweets number is 0
-2015-05-25 15:06:01,342 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE 's tweet 
-2015-05-25 15:06:02,926 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user VICE 's tweets number is 0
-2015-05-25 15:06:03,416 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
-2015-05-25 15:06:05,795 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Smosh 's tweets number is 0
-2015-05-25 15:06:06,291 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
-2015-05-25 15:06:07,989 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Qwertee 's tweets number is 0
-2015-05-25 15:06:08,473 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen 's tweet 
-2015-05-25 15:06:10,519 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user AskMen 's tweets number is 0
-2015-05-25 15:06:11,334 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Red Bull 's tweet 
-2015-05-25 15:06:12,605 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Red Bull 's tweets number is 0
-2015-05-25 15:06:13,077 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google 's tweet 
-2015-05-25 15:06:14,410 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Google 's tweets number is 0
-2015-05-25 15:06:15,352 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes 's tweet 
-2015-05-25 15:06:16,944 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Forbes 's tweets number is 0
-2015-05-25 15:06:18,538 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
-2015-05-25 15:06:19,824 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user msnbc 's tweets number is 0
-2015-05-25 15:06:22,358 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jimbo Han 's tweet 
-2015-05-25 15:06:24,843 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jimbo Han 's tweets number is 0
-2015-05-25 15:06:25,450 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 中国数字时代 's tweet 
-2015-05-25 15:06:27,427 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 中国数字时代 's tweets number is 0
-2015-05-25 15:06:28,702 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 缤纷岁月 's tweet 
-2015-05-25 15:06:30,366 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 缤纷岁月 's tweets number is 0
-2015-05-25 15:06:31,103 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 林森 's tweet 
-2015-05-25 15:06:32,461 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 林森 's tweets number is 0
-2015-05-25 15:06:32,942 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蟹农场 's tweet 
-2015-05-25 15:06:34,274 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蟹农场 's tweets number is 0
-2015-05-25 15:06:36,521 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 许文娟 's tweet 
-2015-05-25 15:06:38,189 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 许文娟 's tweets number is 0
-2015-05-25 15:06:40,386 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Selectism 's tweet 
-2015-05-25 15:06:42,115 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Selectism 's tweets number is 0
-2015-05-25 15:06:42,586 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Greg Miller 's tweet 
-2015-05-25 15:06:44,151 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Greg Miller 's tweets number is 0
-2015-05-25 15:06:45,103 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get PlayStation 's tweet 
-2015-05-25 15:06:47,714 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user PlayStation 's tweets number is 0
-2015-05-25 15:06:48,191 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get euronews (in English) 's tweet 
-2015-05-25 15:06:49,934 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user euronews (in English) 's tweets number is 0
-2015-05-25 15:06:50,401 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get The Ritz-Carlton 's tweet 
-2015-05-25 15:06:52,269 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user The Ritz-Carlton 's tweets number is 0
-2015-05-25 15:06:52,763 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get DoubleTree by Hilton 's tweet 
-2015-05-25 15:06:54,192 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user DoubleTree by Hilton 's tweets number is 0
-2015-05-25 15:06:54,673 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jaana Nyström 's tweet 
-2015-05-25 15:06:56,535 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jaana Nyström 's tweets number is 0
-2015-05-25 15:06:57,023 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Viator.com 's tweet 
-2015-05-25 15:06:58,913 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Viator.com 's tweets number is 0
-2015-05-25 15:06:59,396 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get LateRooms.com 's tweet 
-2015-05-25 15:07:01,882 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user LateRooms.com 's tweets number is 0
-2015-05-25 15:07:02,689 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Curacao 411 's tweet 
-2015-05-25 15:07:04,044 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Curacao 411 's tweets number is 0
-2015-05-25 15:07:05,693 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Condé Nast Traveler 's tweet 
-2015-05-25 15:07:08,735 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Condé Nast Traveler 's tweets number is 0
-2015-05-25 15:07:09,560 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Australia 's tweet 
-2015-05-25 15:07:12,570 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Australia 's tweets number is 0
-2015-05-25 15:07:15,333 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Hilton Hotels & Resorts 's tweet 
-2015-05-25 15:07:17,493 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Hilton Hotels & Resorts 's tweets number is 0
-2015-05-25 15:07:17,970 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Arianna Huffington 's tweet 
-2015-05-25 15:07:20,878 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Arianna Huffington 's tweets number is 0
-2015-05-25 15:07:21,366 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Chrome 's tweet 
-2015-05-25 15:07:23,415 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Google Chrome 's tweets number is 0
-2015-05-25 15:07:24,262 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Wall Street Journal 's tweet 
-2015-05-25 15:07:25,676 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Wall Street Journal 's tweets number is 0
-2015-05-25 15:07:29,682 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Dalai Lama 's tweet 
-2015-05-25 15:07:31,174 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Dalai Lama 's tweets number is 0
-2015-05-25 15:07:31,773 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Dadisi Olutosin 's tweet 
-2015-05-25 15:07:33,034 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Dadisi Olutosin 's tweets number is 0
-2015-05-25 15:07:35,252 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Discover Magazine 's tweet 
-2015-05-25 15:07:36,625 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Discover Magazine 's tweets number is 0
-2015-05-25 15:07:37,098 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lee Graham 's tweet 
-2015-05-25 15:07:38,646 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Lee Graham 's tweets number is 0
-2015-05-25 15:07:40,253 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:184] - start sleep ,please check it 1 hour's latter
-2015-05-25 16:24:18,549 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:161] - there has 57 users
-2015-05-25 16:24:18,549 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
-2015-05-25 16:24:21,319 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 匆匆过客 's tweets number is 0
-2015-05-25 16:24:22,936 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
-2015-05-25 16:24:24,620 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Terence Shen 's tweets number is 0
-2015-05-25 16:24:25,105 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
-2015-05-25 16:24:26,572 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 半世繁华 # 's tweets number is 0
-2015-05-25 16:24:27,061 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
-2015-05-25 16:24:31,337 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 阿波罗网 's tweets number is 0
-2015-05-25 16:24:31,892 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
-2015-05-25 16:24:33,441 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 温云超 's tweets number is 0
-2015-05-25 16:24:36,199 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
-2015-05-25 16:24:40,056 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
-2015-05-25 16:24:40,708 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
-2015-05-25 16:24:42,662 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 沈良庆 's tweets number is 0
-2015-05-25 16:24:43,315 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
-2015-05-25 16:24:46,980 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 张佳佳 's tweets number is 0
-2015-05-25 16:24:48,856 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
-2015-05-25 16:24:50,745 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 巴黎张健 's tweets number is 0
-2015-05-25 16:24:51,258 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
-2015-05-25 16:24:52,616 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Bored Panda 's tweets number is 0
-2015-05-25 16:24:54,649 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
-2015-05-25 16:24:58,192 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user adidas 's tweets number is 0
-2015-05-25 16:24:58,790 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Machinima 's tweet 
-2015-05-25 16:25:00,341 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Machinima 's tweets number is 0
-2015-05-25 16:25:00,831 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
-2015-05-25 16:25:03,698 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user TGN 's tweets number is 0
-2015-05-25 16:25:05,085 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
-2015-05-25 16:25:06,575 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jewel Daab 's tweets number is 0
-2015-05-25 16:25:07,067 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
-2015-05-25 16:25:08,733 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user ROBLOX 's tweets number is 0
-2015-05-25 16:25:09,210 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
-2015-05-25 16:25:12,026 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Nintendo 's tweets number is 0
-2015-05-25 16:25:12,526 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
-2015-05-25 16:25:14,068 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 博谈网 's tweets number is 0
-2015-05-25 16:25:14,599 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
-2015-05-25 16:25:16,857 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蔡玉珠 's tweets number is 0
-2015-05-25 16:25:17,330 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
-2015-05-25 16:25:20,003 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Xbox 360 Cheats 's tweets number is 0
-2015-05-25 16:25:20,586 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
-2015-05-25 16:25:22,879 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Game Informer 's tweets number is 0
-2015-05-25 16:25:23,360 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
-2015-05-25 16:25:24,930 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Lumosity 's tweets number is 0
-2015-05-25 16:25:25,399 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds 's tweet 
-2015-05-25 16:25:29,365 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Angry Birds 's tweets number is 0
-2015-05-25 16:25:29,840 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
-2015-05-25 16:25:31,450 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user EverQuest Next 's tweets number is 0
-2015-05-25 16:25:31,918 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE 's tweet 
-2015-05-25 16:25:33,346 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user VICE 's tweets number is 0
-2015-05-25 16:25:33,838 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
-2015-05-25 16:25:36,819 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Smosh 's tweets number is 0
-2015-05-25 16:25:38,725 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
-2015-05-25 16:25:40,152 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Qwertee 's tweets number is 0
-2015-05-25 16:25:40,633 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen 's tweet 
-2015-05-25 16:25:43,023 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user AskMen 's tweets number is 0
-2015-05-25 16:25:45,256 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Red Bull 's tweet 
-2015-05-25 16:25:46,746 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Red Bull 's tweets number is 0
-2015-05-25 16:25:47,221 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google 's tweet 
-2015-05-25 16:25:48,895 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Google 's tweets number is 0
-2015-05-25 16:25:49,391 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes 's tweet 
-2015-05-25 16:25:50,792 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Forbes 's tweets number is 0
-2015-05-25 16:25:51,306 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
-2015-05-25 16:25:56,087 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user msnbc 's tweets number is 0
-2015-05-25 16:25:56,695 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jimbo Han 's tweet 
-2015-05-25 16:25:58,247 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jimbo Han 's tweets number is 0
-2015-05-25 16:25:58,725 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 中国数字时代 's tweet 
-2015-05-25 16:26:01,341 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 中国数字时代 's tweets number is 0
-2015-05-25 16:26:02,881 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 缤纷岁月 's tweet 
-2015-05-25 16:26:04,882 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 缤纷岁月 's tweets number is 0
-2015-05-25 16:26:05,359 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 林森 's tweet 
-2015-05-25 16:26:06,840 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 林森 's tweets number is 0
-2015-05-25 16:26:07,309 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蟹农场 's tweet 
-2015-05-25 16:26:09,350 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蟹农场 's tweets number is 0
-2015-05-25 16:26:11,128 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 许文娟 's tweet 
-2015-05-25 16:26:12,774 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 许文娟 's tweets number is 0
-2015-05-25 16:26:13,267 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Selectism 's tweet 
-2015-05-25 16:26:15,131 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Selectism 's tweets number is 0
-2015-05-25 16:26:15,608 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Greg Miller 's tweet 
-2015-05-25 16:26:19,039 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Greg Miller 's tweets number is 0
-2015-05-25 16:26:19,533 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get PlayStation 's tweet 
-2015-05-25 16:26:20,986 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user PlayStation 's tweets number is 0
-2015-05-25 16:26:21,456 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get euronews (in English) 's tweet 
-2015-05-25 16:26:23,709 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user euronews (in English) 's tweets number is 0
-2015-05-25 16:26:24,184 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get The Ritz-Carlton 's tweet 
-2015-05-25 16:26:25,724 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user The Ritz-Carlton 's tweets number is 0
-2015-05-25 16:26:27,421 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get DoubleTree by Hilton 's tweet 
-2015-05-25 16:26:30,345 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user DoubleTree by Hilton 's tweets number is 0
-2015-05-25 16:26:30,840 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jaana Nyström 's tweet 
-2015-05-25 16:26:32,337 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jaana Nyström 's tweets number is 0
-2015-05-25 16:26:32,913 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Viator.com 's tweet 
-2015-05-25 16:26:36,056 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Viator.com 's tweets number is 0
-2015-05-25 16:26:37,347 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get LateRooms.com 's tweet 
-2015-05-25 16:26:38,816 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user LateRooms.com 's tweets number is 0
-2015-05-25 16:26:39,283 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Curacao 411 's tweet 
-2015-05-25 16:26:40,854 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Curacao 411 's tweets number is 0
-2015-05-25 16:26:43,194 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Condé Nast Traveler 's tweet 
-2015-05-25 16:26:45,547 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Condé Nast Traveler 's tweets number is 0
-2015-05-25 16:26:46,012 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Australia 's tweet 
-2015-05-25 16:26:47,507 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Australia 's tweets number is 0
-2015-05-25 16:26:48,044 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Hilton Hotels & Resorts 's tweet 
-2015-05-25 16:26:51,286 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Hilton Hotels & Resorts 's tweets number is 0
-2015-05-25 16:26:52,606 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Arianna Huffington 's tweet 
-2015-05-25 16:26:54,040 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Arianna Huffington 's tweets number is 0
-2015-05-25 16:26:54,524 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google Chrome 's tweet 
-2015-05-25 16:26:56,883 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Google Chrome 's tweets number is 0
-2015-05-25 16:26:57,370 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Wall Street Journal 's tweet 
-2015-05-25 16:27:00,340 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Wall Street Journal 's tweets number is 0
-2015-05-25 16:27:00,830 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Dalai Lama 's tweet 
-2015-05-25 16:27:02,901 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Dalai Lama 's tweets number is 0
-2015-05-25 16:27:03,389 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Dadisi Olutosin 's tweet 
-2015-05-25 16:27:04,757 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Dadisi Olutosin 's tweets number is 0
-2015-05-25 16:27:05,248 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Discover Magazine 's tweet 
-2015-05-25 16:27:08,078 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Discover Magazine 's tweets number is 0
-2015-05-25 16:27:09,408 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lee Graham 's tweet 
-2015-05-25 16:27:10,966 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Lee Graham 's tweets number is 0
-2015-05-25 16:27:11,442 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:184] - start sleep ,please check it 1 hour's latter
-2015-05-25 17:27:16,796 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:161] - there has 57 users
-2015-05-25 17:27:16,796 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 匆匆过客 's tweet 
-2015-05-25 17:27:18,913 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 匆匆过客 's tweets number is 0
-2015-05-25 17:27:19,399 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Terence Shen 's tweet 
-2015-05-25 17:27:21,661 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Terence Shen 's tweets number is 0
-2015-05-25 17:27:22,146 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 半世繁华 # 's tweet 
-2015-05-25 17:27:24,001 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 半世繁华 # 's tweets number is 0
-2015-05-25 17:27:24,748 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 阿波罗网 's tweet 
-2015-05-25 17:27:26,696 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 阿波罗网 's tweets number is 0
-2015-05-25 17:27:29,955 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 温云超 's tweet 
-2015-05-25 17:27:38,409 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 温云超 's tweets number is 0
-2015-05-25 17:27:39,017 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweet 
-2015-05-25 17:27:40,814 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 香港泛藍頻道 Pan-Blue Coalition (HK) 's tweets number is 0
-2015-05-25 17:27:41,293 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 沈良庆 's tweet 
-2015-05-25 17:27:43,146 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 沈良庆 's tweets number is 0
-2015-05-25 17:27:43,624 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 张佳佳 's tweet 
-2015-05-25 17:27:45,471 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 张佳佳 's tweets number is 0
-2015-05-25 17:27:45,947 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 巴黎张健 's tweet 
-2015-05-25 17:27:47,799 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 巴黎张健 's tweets number is 0
-2015-05-25 17:27:48,276 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Bored Panda 's tweet 
-2015-05-25 17:27:49,982 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Bored Panda 's tweets number is 0
-2015-05-25 17:27:50,467 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get adidas 's tweet 
-2015-05-25 17:27:52,726 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user adidas 's tweets number is 0
-2015-05-25 17:27:53,211 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Machinima 's tweet 
-2015-05-25 17:27:54,938 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Machinima 's tweets number is 0
-2015-05-25 17:27:55,420 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get TGN 's tweet 
-2015-05-25 17:27:57,156 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user TGN 's tweets number is 0
-2015-05-25 17:27:57,634 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jewel Daab 's tweet 
-2015-05-25 17:27:59,470 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jewel Daab 's tweets number is 0
-2015-05-25 17:27:59,952 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get ROBLOX 's tweet 
-2015-05-25 17:28:01,717 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user ROBLOX 's tweets number is 0
-2015-05-25 17:28:02,214 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Nintendo 's tweet 
-2015-05-25 17:28:04,819 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Nintendo 's tweets number is 0
-2015-05-25 17:28:05,315 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 博谈网 's tweet 
-2015-05-25 17:28:07,125 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 博谈网 's tweets number is 0
-2015-05-25 17:28:07,604 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蔡玉珠 's tweet 
-2015-05-25 17:28:09,343 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蔡玉珠 's tweets number is 0
-2015-05-25 17:28:09,823 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Xbox 360 Cheats 's tweet 
-2015-05-25 17:28:11,626 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Xbox 360 Cheats 's tweets number is 0
-2015-05-25 17:28:12,894 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Game Informer 's tweet 
-2015-05-25 17:28:15,711 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Game Informer 's tweets number is 0
-2015-05-25 17:28:16,204 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Lumosity 's tweet 
-2015-05-25 17:28:19,269 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Lumosity 's tweets number is 0
-2015-05-25 17:28:20,186 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Angry Birds 's tweet 
-2015-05-25 17:28:22,827 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Angry Birds 's tweets number is 0
-2015-05-25 17:28:24,060 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get EverQuest Next 's tweet 
-2015-05-25 17:28:27,865 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user EverQuest Next 's tweets number is 0
-2015-05-25 17:28:28,942 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get VICE 's tweet 
-2015-05-25 17:28:31,110 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user VICE 's tweets number is 0
-2015-05-25 17:28:32,469 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Smosh 's tweet 
-2015-05-25 17:28:42,329 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Smosh 's tweets number is 0
-2015-05-25 17:28:45,236 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Qwertee 's tweet 
-2015-05-25 17:28:48,164 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Qwertee 's tweets number is 0
-2015-05-25 17:28:51,187 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get AskMen 's tweet 
-2015-05-25 17:28:53,330 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user AskMen 's tweets number is 0
-2015-05-25 17:28:59,750 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Red Bull 's tweet 
-2015-05-25 17:29:02,070 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Red Bull 's tweets number is 0
-2015-05-25 17:29:02,678 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Google 's tweet 
-2015-05-25 17:29:04,446 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Google 's tweets number is 0
-2015-05-25 17:29:04,939 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Forbes 's tweet 
-2015-05-25 17:29:07,079 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Forbes 's tweets number is 0
-2015-05-25 17:29:07,564 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get msnbc 's tweet 
-2015-05-25 17:29:09,491 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user msnbc 's tweets number is 0
-2015-05-25 17:29:10,266 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jimbo Han 's tweet 
-2015-05-25 17:29:15,781 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jimbo Han 's tweets number is 0
-2015-05-25 17:29:16,385 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 中国数字时代 's tweet 
-2015-05-25 17:29:18,151 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 中国数字时代 's tweets number is 0
-2015-05-25 17:29:18,625 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 缤纷岁月 's tweet 
-2015-05-25 17:29:21,095 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 缤纷岁月 's tweets number is 0
-2015-05-25 17:29:21,597 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 林森 's tweet 
-2015-05-25 17:29:24,659 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 林森 's tweets number is 0
-2015-05-25 17:29:25,137 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 蟹农场 's tweet 
-2015-05-25 17:29:30,884 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 蟹农场 's tweets number is 0
-2015-05-25 17:29:35,565 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get 许文娟 's tweet 
-2015-05-25 17:29:38,766 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user 许文娟 's tweets number is 0
-2015-05-25 17:29:39,373 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Selectism 's tweet 
-2015-05-25 17:29:41,126 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Selectism 's tweets number is 0
-2015-05-25 17:29:41,604 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Greg Miller 's tweet 
-2015-05-25 17:29:43,367 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Greg Miller 's tweets number is 0
-2015-05-25 17:29:44,075 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get PlayStation 's tweet 
-2015-05-25 17:29:46,032 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user PlayStation 's tweets number is 0
-2015-05-25 17:29:46,510 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get euronews (in English) 's tweet 
-2015-05-25 17:29:48,358 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user euronews (in English) 's tweets number is 0
-2015-05-25 17:29:50,159 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get The Ritz-Carlton 's tweet 
-2015-05-25 17:29:51,945 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user The Ritz-Carlton 's tweets number is 0
-2015-05-25 17:29:52,430 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get DoubleTree by Hilton 's tweet 
-2015-05-25 17:29:54,941 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user DoubleTree by Hilton 's tweets number is 0
-2015-05-25 17:29:55,443 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Jaana Nyström 's tweet 
-2015-05-25 17:29:57,334 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Jaana Nyström 's tweets number is 0
-2015-05-25 17:29:57,813 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Viator.com 's tweet 
-2015-05-25 17:30:00,069 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Viator.com 's tweets number is 0
-2015-05-25 17:30:00,560 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get LateRooms.com 's tweet 
-2015-05-25 17:30:03,515 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user LateRooms.com 's tweets number is 0
-2015-05-25 17:30:06,494 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Curacao 411 's tweet 
-2015-05-25 17:30:09,142 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Curacao 411 's tweets number is 0
-2015-05-25 17:30:09,738 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Condé Nast Traveler 's tweet 
-2015-05-25 17:30:11,837 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Condé Nast Traveler 's tweets number is 0
-2015-05-25 17:30:12,526 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Australia 's tweet 
-2015-05-25 17:30:14,446 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Australia 's tweets number is 0
-2015-05-25 17:30:15,761 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Hilton Hotels & Resorts 's tweet 
-2015-05-25 17:30:17,696 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:111] - google+ user Hilton Hotels & Resorts 's tweets number is 0
-2015-05-25 17:30:18,181 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:132] - get Arianna Huffington 's tweet 
-2015-05-25 17:30:40,378 [main] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:165] - this token is over limited 
-2015-05-25 17:30:40,378 [main] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:184] - start sleep ,please check it 1 hour's latter
+2015-06-23 14:06:50,595 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:179] - there has 0 current user to add 
+2015-06-23 14:06:50,609 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:188] - start sleep ,please check it 0.5 hour's latter
+2015-06-23 14:06:50,831 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:181] - 13 users each token has
+2015-06-23 14:06:50,832 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 0
+2015-06-23 14:06:51,080 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 匆匆过客 's tweet 
+2015-06-23 14:06:53,391 [Thread-1] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:189] - this token is over limited 
+2015-06-23 14:06:53,391 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
+2015-06-23 14:06:53,391 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 1
+2015-06-23 14:06:53,400 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
+2015-06-23 14:06:53,406 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
+2015-06-23 14:06:53,411 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
+2015-06-23 14:06:53,416 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
+2015-06-23 14:06:53,421 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:51 ] - set plus error ,get next token
+2015-06-23 14:06:53,630 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get ROBLOX 's tweet 
+2015-06-23 14:06:53,637 [Thread-1] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:189] - this token is over limited 
+2015-06-23 14:06:53,637 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 2
+2015-06-23 14:06:53,875 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Red Bull 's tweet 
+2015-06-23 14:06:53,880 [Thread-1] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:189] - this token is over limited 
+2015-06-23 14:06:53,880 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 3
+2015-06-23 14:06:54,401 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get euronews (in English) 's tweet 
+2015-06-23 14:06:54,409 [Thread-1] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:189] - this token is over limited 
+2015-06-23 14:06:54,409 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 4
+2015-06-23 14:06:54,646 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Dalai Lama 's tweet 
+2015-06-23 14:06:54,652 [Thread-1] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:189] - this token is over limited 
+2015-06-23 14:06:54,652 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 5
+2015-06-23 14:06:54,887 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:195] - start sleep ,please check it 1 hour's latter
+2015-06-23 14:07:50,628 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:179] - there has 0 current user to add 
+2015-06-23 14:07:50,634 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:188] - start sleep ,please check it 0.5 hour's latter
+2015-06-23 14:07:51,233 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:181] - 13 users each token has
+2015-06-23 14:07:51,233 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 0
+2015-06-23 14:07:51,874 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 匆匆过客 's tweet 
+2015-06-23 14:07:53,570 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-06-23 14:07:54,371 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:07:55,073 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-06-23 14:07:55,209 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 30
+2015-06-23 14:07:55,675 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Terence Shen 's tweet 
+2015-06-23 14:07:55,816 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:07:56,534 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 30
+2015-06-23 14:07:57,183 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:07:57,593 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:07:57,784 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:07:58,170 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:07:58,301 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-06-23 14:07:58,483 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:07:58,886 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:07:59,049 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 半世繁华 # 's tweet 
+2015-06-23 14:07:59,056 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:07:59,688 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 66
+2015-06-23 14:08:00,611 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:01,577 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 40
+2015-06-23 14:08:01,981 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-06-23 14:08:02,359 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:02,736 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 阿波罗网 's tweet 
+2015-06-23 14:08:02,916 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:08:03,734 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:05,202 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 64
+2015-06-23 14:08:05,671 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 阿波罗网 's tweets number is 0
+2015-06-23 14:08:06,135 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:06,465 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 温云超 's tweet 
+2015-06-23 14:08:06,603 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:08:07,394 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:08,145 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-06-23 14:08:08,239 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:08:09,126 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 沈良庆 's tweet 
+2015-06-23 14:08:09,357 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:09,806 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 27
+2015-06-23 14:08:10,041 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:10,434 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:08:10,595 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:11,143 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:08:12,012 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:12,656 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:08:12,797 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-06-23 14:08:13,459 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:13,539 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 张佳佳 's tweet 
+2015-06-23 14:08:14,008 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:08:15,043 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:15,495 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-06-23 14:08:15,573 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:08:16,242 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 巴黎张健 's tweet 
+2015-06-23 14:08:16,375 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:17,054 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:08:17,967 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:18,406 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-06-23 14:08:18,540 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:08:18,710 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:19,190 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Bored Panda 's tweet 
+2015-06-23 14:08:21,691 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:08:21,758 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-06-23 14:08:22,131 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:08:22,500 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get adidas 's tweet 
+2015-06-23 14:08:22,538 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:08:23,035 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:08:23,439 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:08:23,866 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-06-23 14:08:24,276 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:08:24,685 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:08:24,888 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-06-23 14:08:25,138 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:08:25,681 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Machinima 's tweet 
+2015-06-23 14:08:25,769 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-06-23 14:08:26,282 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:08:27,369 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:27,880 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 64
+2015-06-23 14:08:28,293 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Machinima 's tweets number is 0
+2015-06-23 14:08:28,926 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:29,079 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get TGN 's tweet 
+2015-06-23 14:08:29,341 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:08:29,515 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:29,937 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 13
+2015-06-23 14:08:30,448 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:30,887 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:08:31,383 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:31,499 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-06-23 14:08:31,763 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:08:31,940 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:32,247 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Jewel Daab 's tweet 
+2015-06-23 14:08:32,341 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 24
+2015-06-23 14:08:33,034 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:33,425 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:08:33,621 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:33,994 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:08:34,057 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-06-23 14:08:34,155 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:34,565 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:08:34,786 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:34,855 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 1
+2015-06-23 14:08:35,182 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:08:35,351 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:35,483 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get ROBLOX 's tweet 
+2015-06-23 14:08:35,736 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:08:35,896 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:36,287 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:08:36,458 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:36,888 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:08:37,115 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:37,582 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:08:37,808 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:38,227 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:08:38,472 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:38,585 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-06-23 14:08:38,900 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:08:39,070 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:39,350 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Nintendo 's tweet 
+2015-06-23 14:08:39,531 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 24
+2015-06-23 14:08:39,766 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:40,186 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-06-23 14:08:41,014 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-06-23 14:08:41,422 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:08:41,599 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:41,877 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-06-23 14:08:42,202 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 7
+2015-06-23 14:08:42,586 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:42,667 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 博谈网 's tweet 
+2015-06-23 14:08:42,991 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:08:43,152 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:43,735 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13gglurspyqxphri04cfroobzqxizmy5jc.1431732770671295  has no comments 
+2015-06-23 14:08:44,702 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431122880832334  has no comments 
+2015-06-23 14:08:45,135 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431121232642746  has no comments 
+2015-06-23 14:08:45,583 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431112330077034  has no comments 
+2015-06-23 14:08:45,987 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431096488062192  has no comments 
+2015-06-23 14:08:46,264 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 博谈网 's tweets number is 0
+2015-06-23 14:08:46,585 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431092763716422  has no comments 
+2015-06-23 14:08:47,030 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 蔡玉珠 's tweet 
+2015-06-23 14:08:47,038 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431091766529543  has no comments 
+2015-06-23 14:08:48,326 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:08:48,564 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:49,331 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:08:49,463 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:49,742 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蔡玉珠 's tweets number is 0
+2015-06-23 14:08:49,848 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:08:49,979 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:50,399 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 14:08:50,532 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Xbox 360 Cheats 's tweet 
+2015-06-23 14:08:50,789 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:52,031 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:08:52,444 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:53,188 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Xbox 360 Cheats 's tweets number is 0
+2015-06-23 14:08:53,356 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:08:53,982 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Game Informer 's tweet 
+2015-06-23 14:08:54,639 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:55,473 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:08:56,597 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:57,121 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Game Informer 's tweets number is 0
+2015-06-23 14:08:57,415 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:08:57,958 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Lumosity 's tweet 
+2015-06-23 14:08:58,631 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:08:59,459 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:09:00,702 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:00,747 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Lumosity 's tweets number is 0
+2015-06-23 14:09:01,522 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Angry Birds 's tweet 
+2015-06-23 14:09:01,660 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:09:02,413 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:03,029 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 129
+2015-06-23 14:09:03,597 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:04,009 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 14:09:04,179 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:04,373 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Angry Birds 's tweets number is 0
+2015-06-23 14:09:04,591 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 14:09:04,765 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:05,179 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 9
+2015-06-23 14:09:05,199 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get EverQuest Next 's tweet 
+2015-06-23 14:09:05,331 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:05,738 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:09:05,914 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:07,036 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:09:07,452 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user EverQuest Next 's tweets number is 0
+2015-06-23 14:09:08,189 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:08,524 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get VICE 's tweet 
+2015-06-23 14:09:09,095 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:09:10,336 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:10,918 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user VICE 's tweets number is 0
+2015-06-23 14:09:11,241 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:09:12,106 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:12,290 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Smosh 's tweet 
+2015-06-23 14:09:13,194 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:09:14,693 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:15,358 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 129
+2015-06-23 14:09:16,266 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:16,330 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Smosh 's tweets number is 0
+2015-06-23 14:09:16,927 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:09:17,068 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:17,121 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Qwertee 's tweet 
+2015-06-23 14:09:17,482 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:09:17,637 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:19,096 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:09:19,249 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Qwertee 's tweets number is 0
+2015-06-23 14:09:19,482 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:19,921 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 15
+2015-06-23 14:09:20,030 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get AskMen 's tweet 
+2015-06-23 14:09:20,179 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:20,858 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-06-23 14:09:21,232 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:22,067 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:09:22,196 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:22,434 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user AskMen 's tweets number is 0
+2015-06-23 14:09:22,606 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 15
+2015-06-23 14:09:22,992 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:23,207 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 2
+2015-06-23 14:09:23,404 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:09:23,532 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:23,830 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Red Bull 's tweet 
+2015-06-23 14:09:23,952 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:09:24,083 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:26,644 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Red Bull 's tweets number is 0
+2015-06-23 14:09:26,926 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:09:27,059 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:27,434 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Google+ 's tweet 
+2015-06-23 14:09:27,634 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:09:27,764 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:28,170 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:09:28,297 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:29,087 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:09:29,220 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:09:29,220 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:141] - one round is over sleep 0.5 hours
+2015-06-23 14:09:30,909 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google+ 's tweets number is 0
+2015-06-23 14:09:31,671 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Forbes 's tweet 
+2015-06-23 14:09:34,096 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Forbes 's tweets number is 0
+2015-06-23 14:09:34,881 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get msnbc 's tweet 
+2015-06-23 14:09:37,400 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user msnbc 's tweets number is 0
+2015-06-23 14:09:38,176 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Jimbo Han 's tweet 
+2015-06-23 14:09:39,700 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jimbo Han 's tweets number is 0
+2015-06-23 14:09:40,470 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 中国数字时代 's tweet 
+2015-06-23 14:09:44,541 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 中国数字时代 's tweets number is 0
+2015-06-23 14:09:45,302 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 缤纷岁月 's tweet 
+2015-06-23 14:09:47,773 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 缤纷岁月 's tweets number is 0
+2015-06-23 14:09:48,543 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 林森 's tweet 
+2015-06-23 14:09:52,262 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 林森 's tweets number is 0
+2015-06-23 14:09:53,023 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 蟹农场 's tweet 
+2015-06-23 14:09:55,729 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蟹农场 's tweets number is 0
+2015-06-23 14:09:56,520 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 许文娟 's tweet 
+2015-06-23 14:09:58,530 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 许文娟 's tweets number is 0
+2015-06-23 14:09:59,311 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Selectism 's tweet 
+2015-06-23 14:10:01,749 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Selectism 's tweets number is 0
+2015-06-23 14:10:02,525 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Greg Miller 's tweet 
+2015-06-23 14:10:04,904 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Greg Miller 's tweets number is 0
+2015-06-23 14:10:05,692 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get PlayStation 's tweet 
+2015-06-23 14:10:08,248 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user PlayStation 's tweets number is 0
+2015-06-23 14:10:09,004 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 3
+2015-06-23 14:10:09,594 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get euronews (in English) 's tweet 
+2015-06-23 14:10:14,093 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user euronews (in English) 's tweets number is 0
+2015-06-23 14:10:14,874 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get The Ritz-Carlton 's tweet 
+2015-06-23 14:10:17,294 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user The Ritz-Carlton 's tweets number is 0
+2015-06-23 14:10:19,057 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get DoubleTree by Hilton 's tweet 
+2015-06-23 14:10:21,136 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user DoubleTree by Hilton 's tweets number is 0
+2015-06-23 14:10:21,910 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Jaana Nyström 's tweet 
+2015-06-23 14:10:24,731 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jaana Nyström 's tweets number is 0
+2015-06-23 14:10:25,504 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Viator.com 's tweet 
+2015-06-23 14:10:27,831 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Viator.com 's tweets number is 0
+2015-06-23 14:10:28,626 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get LateRooms.com 's tweet 
+2015-06-23 14:10:31,168 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user LateRooms.com 's tweets number is 0
+2015-06-23 14:10:31,931 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Curacao 411 's tweet 
+2015-06-23 14:10:35,540 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Curacao 411 's tweets number is 0
+2015-06-23 14:10:36,339 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Condé Nast Traveler 's tweet 
+2015-06-23 14:10:38,497 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Condé Nast Traveler 's tweets number is 0
+2015-06-23 14:10:39,288 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Australia 's tweet 
+2015-06-23 14:10:41,731 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Australia 's tweets number is 0
+2015-06-23 14:10:42,500 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Hilton Hotels & Resorts 's tweet 
+2015-06-23 14:10:45,139 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Hilton Hotels & Resorts 's tweets number is 0
+2015-06-23 14:10:45,913 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Arianna Huffington 's tweet 
+2015-06-23 14:10:48,327 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Arianna Huffington 's tweets number is 0
+2015-06-23 14:10:49,067 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Google Chrome 's tweet 
+2015-06-23 14:10:51,634 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google Chrome 's tweets number is 0
+2015-06-23 14:10:52,425 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Wall Street Journal 's tweet 
+2015-06-23 14:10:55,025 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Wall Street Journal 's tweets number is 0
+2015-06-23 14:10:55,801 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 4
+2015-06-23 14:10:56,426 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Dalai Lama 's tweet 
+2015-06-23 14:10:59,584 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Dalai Lama 's tweets number is 0
+2015-06-23 14:11:00,361 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Dadisi Olutosin 's tweet 
+2015-06-23 14:11:03,030 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Dadisi Olutosin 's tweets number is 0
+2015-06-23 14:11:03,763 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Discover Magazine 's tweet 
+2015-06-23 14:11:06,006 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Discover Magazine 's tweets number is 0
+2015-06-23 14:11:06,761 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Andy Lee 's tweet 
+2015-06-23 14:11:08,314 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Andy Lee 's tweets number is 0
+2015-06-23 14:11:09,085 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Ice Guo 's tweet 
+2015-06-23 14:11:11,506 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Ice Guo 's tweets number is 0
+2015-06-23 14:11:12,253 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Andy Burr 's tweet 
+2015-06-23 14:11:13,925 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Andy Burr 's tweets number is 0
+2015-06-23 14:11:14,694 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 重灌狂人 's tweet 
+2015-06-23 14:11:18,403 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 重灌狂人 's tweets number is 0
+2015-06-23 14:11:19,173 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Andy Lee 's tweet 
+2015-06-23 14:11:21,597 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Andy Lee 's tweets number is 0
+2015-06-23 14:11:22,332 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 小明 's tweet 
+2015-06-23 14:11:25,742 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 小明 's tweets number is 0
+2015-06-23 14:11:26,526 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 冰蹦拉 :: 美食旅行 's tweet 
+2015-06-23 14:11:30,303 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 冰蹦拉 :: 美食旅行 's tweets number is 0
+2015-06-23 14:11:31,023 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get ELLE 's tweet 
+2015-06-23 14:11:33,272 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ELLE 's tweets number is 0
+2015-06-23 14:11:34,058 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Andy Lee 's tweet 
+2015-06-23 14:11:36,353 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Andy Lee 's tweets number is 0
+2015-06-23 14:11:37,124 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Kompas TV 's tweet 
+2015-06-23 14:11:39,575 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Kompas TV 's tweets number is 0
+2015-06-23 14:11:40,294 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 5
+2015-06-23 14:11:40,922 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:195] - start sleep ,please check it 1 hour's latter
+2015-06-23 14:39:46,422 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-06-23 14:39:46,911 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:47,355 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 30
+2015-06-23 14:39:47,720 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:48,124 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 30
+2015-06-23 14:39:48,522 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:48,881 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:39:48,974 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:49,331 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:39:49,502 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:49,915 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:39:50,008 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:50,479 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 66
+2015-06-23 14:39:50,985 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:51,795 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 40
+2015-06-23 14:39:52,188 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:52,620 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:39:53,111 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:53,594 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 64
+2015-06-23 14:39:54,079 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:54,510 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:39:54,972 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:55,392 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:39:55,903 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:56,291 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 27
+2015-06-23 14:39:56,643 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:56,987 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:39:57,157 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:57,597 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:39:58,097 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:58,549 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:39:59,010 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:39:59,441 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:39:59,907 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:00,359 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:40:00,846 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:01,276 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:40:01,770 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:02,129 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:40:02,217 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:02,940 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:40:03,346 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:40:03,871 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:40:04,255 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:40:04,657 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:40:05,093 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-06-23 14:40:05,478 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:40:05,863 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:40:06,229 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:40:06,832 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-06-23 14:40:07,251 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:40:07,814 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:08,309 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 64
+2015-06-23 14:40:08,864 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:09,229 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:40:09,323 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:09,715 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 13
+2015-06-23 14:40:09,829 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:10,215 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:40:10,528 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:10,972 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:40:11,080 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:11,553 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 24
+2015-06-23 14:40:11,913 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:12,264 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:40:12,360 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:12,727 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:40:12,816 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:13,191 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:40:13,488 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:13,833 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:40:13,926 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:14,269 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:40:14,361 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:14,706 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:40:14,797 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:15,212 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:40:15,515 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:15,883 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:40:16,182 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:16,555 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:40:16,860 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:17,265 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:40:17,361 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:17,761 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 24
+2015-06-23 14:40:18,128 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:18,648 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-06-23 14:40:19,399 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-06-23 14:40:19,750 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:40:19,839 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:20,201 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 7
+2015-06-23 14:40:20,376 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:20,738 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:40:20,828 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:21,241 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13gglurspyqxphri04cfroobzqxizmy5jc.1431732770671295  has no comments 
+2015-06-23 14:40:21,974 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431122880832334  has no comments 
+2015-06-23 14:40:22,333 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431121232642746  has no comments 
+2015-06-23 14:40:22,787 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431112330077034  has no comments 
+2015-06-23 14:40:23,305 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431096488062192  has no comments 
+2015-06-23 14:40:23,838 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431092763716422  has no comments 
+2015-06-23 14:40:24,236 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431091766529543  has no comments 
+2015-06-23 14:40:25,306 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:40:25,396 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:26,132 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:40:26,221 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:26,567 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:40:26,656 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:27,029 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 14:40:27,299 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:28,434 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:40:28,752 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:29,743 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:40:30,657 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:31,497 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:40:32,471 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:33,218 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:40:34,156 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:35,120 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:40:36,048 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:36,997 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:40:37,941 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:38,464 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 129
+2015-06-23 14:40:39,144 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:39,538 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 14:40:39,813 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:40,209 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 14:40:40,486 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:40,850 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 9
+2015-06-23 14:40:41,063 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:41,445 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:40:41,750 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:42,587 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:40:43,532 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:44,327 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:40:45,078 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:45,934 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:40:46,673 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:47,591 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:40:48,586 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:49,136 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 129
+2015-06-23 14:40:50,049 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:50,395 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:40:50,579 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:50,934 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:40:51,034 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:40:52,075 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:40:52,289 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:02,679 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 15
+2015-06-23 14:41:03,031 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:03,389 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-06-23 14:41:03,651 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:04,368 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:41:04,458 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:05,640 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 15
+2015-06-23 14:41:05,908 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:06,311 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:41:06,401 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:06,798 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:41:06,908 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:09,424 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:41:09,530 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:10,022 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:41:10,110 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:10,449 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:41:10,537 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:11,274 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:41:11,362 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:41:11,362 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:141] - one round is over sleep 0.5 hours
+2015-06-23 14:54:41,619 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:179] - there has 0 current user to add 
+2015-06-23 14:54:41,619 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:188] - start sleep ,please check it 0.5 hour's latter
+2015-06-23 14:55:41,942 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:179] - there has 0 current user to add 
+2015-06-23 14:55:41,943 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:188] - start sleep ,please check it 0.5 hour's latter
+2015-06-23 14:57:22,819 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-06-23 14:57:23,699 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:24,127 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 30
+2015-06-23 14:57:24,636 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:25,053 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 30
+2015-06-23 14:57:25,545 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:25,933 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:57:26,060 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:26,468 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:57:26,728 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:27,132 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:57:27,255 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:27,738 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 66
+2015-06-23 14:57:28,427 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:29,452 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 40
+2015-06-23 14:57:29,992 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:30,487 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:57:31,174 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:31,647 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 64
+2015-06-23 14:57:32,389 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:33,241 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:57:33,890 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:34,394 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:57:35,061 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:36,203 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 27
+2015-06-23 14:57:36,713 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:37,105 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:57:37,389 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:37,866 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:57:38,809 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:39,910 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:57:40,570 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:45,285 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:57:45,966 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:46,576 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:57:47,256 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:47,982 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:57:48,622 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:49,005 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:57:49,131 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:49,562 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:57:49,974 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:57:50,417 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:57:50,841 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:57:51,403 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:57:51,804 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-06-23 14:57:52,254 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:57:52,687 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:57:53,117 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 14:57:53,555 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-06-23 14:57:54,124 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 14:57:54,807 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:56,302 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 64
+2015-06-23 14:57:57,257 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:57,646 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:57:57,775 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:58,185 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 13
+2015-06-23 14:57:58,342 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:57:59,421 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:58:00,465 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:00,874 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:58:01,012 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:01,935 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 24
+2015-06-23 14:58:02,408 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:02,782 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:58:02,917 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:03,321 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:58:03,452 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:03,860 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:58:04,272 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:04,636 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:58:04,770 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:05,149 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:58:05,280 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:05,647 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:58:05,769 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:06,505 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:58:06,935 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:07,906 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:58:08,324 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:08,803 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:58:09,213 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:09,591 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 14:58:09,719 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:10,942 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 24
+2015-06-23 14:58:11,424 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:11,867 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-06-23 14:58:12,679 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-06-23 14:58:13,069 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:58:13,199 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:13,602 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 7
+2015-06-23 14:58:13,893 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:14,289 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:58:14,411 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:14,832 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13gglurspyqxphri04cfroobzqxizmy5jc.1431732770671295  has no comments 
+2015-06-23 14:58:16,974 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431122880832334  has no comments 
+2015-06-23 14:58:17,386 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431121232642746  has no comments 
+2015-06-23 14:58:17,824 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431112330077034  has no comments 
+2015-06-23 14:58:18,256 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431096488062192  has no comments 
+2015-06-23 14:58:18,701 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431092763716422  has no comments 
+2015-06-23 14:58:19,116 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431091766529543  has no comments 
+2015-06-23 14:58:20,283 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:58:20,537 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:21,356 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:58:21,483 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:21,876 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:58:22,006 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:22,441 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 14:58:22,826 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:26,353 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:58:26,784 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:31,428 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:58:32,713 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:37,017 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:58:38,116 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:39,588 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:58:40,775 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:43,886 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:58:45,945 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:48,012 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:58:49,151 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:50,071 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 129
+2015-06-23 14:58:50,931 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:51,392 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 14:58:51,790 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:52,202 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 14:58:52,587 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:52,986 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 9
+2015-06-23 14:58:53,281 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:55,987 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 14:58:57,159 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:58:58,237 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:58:59,469 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:00,429 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:59:01,290 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:02,165 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:59:03,022 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:05,421 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 14:59:06,527 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:07,181 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 129
+2015-06-23 14:59:08,072 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:08,466 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:59:08,611 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:09,022 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:59:09,265 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:10,606 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 14:59:10,898 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:11,497 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 15
+2015-06-23 14:59:11,904 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:12,307 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-06-23 14:59:12,684 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:13,485 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:59:13,616 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:14,017 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 15
+2015-06-23 14:59:14,418 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:14,999 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:59:15,124 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:15,593 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:59:15,722 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:18,566 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:59:18,696 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:19,083 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:59:19,213 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:19,605 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 14:59:19,733 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:20,503 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 14:59:20,650 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 14:59:20,650 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:141] - one round is over sleep 0.5 hours
+2015-06-23 15:12:15,903 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-06-23 15:12:16,707 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:17,167 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 30
+2015-06-23 15:12:17,571 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:18,013 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 30
+2015-06-23 15:12:18,377 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:18,739 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:12:18,827 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:19,177 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 15:12:19,349 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:19,728 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:12:19,816 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:20,306 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 66
+2015-06-23 15:12:20,813 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:21,618 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 40
+2015-06-23 15:12:22,002 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:22,466 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:12:22,956 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:23,421 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 64
+2015-06-23 15:12:23,921 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:24,372 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:12:24,859 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:25,310 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:12:25,783 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:26,182 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 27
+2015-06-23 15:12:26,531 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:26,897 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 15:12:27,079 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:27,590 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:12:28,065 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:28,494 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:12:28,955 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:29,403 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:12:29,860 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:30,291 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:12:30,799 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:31,215 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:12:32,096 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:32,453 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:12:32,547 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:32,961 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:12:33,343 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:12:33,749 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:12:34,144 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:12:34,549 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:12:34,942 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-06-23 15:12:35,335 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:12:35,720 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:12:36,119 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:12:36,554 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-06-23 15:12:37,016 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:12:37,857 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:38,341 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 64
+2015-06-23 15:12:39,264 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:39,626 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:12:39,742 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:40,127 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 13
+2015-06-23 15:12:40,487 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:40,884 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:12:41,314 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:41,678 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:12:41,786 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:42,210 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 24
+2015-06-23 15:12:42,733 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:43,100 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:12:43,204 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:43,567 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:12:43,659 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:44,108 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:12:44,531 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:44,922 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:12:45,033 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:45,388 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:12:45,476 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:45,834 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:12:45,938 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:46,323 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:12:46,760 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:47,135 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:12:47,617 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:47,995 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:12:48,417 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:48,779 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:12:48,879 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:49,272 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 24
+2015-06-23 15:12:50,127 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:50,514 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-06-23 15:12:51,268 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-06-23 15:12:51,632 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:12:51,720 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:52,099 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 7
+2015-06-23 15:12:52,350 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:52,730 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:12:52,815 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:53,195 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13gglurspyqxphri04cfroobzqxizmy5jc.1431732770671295  has no comments 
+2015-06-23 15:12:53,969 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431122880832334  has no comments 
+2015-06-23 15:12:54,372 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431121232642746  has no comments 
+2015-06-23 15:12:54,750 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431112330077034  has no comments 
+2015-06-23 15:12:55,174 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431096488062192  has no comments 
+2015-06-23 15:12:55,709 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431092763716422  has no comments 
+2015-06-23 15:12:56,108 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431091766529543  has no comments 
+2015-06-23 15:12:57,193 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:12:57,285 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:58,018 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:12:58,111 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:58,474 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:12:58,564 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:12:58,930 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 15:12:59,364 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:00,463 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:13:00,885 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:01,701 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:13:03,286 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:04,094 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:13:05,675 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:06,471 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:13:08,111 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:08,904 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:13:10,554 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:11,498 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:13:13,064 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:13,612 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 129
+2015-06-23 15:13:14,869 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:15,263 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 15:13:15,673 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:16,149 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 15:13:16,525 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:16,897 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 9
+2015-06-23 15:13:17,160 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:17,539 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:13:17,964 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:18,832 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:13:20,457 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:21,203 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:13:22,846 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:23,695 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:13:25,360 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:26,341 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:13:27,979 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:28,527 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 129
+2015-06-23 15:13:29,887 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:30,472 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 15:13:30,726 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:31,288 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 15:13:31,551 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:32,641 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 15:13:32,907 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:33,283 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 15
+2015-06-23 15:13:33,714 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:34,103 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-06-23 15:13:34,402 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:35,148 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:13:35,247 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:35,650 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 15
+2015-06-23 15:13:36,067 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:36,427 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:13:36,527 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:37,017 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:13:37,107 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:39,818 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:13:39,914 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:40,276 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:13:40,368 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:40,736 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:13:40,826 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:41,555 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:13:41,659 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:13:41,659 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:141] - one round is over sleep 0.5 hours
+2015-06-23 15:25:44,230 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:179] - there has 0 current user to add 
+2015-06-23 15:25:44,230 [Thread-0] INFO  z.s.g.google.api.GoogleCurrentUser [Line:188] - start sleep ,please check it 0.5 hour's latter
+2015-06-23 15:25:48,184 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:181] - 13 users each token has
+2015-06-23 15:25:48,184 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 0
+2015-06-23 15:25:49,143 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 匆匆过客 's tweet 
+2015-06-23 15:25:52,254 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 匆匆过客 's tweets number is 0
+2015-06-23 15:25:52,646 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Terence Shen 's tweet 
+2015-06-23 15:25:54,645 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Terence Shen 's tweets number is 0
+2015-06-23 15:25:55,038 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 半世繁华 # 's tweet 
+2015-06-23 15:25:57,100 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 半世繁华 # 's tweets number is 0
+2015-06-23 15:25:58,050 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 阿波罗网 's tweet 
+2015-06-23 15:26:00,409 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 阿波罗网 's tweets number is 0
+2015-06-23 15:26:00,799 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 温云超 's tweet 
+2015-06-23 15:26:02,054 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 温云超 's tweets number is 0
+2015-06-23 15:26:02,451 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Guido Stephen M 's tweet 
+2015-06-23 15:26:03,582 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Guido Stephen M 's tweets number is 0
+2015-06-23 15:26:03,969 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 沈良庆 's tweet 
+2015-06-23 15:26:05,994 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 沈良庆 's tweets number is 0
+2015-06-23 15:26:06,391 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 张佳佳 's tweet 
+2015-06-23 15:26:07,500 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 张佳佳 's tweets number is 0
+2015-06-23 15:26:07,892 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 巴黎张健 's tweet 
+2015-06-23 15:26:09,306 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 巴黎张健 's tweets number is 0
+2015-06-23 15:26:10,253 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Bored Panda 's tweet 
+2015-06-23 15:26:12,612 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Bored Panda 's tweets number is 0
+2015-06-23 15:26:13,007 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get adidas 's tweet 
+2015-06-23 15:26:15,067 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user adidas 's tweets number is 0
+2015-06-23 15:26:15,462 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Machinima 's tweet 
+2015-06-23 15:26:17,637 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Machinima 's tweets number is 0
+2015-06-23 15:26:18,038 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get TGN 's tweet 
+2015-06-23 15:26:22,144 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user TGN 's tweets number is 0
+2015-06-23 15:26:22,550 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 1
+2015-06-23 15:26:22,877 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Jewel Daab 's tweet 
+2015-06-23 15:26:24,390 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jewel Daab 's tweets number is 0
+2015-06-23 15:26:25,074 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get ROBLOX 's tweet 
+2015-06-23 15:26:27,126 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ROBLOX 's tweets number is 0
+2015-06-23 15:26:27,442 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Nintendo 's tweet 
+2015-06-23 15:26:29,659 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Nintendo 's tweets number is 0
+2015-06-23 15:26:30,058 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 博谈网 's tweet 
+2015-06-23 15:26:32,973 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 博谈网 's tweets number is 0
+2015-06-23 15:26:33,688 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 蔡玉珠 's tweet 
+2015-06-23 15:26:44,840 [Thread-1] ERROR zx.soft.gbxm.google.api.GoogleUser [Line:189] - this token is over limited 
+2015-06-23 15:26:44,840 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 2
+2015-06-23 15:26:45,157 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get AskMen 's tweet 
+2015-06-23 15:26:47,191 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user AskMen 's tweets number is 0
+2015-06-23 15:26:47,578 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Red Bull 's tweet 
+2015-06-23 15:26:49,775 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Red Bull 's tweets number is 0
+2015-06-23 15:26:50,469 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Google+ 's tweet 
+2015-06-23 15:26:56,081 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google+ 's tweets number is 0
+2015-06-23 15:26:56,467 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Forbes 's tweet 
+2015-06-23 15:26:58,438 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Forbes 's tweets number is 0
+2015-06-23 15:26:58,842 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get msnbc 's tweet 
+2015-06-23 15:27:01,126 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user msnbc 's tweets number is 0
+2015-06-23 15:27:01,797 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Jimbo Han 's tweet 
+2015-06-23 15:27:03,017 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jimbo Han 's tweets number is 0
+2015-06-23 15:27:03,419 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 中国数字时代 's tweet 
+2015-06-23 15:27:06,234 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 中国数字时代 's tweets number is 0
+2015-06-23 15:27:06,637 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 缤纷岁月 's tweet 
+2015-06-23 15:27:08,713 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 缤纷岁月 's tweets number is 0
+2015-06-23 15:27:09,782 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 林森 's tweet 
+2015-06-23 15:27:12,422 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 林森 's tweets number is 0
+2015-06-23 15:27:12,822 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 蟹农场 's tweet 
+2015-06-23 15:27:14,734 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 蟹农场 's tweets number is 0
+2015-06-23 15:27:15,131 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 许文娟 's tweet 
+2015-06-23 15:27:16,339 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 许文娟 's tweets number is 0
+2015-06-23 15:27:16,747 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Selectism 's tweet 
+2015-06-23 15:27:18,844 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Selectism 's tweets number is 0
+2015-06-23 15:27:19,251 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Greg Miller 's tweet 
+2015-06-23 15:27:21,203 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Greg Miller 's tweets number is 0
+2015-06-23 15:27:21,606 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 3
+2015-06-23 15:27:21,925 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get PlayStation 's tweet 
+2015-06-23 15:27:24,271 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user PlayStation 's tweets number is 0
+2015-06-23 15:27:24,661 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get euronews (in English) 's tweet 
+2015-06-23 15:27:26,937 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user euronews (in English) 's tweets number is 0
+2015-06-23 15:27:27,328 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get The Ritz-Carlton 's tweet 
+2015-06-23 15:27:29,535 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user The Ritz-Carlton 's tweets number is 0
+2015-06-23 15:27:29,928 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get DoubleTree by Hilton 's tweet 
+2015-06-23 15:27:31,781 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user DoubleTree by Hilton 's tweets number is 0
+2015-06-23 15:27:32,182 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Jaana Nyström 's tweet 
+2015-06-23 15:27:34,780 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Jaana Nyström 's tweets number is 0
+2015-06-23 15:27:35,181 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Viator.com 's tweet 
+2015-06-23 15:27:37,346 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Viator.com 's tweets number is 0
+2015-06-23 15:27:37,752 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get LateRooms.com 's tweet 
+2015-06-23 15:27:39,858 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user LateRooms.com 's tweets number is 0
+2015-06-23 15:27:40,252 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Curacao 411 's tweet 
+2015-06-23 15:27:42,296 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Curacao 411 's tweets number is 0
+2015-06-23 15:27:42,696 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Condé Nast Traveler 's tweet 
+2015-06-23 15:27:44,909 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Condé Nast Traveler 's tweets number is 0
+2015-06-23 15:27:45,961 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Australia 's tweet 
+2015-06-23 15:27:48,087 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Australia 's tweets number is 0
+2015-06-23 15:27:48,475 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Hilton Hotels & Resorts 's tweet 
+2015-06-23 15:27:50,461 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Hilton Hotels & Resorts 's tweets number is 0
+2015-06-23 15:27:51,506 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Arianna Huffington 's tweet 
+2015-06-23 15:27:53,501 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Arianna Huffington 's tweets number is 0
+2015-06-23 15:27:54,189 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Google Chrome 's tweet 
+2015-06-23 15:27:56,544 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Google Chrome 's tweets number is 0
+2015-06-23 15:27:56,947 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 4
+2015-06-23 15:27:57,266 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Wall Street Journal 's tweet 
+2015-06-23 15:27:59,385 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Wall Street Journal 's tweets number is 0
+2015-06-23 15:27:59,776 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Dalai Lama 's tweet 
+2015-06-23 15:28:02,317 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Dalai Lama 's tweets number is 0
+2015-06-23 15:28:02,705 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Dadisi Olutosin 's tweet 
+2015-06-23 15:28:05,139 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Dadisi Olutosin 's tweets number is 0
+2015-06-23 15:28:05,538 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Discover Magazine 's tweet 
+2015-06-23 15:28:07,967 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Discover Magazine 's tweets number is 0
+2015-06-23 15:28:08,357 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Andy Lee 's tweet 
+2015-06-23 15:28:09,615 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Andy Lee 's tweets number is 0
+2015-06-23 15:28:10,008 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Ice Guo 's tweet 
+2015-06-23 15:28:12,220 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Ice Guo 's tweets number is 0
+2015-06-23 15:28:12,609 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Andy Burr 's tweet 
+2015-06-23 15:28:13,967 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Andy Burr 's tweets number is 0
+2015-06-23 15:28:14,359 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 重灌狂人 's tweet 
+2015-06-23 15:28:16,593 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 重灌狂人 's tweets number is 0
+2015-06-23 15:28:16,991 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Andy Lee 's tweet 
+2015-06-23 15:28:19,173 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Andy Lee 's tweets number is 0
+2015-06-23 15:28:19,851 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 小明 's tweet 
+2015-06-23 15:28:21,924 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 小明 's tweets number is 0
+2015-06-23 15:28:22,606 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get 冰蹦拉 :: 美食旅行 's tweet 
+2015-06-23 15:28:24,782 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user 冰蹦拉 :: 美食旅行 's tweets number is 0
+2015-06-23 15:28:25,173 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get ELLE 's tweet 
+2015-06-23 15:28:27,261 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user ELLE 's tweets number is 0
+2015-06-23 15:28:28,331 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Andy Lee 's tweet 
+2015-06-23 15:28:30,184 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Andy Lee 's tweets number is 0
+2015-06-23 15:28:30,573 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:183] - this is token number 5
+2015-06-23 15:28:30,896 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:143] - get Kompas TV 's tweet 
+2015-06-23 15:28:33,233 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:110] - google+ user Kompas TV 's tweets number is 0
+2015-06-23 15:28:33,625 [Thread-1] INFO  zx.soft.gbxm.google.api.GoogleUser [Line:195] - start sleep ,please check it 1 hour's latter
+2015-06-23 15:43:43,902 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-06-23 15:43:44,203 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:44,621 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 30
+2015-06-23 15:43:45,047 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:45,453 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 30
+2015-06-23 15:43:45,870 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:46,241 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:43:46,339 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:46,746 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 15:43:46,937 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:47,314 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:43:47,457 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:48,000 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 66
+2015-06-23 15:43:48,612 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:49,399 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 40
+2015-06-23 15:43:49,883 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:50,350 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:43:51,031 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:51,539 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 64
+2015-06-23 15:43:52,211 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:52,677 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:43:53,349 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:53,804 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:43:54,442 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:55,008 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 27
+2015-06-23 15:43:55,447 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:55,842 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 15:43:56,081 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:56,541 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:43:57,185 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:57,645 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:43:58,240 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:58,713 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:43:59,385 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:43:59,880 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:44:00,554 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:01,023 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:44:01,746 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:02,140 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:44:02,282 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:02,701 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:44:03,181 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:44:03,750 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:44:04,155 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:44:04,571 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:44:04,991 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-06-23 15:44:05,441 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:44:05,997 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:44:06,405 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555332427724  has no comments 
+2015-06-23 15:44:06,829 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13dcp4r5tyqfbzph04ccffi1yysxbcikxc0k.1360555308628724  has no comments 
+2015-06-23 15:44:07,300 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 65
+2015-06-23 15:44:08,170 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:08,900 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 64
+2015-06-23 15:44:09,600 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:10,008 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:44:10,136 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:10,551 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 13
+2015-06-23 15:44:10,723 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:11,135 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:44:11,315 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:11,727 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:44:11,855 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:12,293 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 24
+2015-06-23 15:44:12,764 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:13,144 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:44:13,257 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:13,649 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:44:13,772 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:14,215 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:44:14,589 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:14,968 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:44:15,094 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:15,491 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:44:15,617 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:16,001 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:44:16,147 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:16,565 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:44:16,964 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:17,361 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:44:17,771 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:18,275 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:44:18,672 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:19,064 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 4
+2015-06-23 15:44:19,179 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:19,610 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 24
+2015-06-23 15:44:20,096 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:20,518 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-06-23 15:44:21,313 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13otzsyplzxin1aa04cfroobzqxizmy5jc.1431916617755037  has no comments 
+2015-06-23 15:44:21,706 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:44:21,802 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:22,281 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 7
+2015-06-23 15:44:22,517 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:22,896 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:44:22,998 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:23,395 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z13gglurspyqxphri04cfroobzqxizmy5jc.1431732770671295  has no comments 
+2015-06-23 15:44:24,265 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431122880832334  has no comments 
+2015-06-23 15:44:24,662 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431121232642746  has no comments 
+2015-06-23 15:44:25,113 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431112330077034  has no comments 
+2015-06-23 15:44:25,509 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431096488062192  has no comments 
+2015-06-23 15:44:25,923 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431092763716422  has no comments 
+2015-06-23 15:44:26,354 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:137] -  z135vtlalpndj5xok04ci334nynoddnp0cs.1431091766529543  has no comments 
+2015-06-23 15:44:27,510 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:44:27,621 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:28,375 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:44:28,483 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:28,857 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:44:28,962 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:29,366 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 15:44:29,704 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:30,899 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:44:31,253 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:32,117 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:44:33,157 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:33,960 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:44:35,177 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:35,986 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:44:37,045 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:37,843 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:44:38,945 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:40,226 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:44:41,292 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:41,899 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 129
+2015-06-23 15:44:42,698 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:43,124 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 15:44:43,459 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:44,922 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 16
+2015-06-23 15:44:45,253 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:45,658 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 9
+2015-06-23 15:44:45,932 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:46,335 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 20
+2015-06-23 15:44:46,702 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:48,665 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:44:49,794 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:50,657 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:44:51,736 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:52,744 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:44:53,784 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:54,763 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 200
+2015-06-23 15:44:55,873 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:56,433 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 129
+2015-06-23 15:44:57,272 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:57,663 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 15:44:57,782 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:58,163 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 15:44:58,296 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:44:59,410 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 6
+2015-06-23 15:44:59,684 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:00,096 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 15
+2015-06-23 15:45:00,469 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:00,870 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 10
+2015-06-23 15:45:01,226 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:02,010 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:45:02,134 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:02,517 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 15
+2015-06-23 15:45:02,846 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:03,268 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:45:03,372 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:03,771 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:45:03,881 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:06,580 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:45:06,694 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:07,077 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:45:07,191 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:07,559 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 1
+2015-06-23 15:45:07,672 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:08,440 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:105] - post comment number is 2
+2015-06-23 15:45:08,563 [Thread-2] INFO  z.s.gbxm.google.common.RestletPost [Line:34 ] - {"errorCode":0,"errorMessage":"ok"}
+2015-06-23 15:45:08,564 [Thread-2] INFO  z.s.gbxm.google.status.GoogleStatus [Line:141] - one round is over sleep 0.5 hours

@@ -10,6 +10,6 @@ public class ConstUtils {
 
 	public static final int PAGE_COUNT = 5;
 
-	public static final String URL = PostUrlConfig.getProp("posturl.properties").getProperty("post.url");
+	public static final String[] URLs = PostUrlConfig.getProp("posturl.properties").getProperty("post.url").split(",");
 
 }
