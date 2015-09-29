@@ -44,6 +44,8 @@ public class GoogleCurrentUser {
 
     protected GoogleDaoImpl daoImpl = new GoogleDaoImpl();
 
+    private RestletPost restletPost = new RestletPost();
+
     /**
      * 获取google＋应用列表
      */
@@ -157,7 +159,9 @@ public class GoogleCurrentUser {
             PostData data = new PostData();
             data.setNum(records.size());
             data.setRecords(records);
-            RestletPost.postGB(data);
+//            RestletPost.postGB(data);
+            restletPost.post(data);
+
         }
         daoImpl.updatedUserInfo(userId,new Timestamp(currentTime));
     }

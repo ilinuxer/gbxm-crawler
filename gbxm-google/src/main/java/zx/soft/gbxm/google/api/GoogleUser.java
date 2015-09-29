@@ -125,14 +125,19 @@ public class GoogleUser {
      * post数据到国保和省厅solr
      */
     private void postData(List<RecordInfo> records){
-        PostData dataGB = new PostData();
-        PostData dataST = new PostData();
-        dataGB.setNum(records.size());
-        dataST.setNum(records.size());
-        dataGB.setRecords(records);
-        dataST.setRecords(records);
-        RestletPost.postGB(dataGB);
-        RestletPost.postST(dataST);
+        RestletPost restletPost = new RestletPost();
+        PostData data = new PostData();
+//        PostData dataGB = new PostData();
+//        PostData dataST = new PostData();
+        data.setNum(records.size());
+        data.setRecords(records);
+        restletPost.post(data);
+//        dataGB.setNum(records.size());
+//        dataST.setNum(records.size());
+//        dataGB.setRecords(records);
+//        dataST.setRecords(records);
+//        RestletPost.postGB(dataGB);
+//        RestletPost.postST(dataST);
     }
 
     /**

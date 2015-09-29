@@ -10,7 +10,6 @@ import twitter4j.*;
 import twitter4j.auth.AccessToken;
 import zx.soft.gbxm.twitter.dao.TwitterDaoImpl;
 import zx.soft.gbxm.twitter.domain.RecordInfo;
-import zx.soft.utils.json.JsonUtils;
 
 public class Follows {
 	TwitterCurrentUser twitterCurrentUser = new TwitterCurrentUser();
@@ -20,9 +19,6 @@ public class Follows {
 	private static final int COUNT = 200;//每页的数量,取最大值200
 
 	private TwitterDaoImpl twitterDaoImpl = new TwitterDaoImpl();
-//	private final ClientResource clientResource1 = new ClientResource(URLs[0]);
-//	private final ClientResource clientResource2 = new ClientResource(URLs[1]);
-//	private static final String[] URLs = TwitterCurrentUser.getPostUrl();
 
 
 	public Follows(Twitter twitter) {
@@ -83,9 +79,50 @@ public class Follows {
 				flag = false;
 			} else {
 				//获取数据并post到指定接口
-				List<RecordInfo> recordInfos = twitterCurrentUser.exchageTweet(statuses);
-				twitterCurrentUser.currentUserStatusPostGB(recordInfos);
-				twitterCurrentUser.currentUserStatusPostST(recordInfos);
+				final List<RecordInfo> recordInfos = twitterCurrentUser.exchageTweet(statuses);
+
+				try{
+					twitterCurrentUser.currentUserStatusPost(recordInfos);
+				}catch (Exception e){
+					e.printStackTrace();
+					continue;
+				}
+//				try{
+//					new Thread(new Runnable() {
+//						@Override
+//						public void run() {
+//							twitterCurrentUser.currentUserStatusPostGB(recordInfos);
+//						}
+//					}).start();
+//				}catch (Exception e){
+//					continue;
+//				}
+//
+//				try{
+//					new Thread(new Runnable() {
+//						@Override
+//						public void run() {
+//							twitterCurrentUser.currentUserStatusPostST(recordInfos);
+//						}
+//					}).start();
+//				}catch (Exception e){
+//					continue;
+//				}
+//
+//				try{
+//					new Thread(new Runnable() {
+//						@Override
+//						public void run() {
+//							twitterCurrentUser.currentUserStatusPostGX(recordInfos);
+//						}
+//					}).start();
+//				}catch (Exception e){
+//					continue;
+//				}
+
+//				twitterCurrentUser.currentUserStatusPostGB(recordInfos);
+//				twitterCurrentUser.currentUserStatusPostST(recordInfos);
+//				twitterCurrentUser.currentUserStatusPostGX(recordInfos);
 			}
 		}
 		logger.info("{} tweet "+tweetCount +" tweet ",screenName);
@@ -94,7 +131,6 @@ public class Follows {
 	public ResponseList<Status> getRetweet(String statusId) throws TwitterException {
 		long statusIdL = Long.parseLong(statusId);
 		ResponseList<Status> result = twitter.getRetweets(statusIdL);
-		logger.info(JsonUtils.toJson(result));
 		return result;
 	}
 

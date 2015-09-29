@@ -34,6 +34,7 @@ public class GoogleSpider {
 
 	//循环扫描所有监测用户
 	public void run(Credential credential) throws IOException, InterruptedException {
+		RestletPost restletPost = new RestletPost();
 		long lastUpdateTme;
 		Plus plus = null;
 		long currentTime;
@@ -69,7 +70,8 @@ public class GoogleSpider {
 					data.setNum(records.size());
 					data.setRecords(records);
 					//post并将数据插入数据库
-					RestletPost.postGB(data);
+//					RestletPost.postGB(data);
+					restletPost.post(data);
 					googleDaoImpl.insertGooglePlusListStatus(googlePlusStatuses);
 				}
 				if (googleDaoImpl.isExisted(ConstUtils.USER_INFO_GOOGLE_PLUS_TABLE, userId)) {

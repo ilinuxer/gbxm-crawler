@@ -96,6 +96,7 @@ public class GoogleStatus {
      * Post推文评论信息到指定端口
      */
     protected void postComment(List<Comment> comments){
+        RestletPost restletPost = new RestletPost();
         long currentTime = System.currentTimeMillis();
         if (!(comments == null) && comments.size()>0){
             List<RecordInfo> records = new ArrayList<>();
@@ -106,7 +107,8 @@ public class GoogleStatus {
             PostData data = new PostData();
             data.setNum(records.size());
             data.setRecords(records);
-            RestletPost.postGB(data);
+//            RestletPost.postGB(data);
+            restletPost.post(data);
         }
 
     }

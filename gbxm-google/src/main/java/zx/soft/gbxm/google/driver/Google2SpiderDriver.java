@@ -23,14 +23,7 @@ public class Google2SpiderDriver {
             case "googleSpider":
                 logger.info("google spider: ");
                 Google2Spider.main(leftArgs);
-//                GoogleUser.main(leftArgs);
-//                GoogleSpider.main(leftArgs);
                 break;
-//            case "currentSpider":
-//                logger.info("google current spider:");
-//                GoogleCurrentUserSpider.main(leftArgs);
-//                GoogleCurrentUser.main(leftArgs);
-//                break;
             default:
                 return;
         }
