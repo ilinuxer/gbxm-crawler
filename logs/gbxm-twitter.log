@@ -2524,3 +2524,176 @@ Caused by: java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
 2015-09-29 13:33:40,767 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
 2015-09-29 13:33:40,767 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - AnabelleYb tweet 0 tweet 
 2015-09-29 13:33:40,767 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:120] - one round is over ,start sleep ,please check it 0.5 hour's latter
+2015-09-29 14:03:41,534 [main] INFO  zx.soft.gbxm.twitter.api.TwitterUser [Line:30 ] - monitor user count is 363 
+2015-09-29 14:03:41,535 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:98 ] - This is token number 0
+2015-09-29 14:03:41,966 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:77 ] - token number 0 
+2015-09-29 14:03:41,966 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-09-29 14:03:43,450 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:106] - token's limit is used , next token
+2015-09-29 14:03:43,451 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:98 ] - This is token number 1
+2015-09-29 14:03:44,567 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:77 ] - token number 1 
+2015-09-29 14:03:44,567 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-09-29 14:03:45,731 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:03:45,731 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - yinchun66 tweet 0 tweet 
+2015-09-29 14:03:46,892 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:03:46,892 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - kuchizukuri tweet 0 tweet 
+2015-09-29 14:03:48,667 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=1
+2015-09-29 14:03:48,668 [Post0] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:210] - post record number is : 1
+2015-09-29 14:03:48,668 [Post1] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:210] - post record number is : 1
+2015-09-29 14:03:48,670 [Post2] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:210] - post record number is : 1
+2015-09-29 14:03:48,843 [Post1] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:219] - http://36.7.150.150:28094/sentiment/index :: {"errorCode":0,"errorMessage":"ok"}
+2015-09-29 14:03:48,859 [Post0] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:219] - http://36.7.150.150:18900/persist :: {"errorCode":0,"errorMessage":"ok"}
+2015-09-29 14:03:48,859 [Post2] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:219] - http://121.31.12.34:28093/sentiment/index :: {"errorCode":0,"errorMessage":"ok"}
+2015-09-29 14:03:49,175 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=2,size=0
+2015-09-29 14:03:49,175 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - sliangq tweet 1 tweet 
+2015-09-29 14:03:50,330 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:106] - token's limit is used , next token
+2015-09-29 14:03:50,330 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:98 ] - This is token number 2
+2015-09-29 14:03:50,767 [main] INFO  z.s.g.twitter.api.TwitterCurrentUser [Line:77 ] - token number 2 
+2015-09-29 14:03:50,767 [main] INFO  zx.soft.utils.config.ConfigUtil [Line:23 ] - Load resource: oauthconsumer.properties
+2015-09-29 14:03:51,929 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:03:51,930 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - fangzheng1989 tweet 0 tweet 
+2015-09-29 14:03:53,089 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:03:53,089 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - yuxiangqingjie tweet 0 tweet 
+2015-09-29 14:03:54,417 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:03:54,418 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - guhe58 tweet 0 tweet 
+2015-09-29 14:03:55,579 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:03:55,579 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - guangzhououbo tweet 0 tweet 
+2015-09-29 14:03:57,936 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:03:57,936 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - ZhMinYH tweet 0 tweet 
+2015-09-29 14:04:00,225 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:00,225 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - hu_jia tweet 0 tweet 
+2015-09-29 14:04:01,860 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:01,861 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - BillGates tweet 0 tweet 
+2015-09-29 14:04:03,126 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:03,126 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - Kristy_xiao tweet 0 tweet 
+2015-09-29 14:04:04,583 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:04,583 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - Qualcomm tweet 0 tweet 
+2015-09-29 14:04:05,748 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:05,748 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - kinbricksnow tweet 0 tweet 
+2015-09-29 14:04:07,059 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:07,059 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - VeritasPrep tweet 0 tweet 
+2015-09-29 14:04:08,405 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:08,405 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - rolandemmerich tweet 0 tweet 
+2015-09-29 14:04:09,573 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:09,573 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - GoogleNews_CN tweet 0 tweet 
+2015-09-29 14:04:10,769 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:10,769 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - wib_z tweet 0 tweet 
+2015-09-29 14:04:11,937 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:11,938 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - liushui1989 tweet 0 tweet 
+2015-09-29 14:04:13,104 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:13,104 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - WithCongress tweet 0 tweet 
+2015-09-29 14:04:14,796 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:14,797 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - NaMo4PM tweet 0 tweet 
+2015-09-29 14:04:16,255 [main] ERROR z.s.g.twitter.api.TwitterCurrentUser [Line:115] - user VerizonWireless has something wrong during get tweets
+2015-09-29 14:04:17,416 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:17,416 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - junya517 tweet 0 tweet 
+2015-09-29 14:04:18,875 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:18,875 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - sasayama55 tweet 0 tweet 
+2015-09-29 14:04:20,245 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:20,245 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - Free_WangBZ tweet 0 tweet 
+2015-09-29 14:04:21,695 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:21,695 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - kishanreddybjp tweet 0 tweet 
+2015-09-29 14:04:23,163 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:23,163 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - Shark8964 tweet 0 tweet 
+2015-09-29 14:04:24,532 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:24,532 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - tianjing2010205 tweet 0 tweet 
+2015-09-29 14:04:25,691 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:25,692 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - BJPManipur tweet 0 tweet 
+2015-09-29 14:04:28,252 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:28,252 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - hanyiqiong tweet 0 tweet 
+2015-09-29 14:04:29,423 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:29,423 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - gauravcsawant tweet 0 tweet 
+2015-09-29 14:04:30,587 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:30,588 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - suyoudeng7 tweet 0 tweet 
+2015-09-29 14:04:32,053 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:32,053 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - Pawankhera tweet 0 tweet 
+2015-09-29 14:04:34,426 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:34,426 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - cnfreewang tweet 0 tweet 
+2015-09-29 14:04:35,590 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:35,590 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - t_ogiri tweet 0 tweet 
+2015-09-29 14:04:37,438 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:37,438 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - shanghaichin_dp tweet 0 tweet 
+2015-09-29 14:04:38,900 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:38,900 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - Visa tweet 0 tweet 
+2015-09-29 14:04:40,692 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:40,692 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - MalikAshok tweet 0 tweet 
+2015-09-29 14:04:42,657 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:42,657 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - RakeshSinha01 tweet 0 tweet 
+2015-09-29 14:04:45,066 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:45,066 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - nanditathhakur tweet 0 tweet 
+2015-09-29 14:04:46,615 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:46,615 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - dhanyarajendran tweet 0 tweet 
+2015-09-29 14:04:48,408 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:48,408 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - du00000bin tweet 0 tweet 
+2015-09-29 14:04:50,104 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:50,104 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - muziyan tweet 0 tweet 
+2015-09-29 14:04:51,264 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:51,264 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - PritishNandy tweet 0 tweet 
+2015-09-29 14:04:52,581 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:52,581 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - toy7wu tweet 0 tweet 
+2015-09-29 14:04:53,759 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:53,759 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - arunmsk tweet 0 tweet 
+2015-09-29 14:04:54,980 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:54,980 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - pbmehta tweet 0 tweet 
+2015-09-29 14:04:56,338 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:56,338 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - rahulroushan tweet 0 tweet 
+2015-09-29 14:04:57,849 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:04:57,849 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - noonforest tweet 0 tweet 
+2015-09-29 14:04:59,318 [main] ERROR z.s.g.twitter.api.TwitterCurrentUser [Line:115] - user readandlook has something wrong during get tweets
+2015-09-29 14:05:00,702 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:00,703 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - ITALU tweet 0 tweet 
+2015-09-29 14:05:02,283 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:02,283 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - gensen_kojiharu tweet 0 tweet 
+2015-09-29 14:05:03,806 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:03,807 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - breakingnewscn tweet 0 tweet 
+2015-09-29 14:05:04,984 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:04,985 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - beijing_dp tweet 0 tweet 
+2015-09-29 14:05:06,154 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:06,155 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - varungandhi80 tweet 0 tweet 
+2015-09-29 14:05:07,492 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:07,492 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - sakamobi tweet 0 tweet 
+2015-09-29 14:05:09,083 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:09,084 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - YONGDEZHENGZA tweet 0 tweet 
+2015-09-29 14:05:10,245 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:10,245 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - PMuralidharRao tweet 0 tweet 
+2015-09-29 14:05:11,430 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:11,431 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - cctvWeb tweet 0 tweet 
+2015-09-29 14:05:12,862 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:12,862 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - Reince tweet 0 tweet 
+2015-09-29 14:05:14,028 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:14,028 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - Showfom tweet 0 tweet 
+2015-09-29 14:05:15,656 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:15,656 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - BJP4AP tweet 0 tweet 
+2015-09-29 14:05:16,841 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:16,841 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - zhaochangdong tweet 0 tweet 
+2015-09-29 14:05:18,009 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:18,010 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - GulPanag tweet 0 tweet 
+2015-09-29 14:05:19,664 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:19,664 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - jayantsinha tweet 0 tweet 
+2015-09-29 14:05:20,834 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:20,834 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - MPNaveenJindal tweet 0 tweet 
+2015-09-29 14:05:22,007 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:22,008 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - tehseenp tweet 0 tweet 
+2015-09-29 14:05:23,419 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:23,420 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - NupurSharmaBJP tweet 0 tweet 
+2015-09-29 14:05:24,843 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:24,844 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - irfhabib tweet 0 tweet 
+2015-09-29 14:05:26,039 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:26,039 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - dhume tweet 0 tweet 
+2015-09-29 14:05:27,476 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:27,476 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - INCIndia tweet 0 tweet 
+2015-09-29 14:05:29,469 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:29,470 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - nitingokhale tweet 0 tweet 
+2015-09-29 14:05:30,989 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:30,989 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - 38sun3 tweet 0 tweet 
+2015-09-29 14:05:32,857 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:32,858 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - shammybaweja tweet 0 tweet 
+2015-09-29 14:05:34,043 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:34,043 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - malviyamit tweet 0 tweet 
+2015-09-29 14:05:35,208 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:35,209 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - nankezhou tweet 0 tweet 
+2015-09-29 14:05:36,377 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:36,377 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - VOAjiemishike tweet 0 tweet 
+2015-09-29 14:05:37,727 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:37,727 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - yuhaochen tweet 0 tweet 
+2015-09-29 14:05:39,189 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:75 ] - page=1,size=0
+2015-09-29 14:05:39,189 [main] INFO  zx.soft.gbxm.twitter.api.Follows [Line:128] - 1941369528 tweet 0 tweet 
